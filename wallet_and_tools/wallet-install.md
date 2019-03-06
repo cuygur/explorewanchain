@@ -29,7 +29,7 @@ The following command will display SHA256 hash value on a Mac operating system.
 
 Extract the file, run, wallet will begin to sync. Click the "LAUNCH APPLICATION" button to start the wallet
 
-![](media/Wanwallet_launch.PNG)
+![](media/Wanwallet_launch.png)
 
 
 For Linux users: 
@@ -50,7 +50,7 @@ Below you can see the Wanchain accounts overview page (also the default start-up
 
 Use the menu option below (Develop--->Network) to switch between main network (default network) and test network. <span class="warning">WARNING: Never send assets from the main network to a test network address, as they will then be lost forever.</span>
 
-![](media/Wanwallet_toggle_network.PNG)
+![](media/Wanwallet_toggle_network.png)
 
 
 
@@ -60,7 +60,7 @@ These 2 options allow you to create new WAN or new ETH account.
 
 The "CREATE ACCOUNT" button in the upper-right corner only creates new WAN account
 
-![](media/Wanwallet_create_account.PNG)
+![](media/Wanwallet_create_account.png)
 
 You can also import an existing WAN or ETH account using a wallet keystore file
 
