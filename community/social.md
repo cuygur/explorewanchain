@@ -8,4 +8,3 @@
 - [Telegram Ann](https://t.me/WanchainANN)
 - [Discord](https://discord.gg/6mp442)
 
-<br/><br/><br/><br/><br/><br/>

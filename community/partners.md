@@ -30,6 +30,3 @@
 - [BBAA](http://www.bbaachina.org.cn/en/)
 
 
-
-| **Milestone**  |**Date**   |**Status** | 
-|:---|:---|:---|
