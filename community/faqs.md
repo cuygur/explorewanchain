@@ -30,6 +30,6 @@
 
 #### 4. Is the Wanchain team developing their own PoS consensus algorithm? 
 
-> Wanchain's Proof of Stake scheme is under active development by Wanchain's research team, with a planned rollout before the end of the year 2019. Follow our [social media](community/social.md) for up to date information.
+> Wanchain's Proof of Stake scheme is under active development by Wanchain's research team, with a planned rollout before the end of the year 2019. Follow our [social media](../community/social.md) for up to date information.
 
 

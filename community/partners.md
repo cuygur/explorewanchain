@@ -19,7 +19,6 @@
 - [0xcert](https://0xcert.org/)
 - [Maker DAO](https://makerdao.com/en/)
 - [Formosa Financial](https://www.formosa.financial/)
-- [Token Loan](https://tokenloan.info/)
 - [Neoplace](https://neoplace.io/)
 - [Litex](http://litex.io/)
 - [Chainlink](https://chain.link)
