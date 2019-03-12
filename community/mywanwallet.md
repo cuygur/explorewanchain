@@ -5,7 +5,7 @@
 
 ## Trezor Instructions
 
-1. Navigate to `https://mywanwallet.nl/`. Double check the address to make sure that it is correct, including 'https' and the 'nl' domain.  
+1. Connect your Trezor to your PC by USB and navigate to `https://mywanwallet.nl/`. Double check the address to make sure that it is correct, including 'https' and the 'nl' domain.  
 
 2. Double check that you are on the Wanchain Mainnet and not on the Testnet or any other network. 
 
@@ -66,7 +66,7 @@
 
   ![](media/trezormww11.jpg)
 
-11. Finally a pop-up window will display all of your transaction details. Please check all the details to make sure they are correct, and click the green button with the text "Send Transaction" to complete your transaction.
+11. Finally a pop-up window will display all of your transaction details. Please check all the details to make sure they are correct, and click the green button with the text "Yes, I am sure! Make transaction." to complete your transaction.
 
   ![](media/trezormww12.jpg)
 
