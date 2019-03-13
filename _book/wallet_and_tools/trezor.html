@@ -370,25 +370,6 @@
             
 
             
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="4.4.1" data-path="../community/mywanwallet.html">
-            
-                <a href="../community/mywanwallet.html">
-            
-                    
-                    MyWanWallet Support
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
         </li>
     
         <li class="chapter " data-level="4.5" data-path="../community/faqs.html">
@@ -450,7 +431,6 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="trezor-support">Trezor Support</h1>
-<p><em>Deprecated - Since Trezor&apos;s switch from HID to WebUSB in version 1.7.1, the Wanchain official desktop wallet is no longer supported. If you are currently using Trezor, we recommend connecting through <a href="https://mywanwallet.nl/" target="_blank">MyWanWallet</a> or <a href="https://wanmask.io/" target="_blank">WanMask</a></em></p>
 <h2 id="requirements">Requirements</h2>
 <table>
 <thead>
@@ -475,31 +455,63 @@
 </tbody>
 </table>
 <p><em>You can find instructions for updating your Trezor firmware <a href="https://wiki.trezor.io/index.php?title=User_manual:Updating_your_Trezor%27s_firmware&amp;ModelType=1" target="_blank">here</a></em></p>
-<h2 id="step-by-step-guide">Step by step guide</h2>
+<h2 id="step-by-step-guide">Step by Step Guide</h2>
+<p><em>DISCLAIMER: MyWanWallet.nl is a Wanchain community project. The Wanchain Foundation does not maintain the project or make any guarantees about its security or functionality, and takes no responsibility for any loss or damages incurred through use of MyWanWallet.nl.</em></p>
 <ol>
-<li><p>Connect Trezor wallet to your computer&apos;s USB port  </p>
-<p><img src="media/trezor1.jpg" width="50%" height="50%"></p>
+<li><p>Connect your Trezor to your PC by USB and navigate to <code>https://mywanwallet.nl/</code>. Double check the address to make sure that it is correct, including &apos;https&apos; and the &apos;nl&apos; domain.  </p>
 </li>
-<li><p>Unlock Trezor wallet by following instructions on Trezor&apos;s <a href="https://wallet.trezor.io" target="_blank">official website</a>  </p>
-<p><img src="media/trezor2.jpg" alt=""></p>
+<li><p>Double check that you are on the Wanchain Mainnet and not on the Testnet or any other network. </p>
 </li>
-<li><p>Open the Wanchain GUI wallet. The Wanchain GUI wallet should indicate <strong>&quot;Trezor Account Connected&quot;</strong> and display an overview of accounts associated with the connected Trezor wallet.  </p>
-<p><img src="media/trezor3.jpg" alt=""></p>
+<li><p>Select &quot;Trezor&quot; from the radio menu</p>
 </li>
-<li><p>To send WAN from a Trezor wallet, first click the &quot;Transfer&quot; button on the right side of the account you want to send WAN from, it will take you to the transfer page (shown below). Enter the recipient address, choose transaction amount and transaction fee. Once all the fields are filled and verified, click &quot;SEND&quot;.  </p>
-<p><img src="media/trezor4.jpg" alt=""></p>
+<li><p>Click &quot;Connect to Trezor&quot; </p>
+<p><img src="media/trezormww1.jpg" alt=""></p>
 </li>
-<li><p>Click &quot;CHECK TREZOR&quot; button to send transaction information to the Trezor wallet device.  </p>
-<p><img src="media/trezor5.jpg" alt=""></p>
+<li><p>Allow your browser to redirect you by popup to the url beginning with <code>https://connect.trezor.io</code>.</p>
 </li>
-<li><p>Confirm the transaction by selecting &quot;Confirm&quot; on the Trezor wallet device.</p>
-<p> <em>Confirm</em></p>
-<p> <img src="media/trezor6.jpg" width="40%" height="40%"></p>
-<p> <em>Confirm again</em></p>
-<p> <img src="media/trezor7.jpg" width="40%" height="40%"></p>
+<li><p>Wait for the page to load.</p>
+<p><img src="media/trezormww2.jpg" alt=""></p>
 </li>
-<li><p>Check transaction details. Once the transaction has been successfully confirmed, Wanchain GUI wallet will redirect you to the &quot;Account Details&quot; page where the transaction information will be listed in the &quot;Transaction History&quot; section.</p>
-<p><img src="media/trezor8.jpg" alt=""></p>
+<li><p>Click the blue button with the text &quot;Allow once for this session&quot; to allow MyWanWallet.nl permission to read the public keys from your Trezor device.</p>
+<p><img src="media/trezormww3.jpg" alt=""></p>
+</li>
+<li><p>Click the green button with the text &quot;Export&quot; to export your Trezor device&apos;s public keys to MyWanWallet.</p>
+<p><img src="media/trezormww4.jpg" alt=""></p>
+</li>
+<li><p>Using the numbers displayed on your Trezor device together with the number pad displayed in your browser, input your Trezor device&apos;s passcode in order to export your public key.
+<img src="media/trezormww5.jpg" alt="">
+<img src="media/trezormww5a.jpg" width="50%" height="50%"></p>
+</li>
+<li><p>Select the address with the WAN balance you would like to use, and then click the button with the text &quot;Unlock your Wallet&quot;.
+<img src="media/trezormww6.jpg" alt=""></p>
+</li>
+<li><p>You will now be redirected to your wallet details on MyWanWallet.
+<img src="media/trezormww7.jpg" alt=""></p>
+</li>
+<li><p>Input the address you want to send to in the &quot;To Address&quot; field.</p>
+</li>
+<li><p>Input how many WAN you want to send in the &quot;Amount to Send&quot; field.</p>
+</li>
+<li><p>You may leave the &quot;Gas Limit&quot; at the default of 21000, and then click click the green &quot;Generate Transaction&quot; button to generate your transaction. </p>
+<p><img src="media/trezormww8.jpg" alt=""></p>
+</li>
+<li><p>Allow your browser to redirect you by popup to the url beginning with <code>https://connect.trezor.io</code> and wait for the page to load.
+<img src="media/trezormww9.jpg" alt=""></p>
+</li>
+<li><p>Click the blue button with the text &quot;Allow once for this session&quot; to allow MyWanWallet.nl permission to sign the transaction with your Trezor device.</p>
+<p><img src="media/trezormww10.jpg" alt=""></p>
+</li>
+<li><p>Confirm the transaction on your Trezor device by clicking the right button:</p>
+<p><img src="media/trezormww10a.jpg" width="50%" height="50%"></p>
+</li>
+<li><p>Confirm again:</p>
+<p><img src="media/trezormww10b.jpg" width="50%" height="50%"></p>
+</li>
+<li><p>You will be redirected back to the MyWanWallet page where you should click the green button with the text &apos;Send Transaction&apos; to begin sending your transaction.</p>
+<p><img src="media/trezormww11.jpg" alt=""></p>
+</li>
+<li><p>Finally a pop-up window will display all of your transaction details. Please check all the details to make sure they are correct, and click the green button with the text &quot;Yes, I am sure! Make transaction.&quot; to complete your transaction.</p>
+<p><img src="media/trezormww12.jpg" alt=""></p>
 </li>
 </ol>
 
@@ -545,7 +557,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Trezor Support","level":"2.4","depth":1,"next":{"title":"Other Wallets & Tools","level":"2.5","depth":1,"path":"wallet_and_tools/tools.md","ref":"wallet_and_tools/tools.md","articles":[]},"previous":{"title":"Ledger Support","level":"2.3","depth":1,"path":"wallet_and_tools/ledger.md","ref":"wallet_and_tools/ledger.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-sharing","livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wallet_and_tools/trezor.md","mtime":"2019-03-06T09:01:27.666Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-11T07:53:18.705Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Trezor Support","level":"2.4","depth":1,"next":{"title":"Other Wallets & Tools","level":"2.5","depth":1,"path":"wallet_and_tools/tools.md","ref":"wallet_and_tools/tools.md","articles":[]},"previous":{"title":"Ledger Support","level":"2.3","depth":1,"path":"wallet_and_tools/ledger.md","ref":"wallet_and_tools/ledger.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["-sharing","livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"wallet_and_tools/trezor.md","mtime":"2019-03-13T03:08:31.563Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-11T07:53:18.705Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

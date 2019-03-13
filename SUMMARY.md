@@ -31,5 +31,4 @@
 * [Developer Portal](community/dev.md) 
 * [Partners](community/partners.md)
 * [Staking Pilot Program](community/staking_pilot.md)
-  * [MyWanWallet Support](community/mywanwallet.md)
 * [FAQs](community/faqs.md)

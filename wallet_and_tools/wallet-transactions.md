@@ -1,3 +1,16 @@
+# Wanchain Official Wallet Guide
+
+1. [Cross Chain Transactions](#crosschain)   
+  * [ETH to Wanchain](#ethtowan)
+  * [WETH to Ethereum](#wethtoeth)  
+1. [Normal Ethereum Transactions](#eth)   
+1. [Private Transactions](#private)   
+
+
+
+
+<div id="crosschain"></div>  
+
 ## Cross-Chain Transactions
 
 Crosschain transactions are under this tab
@@ -19,6 +32,7 @@ Test network：
 
 * WAN: http://13.58.108.244/
 
+<div id="ethtowan"></div>  
 
 ### Send ETH to Wanchain
 
@@ -64,6 +78,7 @@ Enter the password then click “OK” button to cancel the transaction
 
 ![](media/Wanwalletcanceltransaction2.png)
 
+<div id="wethtoeth"></div>  
 
 ### Send WETH to Ethereum
 
@@ -75,6 +90,8 @@ Click the "WETH >> ETH" tab below to perform this kind of cross-chain transactio
 
 The process is similar to the ETH to Wanchain one, please refer to section 7 for details about how to confirm or cancel the transaction.
 
+<div id="eth"></div> 
+
 ## Normal Ethereum transactions
 
 You can also perform normal Ethereum transaction in Wanwallet GUI.
@@ -82,6 +99,8 @@ You can also perform normal Ethereum transaction in Wanwallet GUI.
 Click the "Normal transaction" tab below, fill source and destination accounts, transaction amount, fee preference, then click "SEND"
 
 ![](media/WanwalletETHtoETH.png)
+
+<div id="private"></div> 
 
 ## Private Transactions
 

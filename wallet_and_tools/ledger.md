@@ -31,14 +31,14 @@ required, please install the
 Ethereum app. Ledger is
 working on fixing this.) 
 
-<img src="media/ledger1.jpg" width="50%" height="50%"/>
+  <img src="media/ledger1.jpg" width="50%" height="50%"/>
 
 6. Click Install. An installation
 window will appear, your device will
 display “Processing…”, then the app
 installation will be confirmed.
 
-<img src="media/ledger2.jpg" width="50%" height="50%"/>
+  <img src="media/ledger2.jpg" width="50%" height="50%"/>
 
 7. Open the Wanchain GUI wallet.
 The GUI wallet should indicate
@@ -52,24 +52,23 @@ Ledger account you want to send from, then enter the recipient address, transfer
 amount, and the transaction fee. When all fields have been completed and verified,
 click “SEND”.  
 
-![](media/ledger3.jpg)
-![](media/ledger4.jpg)
+  ![](media/ledger3.jpg)
+  ![](media/ledger4.jpg)
 
 9. Confirm transaction
 Click “CHECK LEDGER” to send
 the transaction information to
-the Ledger device.
+the Ledger device.   
 
-![](media/ledger5.jpg)
+    ![](media/ledger5.jpg)
 
+10. Confirm the amount using the Ledger device.  
 
-10. Confirm the amount using the Ledger device.
+  <img src="media/ledger6.jpg" width="50%" height="50%"/>
 
-<img src="media/ledger6.jpg" width="50%" height="50%"/>
+11. Confirm the transaction details using the Ledger device.  
 
-11. Confirm the transaction details using the Ledger device.
-
-<img src="media/ledger7.jpg" width="50%" height="50%"/>
+  <img src="media/ledger7.jpg" width="50%" height="50%"/>
 
 12. Check transaction details
 After the transaction has been
@@ -79,4 +78,4 @@ account details view where
 the transaction information
 will be displayed.
 
-![](media/ledger8.jpg)
+  ![](media/ledger8.jpg)
