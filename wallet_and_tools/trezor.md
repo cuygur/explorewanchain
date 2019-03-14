@@ -14,7 +14,7 @@
 
 *DISCLAIMER: MyWanWallet.nl is a Wanchain community project. The Wanchain Foundation does not maintain the project or make any guarantees about its security or functionality, and takes no responsibility for any loss or damages incurred through use of MyWanWallet.nl.*
 
-1. Connect your Trezor to your PC by USB and navigate to `https://mywanwallet.nl/`. Double check the address to make sure that it is correct, including 'https' and the 'nl' domain.  
+1. Connect your Trezor to your PC by USB and navigate to [https://mywanwallet.nl/](https://mywanwallet.nl/). Double check the address to make sure that it is correct, including 'https' and the 'nl' domain.  
 
 2. Double check that you are on the Wanchain Mainnet and not on the Testnet or any other network. 
 
