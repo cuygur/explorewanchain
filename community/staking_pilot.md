@@ -1,5 +1,5 @@
 # Storeman Staking Pilot Program
-In March of 2019 Wanchain will be running a Storeman node staking pilot program. Those interested in participation may start bidding from March 15th. Once bidding has closed, the staking pilot will run for three months from April 3 to July 3. Continue reading below for detailed information. You can find instructions for participation and the smart contract address used for bidding [here](https://medium.com/wanchain-foundation/wanchain-staking-pilot-how-to-participate-and-earn-wan-infographic-bc644981ca08).
+In March of 2019 Wanchain will be running a Storeman node staking pilot program. Those interested in participation may start bidding from March 15th. Once bidding has closed, the staking pilot will run for three months from April 3 to July 3. Continue reading below for detailed information. You can find instructions for participation and the smart contract address used for bidding [here](https://medium.com/wanchain-foundation/wanchain-staking-pilot-how-to-participate-and-earn-wan-infographic-bc644981ca08), and you can check the bidding leaderboard [here](https://www.wanscan.org/storemangroup).
 
 ## Details of the Pilot:  
 **Amount Eligible for Reward:** 1000–5000 WAN

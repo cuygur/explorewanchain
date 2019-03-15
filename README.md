@@ -7,6 +7,9 @@ Wanchain is public blockchain which supports the development of smart contracts 
 
 Wanchain's vision is to become the asset transport layer of the blockchain world, similar to the TCP transport layer of the Internet, only for assets based on distributed ledger technology. Currently, the only way to efficiently transfer value between isolated blockchains is either P2P or through the use of a trusted third party such as a centralized cryptocurrency exchange or OTC trading desk. Since the abolition of the reliance on trusted 3rd parties is one of the core goals of the blockchain revolution, it is clear that a solution must be implemented to do away with them. Wanchain aims to be that solution. As the asset transport layer of the blockchain world, Wanchain will allow for direct transfer of value between blockchains without the use of a trusted 3rd party. It will allow for the development of entirely decentralized and unstoppable cross chain cryptocurrency exchanges and applications. 
 
+### Token Distribution
+
+![](media/distribution.png)
 
 ### Milestones
 
