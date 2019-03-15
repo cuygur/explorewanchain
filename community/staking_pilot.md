@@ -43,7 +43,7 @@ The WAN addresses that are not chosen in the staking program will have their bid
 
 **Lottery Program: For those who are not selected in the bidding process, all unselected WAN addresses will be entered into a lottery to win participation reward. There will be one lottery completely open to all unselected addresses and another lottery for those who participated in the staking pilot interest form previously announced here. Winners of the lottery will see the prize in their account between April 1-April 3.**
 
-**1. Total Open Lottery Prize** = 2% of sum of staking reward (assuming 4M WAN target is met, total reward = 160k WAN), which is 3200 WAN.
+**1. Total Open Lottery Prize** = 3200 WAN.
 
 1st prize : 1 winner, 200 WAN
 
@@ -53,7 +53,7 @@ The WAN addresses that are not chosen in the staking program will have their bid
 
 In total, there will be 111 winners and 3200 WAN for lottery prize (bidding users).
 
-**2. Lottery program for Interest Form Submissions:** 10% of valid answers (56 winners)
+**2. Lottery program for Interest Form Submissions:**
 
 1st prize : 1 winner, 200 WAN
 
@@ -79,4 +79,4 @@ Calculation of staking reward:
 
 a. If total bidding amount equals or surpasses 5000 WAN, then staking reward is 200 WAN.
 
-b. If total bidding amount equals or surpasses 1000 WAN and is smaller than 5000 WAN, then staking reward is 4% of total bidding amoun
+b. If total bidding amount equals or surpasses 1000 WAN and is smaller than 5000 WAN, then staking reward is 4% of total bidding amount.
