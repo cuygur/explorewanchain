@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/noahniuwa/explorewanchain-working-files.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/noahniuwa/explorewanchain-working-files/issues"
   },
-  "homepage": "https://github.com/noahniuwa/explorewanchain-working-files#readme"
+  "homepage": "https://github.com/noahniuwa/explorewanchain-working-files#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
 }
