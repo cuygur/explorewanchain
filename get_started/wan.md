@@ -17,4 +17,11 @@ The base unit of WAN is Win. Below is a list of named demonimations and their va
 |Szabo|1e12 win|1,000,000,000,000|   
 |Finney|1e15 win|1,000,000,000,000,000|   
 |Wan|1e18 win|1,000,000,000,000,000,000|   
-  
+
+## Token Distribution
+
+### Total Distribution
+![](media/totaldistribution.png)
+
+### Ecosystem Fund
+![](media/distribution.png)
