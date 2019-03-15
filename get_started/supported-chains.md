@@ -18,4 +18,6 @@ Below are the tokens for which cross chain transactions are currently supported 
 
 - [Gemini Dollar (GUSD)](https://gemini.com/dollar/)
 
-- [USDC](https://www.centre.io/usdc)
+- [USD Coin (USDC)](https://www.centre.io/usdc)
+
+- [TrueUSD (TUSD)](https://www.trusttoken.com/trueusd/)
