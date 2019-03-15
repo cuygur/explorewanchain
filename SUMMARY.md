@@ -3,7 +3,7 @@
 ### Get Started
 
 * [Introduction](README.md)
-* [Supported Chains](get_started/supported-chains.md)
+* [Supported Tokens](get_started/supported-chains.md)
 * [WAN](get_started/wan.md)
 
 ### Wallet & Tools
