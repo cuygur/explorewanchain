@@ -21,6 +21,7 @@
 * [Smart Contracts](technology/smart-contracts.md)
 * [WanX](technology/wanx.md)
 * [Gwan](technology/gwan.md)
+* [iWan](technology/iwan.md)
 * [Secure Multi Party Computation](technology/smpc.md)
 * [Storeman System](technology/storeman.md)
 * [Wanchain Proof of Stake](technology/pos.md) 
