@@ -1,7 +1,7 @@
 # Introduction  
 
 ### What is Wanchain?
-Wanchain is a public blockchain which supports the development of smart contracts written in Solidity, ring signature based private transactions, as well as decentralized cross chain functionality. Wanchain's [Storeman node](technology/storeman.md) system uniquely combines  secure multiparty computing, atomic swaps, threshold secret sharing, and decentralized account management to implement a fully decentralized cross chain solution. Any developer can write smart contracts, develop a DAPP, or issue a fungible or non-fungible token on Wanchain. Through its cross chain features, it is possible for any blockchain's assets to be connected with and circulate on Wanchain. This includes assets from public, private, as well as consortium chains.
+Wanchain is a public blockchain which supports the development of smart contracts written in Solidity, ring signature based private transactions, as well as decentralized cross chain functionality. Wanchain's [Storeman node](technology/storeman.md) system uniquely combines  secure multiparty computation, atomic swaps, threshold secret sharing, and decentralized account management to implement a fully decentralized cross chain solution. Any developer can write smart contracts, develop a DAPP, or issue a fungible or non-fungible token on Wanchain. Through its cross chain features, it is possible for any blockchain's assets to be connected with and circulate on Wanchain. This includes assets from public, private, as well as consortium chains.
 
 ### Vision
 
