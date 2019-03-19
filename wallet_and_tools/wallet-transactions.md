@@ -158,7 +158,7 @@ Click the "Normal transaction" tab below, fill source and destination accounts, 
 ![](media/WanchainPrivate6.png)
 
 
-**Step 2**: Click **Get OTA** to begin the process to receive a private transaction.
+**Step 2**: Click **Get OTA (One Time Address)** to begin the process to receive a private transaction.
 
 ![](media/WanchainPrivate7.png)
 
