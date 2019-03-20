@@ -56,7 +56,7 @@
 |[BAT](https://basicattentiontoken.org/)| Advertising token officially integrated on Wanchain|
 
 #### Exchanges 
-| **Partner**  |**Details**   |it.
+| **Partner**  |**Details**   |
 |:---|:---|:---|
 |[Bitkub](https://www.bitkub.com/)|  |
 |[Bitrue](https://www.bitrue.com/)| |
