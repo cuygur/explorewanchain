@@ -56,13 +56,13 @@
 |[BAT](https://basicattentiontoken.org/)| Advertising token officially integrated on Wanchain|
 
 #### Exchanges 
-| **Partner**  |**Details**   |
+| **Partner**  |
 |:---|:---|:---|
-|[Bitkub](https://www.bitkub.com/)|  |
-|[Bitrue](https://www.bitrue.com/)| |
-|[DragonEX](https://dragonex.io/en-us/)| |
-|[Binance](https://www.binance.com/en)| |
-|[Kucoin](https://www.kucoin.com/#/)| |
+|[Bitkub](https://www.bitkub.com/)|  
+|[Bitrue](https://www.bitrue.com/)| 
+|[DragonEX](https://dragonex.io/en-us/)| 
+|[Binance](https://www.binance.com/en)| 
+|[Kucoin](https://www.kucoin.com/#/)| 
 
 #### Enterprise Partners
 | **Partner**  |**Details**   |
