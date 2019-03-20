@@ -35,7 +35,6 @@
 |[Trezor](https://trezor.io/)| Officially integrated WAN|
 |[Trust Wallet](https://trustwallet.com/)|Officially integrated WAN |
 |[Theia](http://www.thachain.org/)| The first crosschain multitoken wallet to leverage Wanchain's cross chain tech |
-|[Cryptocurve](https://cryptocurve.io/)| Wanchain ecosystem wallet project with WRC20 standard token |
 
 #### Stablecoins
 | **Partner**  |**Details**   |
@@ -57,18 +56,20 @@
 |[BAT](https://basicattentiontoken.org/)| Advertising token officially integrated on Wanchain|
 
 #### Exchanges 
-| **Partner**  |**Details**   |
+| **Partner**  |**Details**   |it.
 |:---|:---|:---|
-|[Bitkub](https://www.bitkub.com/)| Wanchain provides tech guidance |
-|[Bitrue](https://www.bitrue.com/)| Wanchain provides tech guidance |
-|[DragonEX](https://dragonex.io/en-us/)| Wanchain provides tech guidance |
-
+|[Bitkub](https://www.bitkub.com/)|  |
+|[Bitrue](https://www.bitrue.com/)| |
+|[DragonEX](https://dragonex.io/en-us/)| |
+|[Binance](https://www.binance.com/en)| |
+|[Kucoin](https://www.kucoin.com/#/)| |
 
 #### Enterprise Partners
 | **Partner**  |**Details**   |
 |:---|:---|:---|
-|Hui Mei Hui| Enterprise solutions for real estate management built on Wanchain's enterprise solution - Lanchain|
-|[iQunxing](https://www.iqunxing.com/)| Supply chain finance services built on Wanchain's enterprise solution - Lanchain |
+|[ElevenPaths](https://www.elevenpaths.com/index.html)|Spanish telecom giant Telefonica's cybersecurity unit|
+|Hui Mei Hui| Enterprise solutions for real estate management |
+|[iQunxing](https://www.iqunxing.com/)| Supply chain finance services |
 
 
 
