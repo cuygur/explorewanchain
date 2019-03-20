@@ -16,9 +16,9 @@
 #### Blockchain Incubators
 | **Partner**  |**Details**   |
 |:---|:---|:---|
-|[BitTemple](https://bittemple.io/)| Wanchain provides providing technology and technology consulting |
-|[Longhash](https://www.longhash.com/)|Wanchain provides providing technology and technology consulting |
-|[FoundationX](https://www.foundationx.io/)|Wanchain provides providing technology and technology consulting |
+|[BitTemple](https://bittemple.io/)| Wanchain provides technology and technology consulting |
+|[Longhash](https://www.longhash.com/)|Wanchain provides technology and technology consulting |
+|[FoundationX](https://www.foundationx.io/)|Wanchain provides technology and technology consulting |
 
 #### Service Providers
 | **Partner**  |**Details**   |
