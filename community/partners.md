@@ -71,6 +71,8 @@
 |Hui Mei Hui| Enterprise solutions for real estate management |
 |[iQunxing](https://www.iqunxing.com/)| Supply chain finance services |
 
-
-
+#### Staking
+| **Partner**  |**Details**   |
+|:---|:---|:---|
+|[Stajed](https://staked.us/)|Institutional staking services|
 
