@@ -24,7 +24,7 @@
 * [iWan](technology/iwan.md)
 * [Secure Multi Party Computation](technology/smpc.md)
 * [Storeman System](technology/storeman.md)
-* [Wanchain Proof of Stake](technology/pos.md) 
+* [Galaxy Proof of Stake](technology/pos.md) 
 
 ### Community
 
