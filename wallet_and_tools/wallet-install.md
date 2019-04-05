@@ -1,9 +1,9 @@
 # Install Wallet
 ## 1) Download
 
-Download Wanwallet 2.0 installation file from https://wanchain.org/product
+Download Wanwallet installation file from https://wanchain.org/product
 
-*Wanwallet 2.0 supports **Linux, Windows, and OSX**, please download corresponding installation file for your OS.
+*Wanwallet supports **Linux, Windows, and OSX**, please download corresponding installation file for your OS.
 
 ## 2) Verify install package 
 
@@ -44,7 +44,7 @@ Setup by CLI: `sudo dpkg -i WanWalletGui-linux64-2.X.X.deb`
 
 ## 4) Toggle main / test network
 
-Wanwallet 2.0 works with both main and test networks of Wanchain and Ethereum.
+Wanwallet works with both main and test networks of Wanchain and Ethereum.
 
 Below you can see the Wanchain accounts overview page (also the default start-up page), you can access it anytime by clicking on the Wanchain logo on the upper-left corner.   
 
