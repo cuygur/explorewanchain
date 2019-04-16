@@ -74,5 +74,5 @@
 #### Staking
 | **Partner**  |**Details**   |
 |:---|:---|:---|
-|[Stajed](https://staked.us/)|Institutional staking services|
+|[Staked](https://staked.us/)|Institutional staking services|
 
