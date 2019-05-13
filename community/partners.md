@@ -74,5 +74,11 @@
 #### Staking
 | **Partner**  |**Details**   |
 |:---|:---|:---|
-|[Staked](https://staked.us/)|Institutional staking services|
+|[Staked](https://staked.us/)|Institutional and consumer staking services|
+|[Wetez](https://www.wetez.io/)|Institutional and consumer staking services|
+|[MatPool](https://matpool.io/)|Institutional and consumer staking services|
+|[Blocks.tech](https://blocks.tech/)|Institutional and consumer staking services (Under development)|
+
+
+
 
