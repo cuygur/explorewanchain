@@ -74,11 +74,15 @@
 #### Staking
 | **Partner**  |**Details**   |
 |:---|:---|:---|
-|[Staked](https://staked.us/)|Institutional and consumer staking services|
-|[Wetez](https://www.wetez.io/)|Institutional and consumer staking services|
-|[MatPool](https://matpool.io/)|Institutional and consumer staking services|
-|[Blocks.tech](https://blocks.tech/)|Institutional and consumer staking services (Under development)|
-
-
+|[Staked](https://staked.us/)|Galaxy Consensus PoS node operator & staking services provider|
+|[Wetez](https://www.wetez.io/)|Galaxy Consensus PoS node operator & staking services provider|
+|[MatPool](https://matpool.io/)|Galaxy Consensus PoS node operator & staking services provider|
+|[Keystore](https://www.keystore.com/#/)|Galaxy Consensus PoS node operator & staking services provider|
+|[Blocks.tech](https://blocks.tech/)|Galaxy Consensus PoS node operator & staking services provider|
+|[Bitrue](https://www.bitrue.com/)|Galaxy Consensus PoS node operator & staking services provider|
+|[Validators.Online](https://validators.online/)|Galaxy Consensus PoS node operator & staking services provider|
+|[HashQuark](https://www.hashquark.io/#/supernode)|Galaxy Consensus PoS node operator & staking services provider|
+|[SNZ Holding](https://snzholding.com/)|Galaxy Consensus PoS node operator & staking services provider|
+|[Bepal](https://www.bepal.pro/)|Galaxy Consensus PoS node operator & staking services provider|
 
 
