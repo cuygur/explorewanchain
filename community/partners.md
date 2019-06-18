@@ -54,6 +54,8 @@
 |[Chainlink](https://chain.link)|Building oracle services on Wanchain|
 |[Open Source Exchange Network](https://www.osen.io/)| Cooperating to research cross chain smart contract based OTC trading|
 |[BAT](https://basicattentiontoken.org/)| Advertising token officially integrated on Wanchain|
+|[Morpheus Labs](https://morpheuslabs.io/)|Blockchain Platform as a Service (BPaaS), provides a platform for developing on Wanchain|
+
 
 #### Exchanges 
 | **Partner**  |
