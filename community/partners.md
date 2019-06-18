@@ -71,18 +71,18 @@
 |Hui Mei Hui| Enterprise solutions for real estate management |
 |[iQunxing](https://www.iqunxing.com/)| Supply chain finance services |
 
-#### Staking
+#### Galaxy PoS Node Operators
 | **Partner**  |**Details**   |
 |:---|:---|:---|
-|[Staked](https://staked.us/)|Galaxy Consensus PoS node operator & staking services provider|
-|[Wetez](https://www.wetez.io/)|Galaxy Consensus PoS node operator & staking services provider|
-|[MatPool](https://matpool.io/)|Galaxy Consensus PoS node operator & staking services provider|
-|[Keystore](https://www.keystore.com/#/)|Galaxy Consensus PoS node operator & staking services provider|
-|[Blocks.tech](https://blocks.tech/)|Galaxy Consensus PoS node operator & staking services provider|
-|[Bitrue](https://www.bitrue.com/)|Galaxy Consensus PoS node operator & staking services provider|
-|[Validators.Online](https://validators.online/)|Galaxy Consensus PoS node operator & staking services provider|
-|[HashQuark](https://www.hashquark.io/#/supernode)|Galaxy Consensus PoS node operator & staking services provider|
-|[SNZ Holding](https://snzholding.com/)|Galaxy Consensus PoS node operator & staking services provider|
-|[Bepal](https://www.bepal.pro/)|Galaxy Consensus PoS node operator & staking services provider|
+|[Staked](https://staked.us/)|Staking services provider|
+|[Wetez](https://www.wetez.io/)|Staking services provider|
+|[MatPool](https://matpool.io/)|Staking services provider|
+|[Keystore](https://www.keystore.com/#/)|Digital asset services provider|
+|[Blocks.tech](https://blocks.tech/)|Crypto media, marketing, staking, and service provider|
+|[Bitrue](https://www.bitrue.com/)|Cryptocurrency exchange|
+|[Validators.Online](https://validators.online/)|Staking services community|
+|[HashQuark](https://www.hashquark.io/#/supernode)|Staking services provider|
+|[SNZ Holding](https://snzholding.com/)|Cryptoasset fund|
+|[Bepal](https://www.bepal.pro/)|Wallet & digital asset services provider|
 
 
