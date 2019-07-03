@@ -40,7 +40,8 @@
 
 9. Using the numbers displayed on your Trezor device together with the number pad displayed in your browser, input your Trezor device's passcode in order to export your public key.
   ![](media/trezormww5.jpg)
-   <img src="media/trezormww5a.jpg" width="50%" height="50%"/>
+  
+   ![](media/trezormww5a.jpg ':size=300')
 
 10. Select the address with the WAN balance you would like to use, and then click the button with the text "Unlock your Wallet".
   ![](media/trezormww6.jpg)
@@ -65,11 +66,11 @@
 
 17. Confirm the transaction on your Trezor device by clicking the right button:
 
-    <img src="media/trezormww10a.jpg" width="50%" height="50%"/>
+    ![](media/trezormww10a.jpg ':size=300')
 
 18. Confirm again:
 
-    <img src="media/trezormww10b.jpg" width="50%" height="50%"/>
+    ![](media/trezormww10b.jpg ':size=300')
 
 19. You will be redirected back to the MyWanWallet page where you should click the green button with the text 'Send Transaction' to begin sending your transaction.
 

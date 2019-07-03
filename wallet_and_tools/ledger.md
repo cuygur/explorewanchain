@@ -31,16 +31,16 @@ required, please install the
 Ethereum app. Ledger is
 working on fixing this.) 
 
-  <img src="media/ledger1.jpg" width="50%" height="50%"/>
+  ![](media/ledger1.jpg ':size=350')
 
 6. Click Install. An installation
 window will appear, your device will
 display “Processing…”, then the app
 installation will be confirmed.
 
-  <img src="media/ledger2.jpg" width="50%" height="50%"/>
+  ![](media/ledger2.jpg ':size=300')
 
-7. Open the Wanchain GUI wallet.
+7. Open the Wanchain GUI wallet
 The GUI wallet should indicate
 “Ledger Account Connected” and
 display accounts associated with the
@@ -64,11 +64,11 @@ the Ledger device.
 
 10. Confirm the amount using the Ledger device.  
 
-  <img src="media/ledger6.jpg" width="50%" height="50%"/>
+  ![](media/ledger6.jpg ':size=300')
 
 11. Confirm the transaction details using the Ledger device.  
 
-  <img src="media/ledger7.jpg" width="50%" height="50%"/>
+  ![](media/ledger7.jpg ':size=300')
 
 12. Check transaction details
 After the transaction has been

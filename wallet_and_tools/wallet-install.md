@@ -1,11 +1,11 @@
 # Install Wallet
-## 1) Download
+## Download
 
 Download Wanwallet installation file from https://wanchain.org/product
 
 *Wanwallet supports **Linux, Windows, and OSX**, please download corresponding installation file for your OS.
 
-## 2) Verify install package 
+## Verify install package 
 
 **Windows**
 
@@ -25,7 +25,7 @@ The following command will display SHA256 hash value on a Mac operating system.
 
 `openssl dgst -sha256 <path>/<filename>`
 
-## 3) Installation and launch
+## Installation and launch
 
 Extract the file, run, wallet will begin to sync. Click the "LAUNCH APPLICATION" button to start the wallet
 
@@ -42,7 +42,7 @@ Setup by CLI: `sudo dpkg -i WanWalletGui-linux64-2.X.X.deb`
 
 * Or click Wanwalletgui to start under `/usr/local/bin/`
 
-## 4) Toggle main / test network
+## Toggle main / test network
 
 Wanwallet works with both main and test networks of Wanchain and Ethereum.
 
@@ -54,7 +54,7 @@ Use the menu option below (Develop--->Network) to switch between main network (d
 
 
 
-## 5) Create / Import accounts
+## Create / Import accounts
 
 These 2 options allow you to create new WAN or new ETH account. 
 
@@ -67,7 +67,7 @@ You can also import an existing WAN or ETH account using a wallet keystore file
     File -> Import accounts -> Drag & Drop -> Done
 
 
-## 6) Backup Account
+## Backup Account
 
 The keystore is where your account details are stored. <span class="warning">WARNING: If you lose your keystore files and have no other backup your assets will be lost forever, and no one, including the team at Wanchain, will be able to restore them.</span> Therefore we strongly recommend you backup all keystore files in a place you trust and won’t forget (offline PC device or storage device, etc.)
 
@@ -77,7 +77,7 @@ To find your backup files, navigate as follows.
 
     File -> Backup -> Accounts -> Keystore
 
-## 7) Backup Application Data
+## Backup Application Data
 
 To backup your application data, navigate as follows.
 

@@ -23,7 +23,7 @@ This issue is difficult to solve for, because different blockchains have differe
 
 ### Wanchain's Solutions
 
-To solve for Problem Alpha and ensure that the total number of tokens on each blockchain remains static when being transferred from one chain to the next, Wanchain's specialized nodes - also known as Storemen - employ an innovative, [secure, multi party computation](../technology/smpc.md) method with a threshold-protected secret key to process cross-chain transactions.
+To solve for Problem Alpha and ensure that the total number of tokens on each blockchain remains static when being transferred from one chain to the next, Wanchain's specialized nodes - also known as Storemen - employ an innovative, [secure multi party computation](../technology/smpc.md) method with a threshold-protected secret key to process cross-chain transactions.
 
 For every cross-chain transaction, Wanchain's Storemen nodes create a locked account that holds the funds being sent from the original blockchain indefinitely, while an equivalent value is made available on the destination blockchain in the form of a corresponding mapping token. The original funds can then only be released when the value of the corresponding mapping tokens is sent back to the original chain, and the mapping tokens themselves are destroyed.
 
