@@ -1,3 +1,0 @@
-# WanX
-
-WanX is a utility package which makes it easy for developers to make crosschain transactions into and out of the Wanchain network. It is essentially a storehouse of all the information a developer might need to do a cross-chain transactions, with helper functions that allow them to build and send the correct contract calls without having to worry about the underlying mechanics of the transactions. WanX allows for the rapid development of cross chain applications. To learn more, check out the package's [Github page](https://github.com/wanchain/wanx), or navigate to our [developer portal](https://wandevs.org/).

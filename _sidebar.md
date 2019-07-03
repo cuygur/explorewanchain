@@ -17,16 +17,18 @@
 * [Cross Chain Overview](technology/cross-chain.md "Wanchain - Cross Chain") 
 * [Privacy Protection](technology/privacy.md "Wanchain - Privacy Protection") 
 * [Smart Contracts](technology/smart-contracts.md "Wanchain - Smart Contracts")
-* [WanX](technology/wanx.md "Wanchain - WanX")
 * [Gwan](technology/gwan.md "Wanchain - Gwan")
 * [iWan](technology/iwan.md "Wanchain - iWan")
 * [Secure Multi Party Computation](technology/smpc.md "Wanchain - Secure Multi Party Computation")
 * [Storeman System](technology/storeman.md "Wanchain - Storeman System")
 * [Galaxy Consensus](technology/pos.md "Wanchain - Galaxy Consensus") 
 
+**Staking**
+
+* [Guide](staking/guide.md)
+
 **Community**
 
 * [Official Accounts](community/social.md "Wanchain - Official Accounts")
 * [Developer Portal](community/dev.md "Wanchain - Developer Portal") 
 * [Partners](community/partners.md "Wanchain - Partners")
-
