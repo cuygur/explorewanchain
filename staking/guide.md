@@ -4,75 +4,79 @@ Follow the instructions below for a detailed guide to to staking during the beta
 
 # 1. Product and Parameter Improvements in Beta version
  
-1. New Products
+### New Products
 
-* [New desktop light wallet](https://github.com/wanchain/wan-wallet-desktop/releases) — Wan Wallet, WAN token delegation can be done in the GUI wallet (currently testnet only) (Link)
-Wanchain Network Status to provide professional users with a visual tracking platform for the status of Wanchain’s network under PoS consensus 
-New Wanchain Explorer with PoS features plus loads of tracking information and statistics (Link)
-Parameter Updates
+* [New desktop light wallet](https://github.com/wanchain/wan-wallet-desktop/releases) — Wan Wallet, WAN token delegation can be done in the GUI wallet (currently testnet only)
+* [Wanchain Network Status](https://wanstats.net/) to provide professional users with a visual tracking platform for the status of Wanchain’s network under PoS consensus 
+* [New Wanchain Explorer](http://testnet.wanscan.org/) with PoS features plus loads of tracking information and statistics (Link)
 
-Slot time is reduced from 10 seconds to 5 seconds;
-Epoch time was shortened from 2 days to 1 day;
-The Delegate Ratio was raised from 1:5 to 1:10;
-The granularity of the commission rate is increased from one hundreth (0.01) to one ten thousandth (0.0001);
-The docker image name has been updated to “wanchain/client-go: 2.0.0-beta.5”;
-“Pluto” in the start parameters and instructions is replaced with “testnet”.
+### Parameter Updates
+
+* Slot time is reduced from 10 seconds to 5 seconds;
+* Epoch time was shortened from 2 days to 1 day;
+* The Delegate Ratio was raised from 1:5 to 1:10;
+* The granularity of the commission rate is increased from one hundreth (0.01) to one ten thousandth (0.0001);
+* The docker image name has been updated to “wanchain/client-go: 2.0.0-beta.5”;
+* “Pluto” in the start parameters and instructions is replaced with “testnet”.
+
 
 # 2. How to apply for the Beta testing, and how to get WAN testnet tokens
 
-1. Download the Wan Wallet and create an address to receive WAN testnet tokens
+##### 1. Download the Wan Wallet and create an address to receive WAN testnet tokens
+[Download Wallet](https://github.com/wanchain/wan-wallet-desktop/releases)
 
-After the Wan Wallet installation, refer to the “Wallet” -> “WAN” page, click “Create” button to create a new address. This address can be used to receive beta testnet tokens.
+**After the Wan Wallet installation, refer to the “Wallet” -> “WAN” page, click “Create” button to create a new address. This address can be used to receive beta testnet tokens.**
 
-Note: In addition to the light wallet, you can also use the command line to generate an address for receiving testnet tokens. For details, refer to section 8, “How to create a validator node” → “How to create a keystore account using gwan in docker”.
+*Note: In addition to the light wallet, you can also use the command line to generate an address for receiving testnet tokens. For details, refer to section 8, “How to create a validator node” → “How to create a keystore account using gwan in docker”.*
 
-2. Fill out the following Beta test application form and submit the WAN test tokens (NOT mainnet) address to receive WAN testnet tokens:
-
-English Form or Chinese Form
+##### 2. Fill out the Beta test application form and submit the WAN test tokens to the **(NOT mainnet)** address to receive WAN testnet tokens
+[Application form](https://forms.gle/5apYwdge9An8ZmMR9)
 
 Upon receipt of the application, we will randomly send a large amount of WAN testnet tokens ranging from 50,000 WAN to 150,000 WAN to the applicant’s WAN address.
 
-For users who only want to perform delegations, they can apply directly through our Faucet website. Like the application for Ethereum testnet tokens, the tester needs to publish a tweet with the testnet WAN address, then paste the tweet address into the faucet page in order to apply for 200 WAN testnet tokens per day or more. Faucet address: http://54.201.62.90/
+For users who only want to perform delegations, they can apply directly through our [faucet website](http://54.201.62.90/). Like the application for Ethereum testnet tokens, the tester needs to publish a tweet with the testnet WAN address, then paste the tweet address into the faucet page in order to apply for 200 WAN testnet tokens per day or more. 
 
-Note: For users who have participated in the Alpha test, since the Alpha version and the Beta version are running on two separate networks, you must re-apply for the testnet tokens and recreate the node.
+*Note: For users who have participated in the Alpha test, since the Alpha version and the Beta version are running on two separate networks, you must re-apply for the testnet tokens and recreate the node.*
 
 # 3. Beta Testnet Reward Program
-There are 3 categories of rewards for the PoS Beta Testnet:
 
-1. Completing tasks:
+**There are 3 categories of rewards for the PoS Beta Testnet:**
 
-Successfully set up a validator node (200 WAN)
+##### 1. Completing tasks:
 
-The validator node runs for 10 days (200 WAN)
+* Successfully set up a validator node (200 WAN)
 
-Absorb a delegation amount higher or equal to the validator’s own staking amount (100 WAN)
+* The validator node runs for 10 days (200 WAN)
 
-2. Bug reporting: Send bug reports to techsupport@wanchain.org
+* Absorb a delegation amount higher or equal to the validator’s own staking amount (100 WAN)
 
-Scope: Gwan, Wan Wallet, new Explorer, WanStats and other POS related tools
+##### 2. Bug reporting: Send bug reports to - techsupport@wanchain.org
+
+**Scope: Gwan, Wan Wallet, new Explorer, WanStats and other POS related tools**
 
 Rewards are distributed according to the severity level of valid bug reported (50, 200, 400 WAN for 3 levels of severity). TheWanchain development team owns the whole right to identify the severity level.
 
-3. Security reports: Send security reports to techsupport@wanchain.org
+##### 3. Security reports: Send security reports to - techsupport@wanchain.org
 
 Finding defects that may affect the security of the wallet, nodes or public chain will be granted a special reward by the Wanchain Foundation. We sincerely encourage experienced teams or individuals to work with the Wanchain R&D team for security testing.
 
 # 4. Interpretation of Terms and Parameters
-The Wanchain PoS Consensus research paper can be found here.
+The Wanchain PoS Consensus research paper can be found [here](https://www.wanchain.org/files/Wanchain-Galaxy-Consensus-V1.0.pdf).
 
-Please see this article for key terms and see below for key parameters:
+Please see [this article](https://medium.com/wanchain-foundation/wanchain-proof-of-stake-validator-economics-for-upcoming-alpha-testing-d57353a4d0f9) for key terms and see below for key parameters:
 
-Parameter summary
+##### Parameter summary:
 
-Delegating Node’s minimum staking amount: 50,000 WAN
-Delegate Ratio: 1:10
-Non-delegating Node’s minimum staking amount: 10,000 WAN, cannot accept delegations
-Minimum threshold for the delegator: 100 WAN
-The number of validator nodes: 75, of which 49 are open to the public, and the Foundation temporarily holds 26 for network security at launch (the Foundation’s nodes operate normally but will not receive rewards, and will gradually be decommissioned and released publicly)
-The maximum amount of staking for a single validator node: 10.5 million WAN. This value is the upper limit of the sum of the validator node’s own staking amount and the delegated amount received by the validator node.
-Rewards: 21,000,000 WAN is reserved by the Foundation as PoS reward; 2,500,000 WAN will be distributed in the first year, and will then decrease by 12% per year.
-Validator node’s locking period: 7 to 90 days, can be freely chosen between this range. After the locking period expires, the staked WAN will become available within one day.
-Delegators’ withdraw period: Staking can be initiated or canceled at any moment. Withdrawal Delay is 1 day if delegator is following the validator’s exit, otherwise the delay is 3–4 days.
+* Delegating Node’s minimum staking amount: 50,000 WAN
+* Delegate Ratio: 1:10
+* Non-delegating Node’s minimum staking amount: 10,000 WAN, cannot accept delegations
+* Minimum threshold for the delegator: 100 WAN
+* The number of validator nodes: 75, of which 49 are open to the public, and the Foundation temporarily holds 26 for network security at launch (the Foundation’s nodes operate normally but will not receive rewards, and will gradually be decommissioned and released publicly)
+* The maximum amount of staking for a single validator node: 10.5 million WAN. This value is the upper limit of the sum of the validator node’s own staking amount and the delegated amount received by the validator node.
+* Rewards: 21,000,000 WAN is reserved by the Foundation as PoS reward; 2,500,000 WAN will be distributed in the first year, and will then decrease by 12% per year.
+* Validator node’s locking period: 7 to 90 days, can be freely chosen between this range. After the locking period expires, the staked WAN will become available within one day.
+* Delegators’ withdraw period: Staking can be initiated or canceled at any moment. Withdrawal Delay is 1 day if delegator is following the validator’s exit, otherwise the delay is 3–4 days.
+
 # 5. Hardware and Software Requirements
 1. Hardware requirements
 
@@ -82,61 +86,76 @@ The following figure shows the minimum configuration and the recommended configu
 
 2. Software requirements
 
-Linux and MacOS are recommended
-Using Docker to run nodes requires Docker service as a pre-requisite
-Compiling source code requires the installation and configuration of Golang runtime environment: https://golang.org/
+* Linux and MacOS are recommended
+* Using Docker to run nodes requires Docker service as a pre-requisite
+* Compiling source code requires the installation and configuration of Golang runtime environment: https://golang.org/
+
 # 6. How to Create an AWS Account
 AWS (Amazon Cloud) account creation
 Prerequisites:
 - Credit card
 - Landline or mobile phone
 
-Navigate to the AWS official website and click the “Sign Up” button.
-Fill in all registration information including your personal information and credit card details.
-Next, the system will call to confirm your phone number. Enter the 4-digit number (ending with #) displayed on the computer screen.
-If the account was successfully created, your card will be charged for $1 as part of the verification process (this will be refunded later).
-# 7. How to Create a Suitable EC2 Virtual Machine
-EC2 virtual machine set up
-1. Create an AWS EC2 instance
+* Navigate to the [AWS official website](https://aws.amazon.com/) and click the “Sign Up” button.
+* Fill in all registration information including your personal information and credit card details.
+* Next, the system will call to confirm your phone number. Enter the 4-digit number (ending with #) displayed on the computer screen.
+* If the account was successfully created, your card will be charged for $1 as part of the verification process (this will be refunded later).
 
-Log in to the EC2 console:
+# 7. How to Create a Suitable EC2 Virtual Machine
+
+EC2 virtual machine set up
+##### 1. Create an AWS EC2 instance
+
+Log in to the [EC2 console](https://console.aws.amazon.com/ec2/):
 
 Select the location of the machine in the upper right corner:
 
+![](media/staking1.png)
 
 Find “Instances” in the menu on the left side of the page
 
+![](media/staking2.png)
 
 Then click on the “Launch Instance” button:
 
+![](media/staking3.png)
 
 Choose an Amazon system image: Ubuntu 18.04 is recommended
 
+![](media/staking4.png)
 
 Select the instance type. We recommend the m4.large configuration.
 
+![](media/staking5.png)
 
 Click the “Next: Configure Instance Details” button and input the following default configuration:
 
+![](media/staking6.png)
 
 Click the “Next: Add Storage” button
 
 The recommended setting is 80GB
 
+![](media/staking7.png)
+
 
 Click the “Next: Add Tags” button to add tags for easy recall:
 
+![](media/staking8.png)
 
 Click the “Next: Configure Security Group” button
 
 Add firewall rule and then click the “Review and Launch” button to verify the instance:
 
+![](media/staking9.png)
 
 Click the “Launch” button to launch the instance
 
+![](media/staking10.png)
 
 Create a key, download the key pair and keep it safe. Use it when logging in by SSH.
 
+![](media/staking11.png)
 
 That completes the EC2 instance creation.
 
@@ -144,18 +163,24 @@ That completes the EC2 instance creation.
 
 To use the SSH login method under Linux, set the key file permissions with the following command:
 
-Chmod 400 aws.pem
+```  
+Chmod 400 aws.pem  
+```
 SSH login command:
-
+```
 Ssh -i aws.pem root@public DNS (IPv4)
+```
 The PuTTy login on Windows needs to use PuTTyGen to convert .pem to ppk, and select ppk file in Auth option of PuTTy tool.
 
 Delete AWS EC2 instance
 
 First terminate the instance:
 
+![](media/staking12.png)
 
 Confirm termination:
+
+![](media/staking13.png)
 
 
 After termination, check that the volume has been deleted to avoid any costs. In addition, the instance will remain in the list for a while after termination, and will generally disappear within half an hour.

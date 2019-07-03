@@ -26,6 +26,7 @@
 **Staking**
 
 * [Guide](staking/guide.md)
+* [Node Setup](staking/node_setup.md)
 
 **Community**
 
