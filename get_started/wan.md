@@ -1,10 +1,10 @@
 # WAN
 
-#### What is WAN?
+### What is WAN?
 
 WAN or Wancoin is the native currancy of Wanchain. All Wanchain transactions, cross chain transactions, and smart contracts are powered by WAN. WAN will also used be used as stake in Wanchain's upcoming [Proof of Stake](../technology/pos.md) system, and also serves as bond for Wanchain's cross chain [Storeman](../technology/storeman.md) nodes.   <b><i>WAN and Wanchain based tokens are NOT ERC-20 tokens. Do not send any WAN or WRC-20 tokens to an Ethereum address or they will be lost forever.</i></b>
 
-#### WAN Supply
+### WAN Supply
 
 The base unit of WAN is Win. Below is a list of named demonimations and their value in Win accordingly.
 
@@ -17,8 +17,6 @@ The base unit of WAN is Win. Below is a list of named demonimations and their va
 |Szabo|1e12 win|1,000,000,000,000|   
 |Finney|1e15 win|1,000,000,000,000,000|   
 |Wan|1e18 win|1,000,000,000,000,000,000|   
-
-## Token Distribution
 
 ### Total Distribution
 ![](media/totaldistribution.png)
