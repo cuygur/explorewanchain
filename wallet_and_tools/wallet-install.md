@@ -3,7 +3,7 @@
 
 Download Wanwallet installation file from https://wanchain.org/product
 
-*Wanwallet supports **Linux, Windows, and OSX**, please download corresponding installation file for your OS.
+*Wanwallet supports **Linux, Windows, and OSX**, please download corresponding installation file for your OS.*
 
 ## Verify install package 
 
