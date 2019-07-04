@@ -1,20 +1,20 @@
-# Getting Started
+# Validator Node Setup
 
-# 1. Introduction
-This is a guide for helping getting started as a Wanchain Galaxy Consensus node operator. You can follow along with this manual and help test the proof of concept version of Galaxy Consensus. Please join our [Gitter chat room](https://gitter.im/wandevs/community) if you have any questions about this guide. Members of our official dev team and Wanchain community developers are there to help out with any issues you might have.  
+This is a guide for helping getting started as a Wanchain Galaxy Consensus validator node. Please join our [Gitter chat room](https://gitter.im/wandevs/community) for additional guidance. 
 
 **Software Environment**
 - We recommend using Linux or MacOS
-- Docker services 
+- Docker  
 - Install Golang from https://golang.org/ and set GO environment variables `$GOPATH` and `$GOROOT` if you want to build from source code.
+- You may use a cloud server such as AWS or run on bare metal. See our [AWS getting started guide](staking/aws.md) for more information.
 
-# 2. Quick start from Script
+## Quick start from Script
 
-## 2.1. Run a command to create and run validator
+#### 1) Run a command to create and run validator
 
 After ssh login into cloud server. Run this command below:
 
-```
+```bash
 wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/deployValidator.sh && chmod +x deployValidator.sh && ./deployValidator.sh
 ```
 
@@ -24,7 +24,7 @@ The script will prompt you to enter the password for the validator account.
 
 After the script is executed, the account address of the validator and the two public keys will be fed back. Please back it up completely for subsequent registration.
 
-## 2.2. Register validator from wallet
+#### 2) Register validator from wallet
 
 Next, you can complete the validator registration behavior through the wallet.
 
@@ -36,9 +36,9 @@ Click on the Contract page and select the Staking contract.
 
 After selecting Access, select StakeIn to complete the node registration.
 
-![img](./img_get_start/8.png)
+![img](/media/8.png)
 
-! ! ! note! ! !
+**!!!Note!!!**
 
 The `secPk` and `bn256Pk` are the two public keys returned after the script is executed.
 
@@ -52,7 +52,7 @@ The amount locked is entered on the next page.
 
 Follow the prompts to complete the validator registration.
 
-## 2.3. Send Tx Gas Fee to Valdiator address
+#### 3) Send Tx Gas Fee to Validator address
 
 After the registration is completed, a small transaction fee is also transferred to the verification node address for the execution of the POS protocol fee.
 
@@ -60,12 +60,12 @@ The handling fee is generally not more than 0.01 wan per transaction, so a trans
 
 Please check the balance of the validator address regularly through the browser to ensure that transaction fees are always available.
 
-# 4. Quick start from Docker
+## Quick start from Docker
 
-## 4.1. Step by step node setup
+#### Step by step node setup
 
 **Step 1:** Install docker (Ubuntu):
-```
+```bash
 $ sudo wget -qO- https://get.docker.com/ | sh
 
 $ sudo usermod -aG docker YourUserName
@@ -74,7 +74,7 @@ $ exit
 ```
 
 **Step 2:** Start GWAN with Docker and create account:
-```
+```bash
 $ docker pull wanchain/client-go:2.0.0-beta.5
 
 $ docker run -d -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/client-go:2.0.0-beta.5 /bin/gwan --testnet
@@ -101,7 +101,7 @@ root> exit
 
 ```
 
-![img](./img_get_start/1.png)
+![img](/media/1.png)
 
 **Step 3:** Get test WAN for "YourAccountAddress":
 
@@ -113,13 +113,13 @@ And after receiving test WAN, continue to step 4.
 
 The validator registration can be done visually using the community-developed [mywanwallet] (https://mywanwallet.io/#contracts) web wallet. You can also use script registration as follows.
 
-!!!WARNING!!!
+**!!!WARNING!!!**
 
 In order to protect the security of the account, please do not enable the "--rpc" parameter when using script to register. Please verify before continue. (Recommended to use the GUI wallet for registration)
 
 Create a script file in path: `/home/YourUserName/.wanchain/validatorRegister.js`
 
-```
+```javascript
 //validatorRegister.js
 
 // If you want to register as a validator you can modify and use this script.
@@ -169,16 +169,16 @@ console.log("tx=" + tx)
 //------------------RUN CODE DO NOT MODIFY------------------
 
 ```
-![img](./img_get_start/2.png)
+![img](/media/2.png)
 
 
-![img](./img_get_start/3.png)
+![img](/media/3.png)
 
 **Step 5:** Run the registration script in GWAN
 
 If you have not closed the Docker script from **Step 2**, continue with the commands below, otherwise restart the Docker script.
 
-```
+```bash
 $ docker exec -it YourContainerID /bin/gwan attach .wanchain/testnet/gwan.ipc
 
 > loadScript("/root/.wanchain/validatorRegister.js")
@@ -203,129 +203,31 @@ http://54.193.4.239/
 
 Setup is now complete, mining will begin as soon as syncing is finished.
 
-![img](./img_get_start/5.png)
+![img](/media/5.png)
 
 
-![img](./img_get_start/6.png)
+![img](/media/6.png)
 
-## 4.2. Step by step delegation guide
+## Delegation
 
-You can use the [wan-wallet-desktop](https://github.com/wanchain/wan-wallet-desktop/releases) for delegation easily.
+See the [delegation guide](staking/delegation.md) for GUI and command line delegation instructions.
 
-Also, you can use script as below, too.
-
-**Step 1:** Install Docker (Ubuntu):
-```
-$ sudo wget -qO- https://get.docker.com/ | sh
-
-$ sudo usermod -aG docker YourUserName
-
-$ exit
-```
-
-**Step 2:** Start GWAN with Docker, create account, and view delegate node list:
-```
-$ docker run -d -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/client-go:2.0.0-beta.5 /bin/gwan --testnet
-
-YourContainerID
-
-$ docker exec -it YourContainerID /bin/bash
-
-root> gwan attach .wanchain/testnet/gwan.ipc
-
-> personal.newAccount('YourPassword')
-
-"YourAccountAddress"
-
-> pos.getStakerInfo(eth.blockNumber)
-[
-	{...},
-	{...},
-	{	Address: "DelegateAddress",
-    Amount: 2e+23,
-    Clients: [],
-    FeeRate: 10,
-    From: "...",
-    LockEpochs: 30,
-    PubBn256: "...",
-    PubSec256: "...",
-    StakingEpoch: 117
-	}
-]
-```
-
-`YourAccountAddress` and `DelegateAddress` are found from the step above along with the `FeeRate`.
-
-**Step 3:** Get test WAN for "YourAccountAddress"
-
-Follow [6.3. Get test wan coins of PoS](#63-get-test-wan-coins-of-pos) to get test WAN.
-
-**Step 4:** Create a script file in path: `/home/YourUserName/.wanchain/sendDelegate.js`
-
-```
-//sendDelegate.js
-
-// If you want to send to a delegate you can modify and use this script.
+## GWAN Installation 
 
 
-//-------INPUT PARAMS YOU SHOULD MODIFY TO YOURS--------------------
+#### Option 1) Run from Docker
 
-// tranValue is the value you want to stake in minValue is 100
-var tranValue = "100000"
+You can run a node from a Docker image. See section above - "Quick start from Docker"
 
-// delegateAddr is the validator address copied from the list of validators generated in Step 4
-var delegateAddr = "DelegateAddress"
-
-// baseAddr is the fund source account.
-var baseAddr  = "YourAccountAddress"
-
-// passwd is the fund source account password.
-var passwd    = "YourPassword"
-
-//-------INPUT PARAMS SHOULD BE REPLACED WITH YOURS--------------------
-
-
-//------------------RUN CODE DO NOT MODIFY------------------
-personal.unlockAccount(baseAddr, passwd)
-var cscDefinition = [{"constant":false,"inputs":[{"name":"addr","type":"address"},{"name":"lockEpochs","type":"uint256"}],"name":"stakeUpdate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"addr","type":"address"}],"name":"stakeAppend","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"secPk","type":"bytes"},{"name":"bn256Pk","type":"bytes"},{"name":"lockEpochs","type":"uint256"},{"name":"feeRate","type":"uint256"}],"name":"stakeIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateOut","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}];
-
-
-var contractDef = eth.contract(cscDefinition);
-var cscContractAddr = "0x00000000000000000000000000000000000000DA";
-var coinContract = contractDef.at(cscContractAddr);
-
-var payloadDelegate = coinContract.delegateIn.getData(delegateAddr)
-var tx2 = eth.sendTransaction({from:baseAddr, to:cscContractAddr, value:web3.toWin(tranValue), data:payloadDelegate, gas: 200000, gasprice:'0x' + (200000000000).toString(16)});
-console.log("tx2=" + tx2)
-//------------------RUN CODE DO NOT MODIFY------------------
-```
-
-**Step 5:** Run the registration script in GWAN
-
-Load the script in GWAN to complete delegation.
-
-```
-> loadScript("/root/.wanchain/sendDelegate.js")
-
-```
-
-# 6. Other ways to Download and run
-
-Below is some other ways to download and run gwan.
-
-## 6.1. Run from Docker
-
-You can run a node from a Docker image. Same to 4.1.
-
-## 6.2. Download
+#### Option 2) Download
 
 You can download a binary file or code to run a node.
 
-### 6.2.1. Download BIN
+#### Option 2a) Download BIN
 
 You can download the compiled binary file from the download links below:
 
-(Not ready now, please use docker)
+(Currently unavailable, please use docker)
 
 | OS            | URL            | MD5             | SHA256
 | --------------  | :------------  | :-------------: | :--: |
@@ -333,8 +235,7 @@ You can download the compiled binary file from the download links below:
 |Windows|gwan.tar.gz| XXXXXXXXXXXXXXXX |XXXXXXXXXXXXXXXXXXXXXXXXX
 |MacOS|gwan.tar.gz| XXXXXXXXXXXXXXXX |XXXXXXXXXXXXXXXXXXXXXXXXX
 
-
-### 6.2.2. Download Code and Compile
+#### Option 2b) Download Code and Compile
 
 If you want to compile the Galaxy Consensus code, you should first to install the Golang development environment and config $GOPATH and $GOROOT:
 
@@ -344,7 +245,7 @@ You can download the code file and compile to run with the following steps:
 
 If you already have a golang compile and run environment, and you have configured $GOPATH , you can get the code as below:
 
-```
+```bash
 $ go get github.com/wanchain/go-wanchain
 
 $ cd $GOPATH/src/github.com/wanchain/go-wanchain
@@ -358,7 +259,7 @@ $ make
 
 Or you can clone from github.com as below:
 
-```
+```bash
 $ mkdir -p $GOPATH/src/github.com/wanchain/
 
 $ cd $GOPATH/src/github.com/wanchain/
@@ -376,31 +277,31 @@ $ make
 
 Then you can find the binary file in path `build/bin/gwan`
 
-## 6.3. Run
+## Node Type
 
 You can run a node in two different modes, staking and non staking.
 
-### 6.3.1. Non-staking node
+#### Non-staking node
 
-```
+```bash
 $ gwan --testnet --syncmode "full"
 ```
 
-### 6.3.2. Staking-node
+#### Staking-node
 
 In the following command, you should replace the `0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e` with your own account address and replace the `/tmp/pw.txt` file with your own password file with your password string in it.
 
-```
+```bash
 $ gwan --testnet --etherbase "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --unlock "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --password /tmp/pw.txt  --mine --minerthreads=1 --syncmode "full"
 ```
 
-# 7. Common Operations
+## Common Operations
 
-## 7.1. PoS account creation
+#### 1) PoS account creation
 
 Before you run a PoS node you should create an account.
 
-```
+```bash
 $ gwan --testnet console --exec "personal.newAccount('Your Password')"
 
 // Or run after ipc attach
@@ -413,7 +314,7 @@ You will get a keystore file with three crypto key words in your path `~/.wancha
 
 And you can use a command to get the `Address Public Key` and `G1 Public Key` of your account.
 
-```
+```bash
 $ gwan --testnet console --exec "personal.showPublicKey('Your Address', 'Your Password')"
 
 // Or run after ipc attach
@@ -422,11 +323,11 @@ $ personal.showPublicKey('Your Address', 'Your Password')
 
 These public keys will be used in staking registration.
 
-## 7.2. Check balance
+#### 2) Check balance
 
 You can check your balance in the address when you attach a GWAN console in the `ipc` file or use a console mode at GWAN start.
 
-```
+```bash
 // In ubuntu
 $ gwan attach ~/.wanchain/testnet/gwan.ipc
 
@@ -437,14 +338,14 @@ $ gwan attach ~/Library/Wanchain/testnet/gwan.ipc
 
 After the node synchronization is finished you can check your balance using the following command.
 
-```
+```bash
 $ eth.getBalance("Your Address Fill Here")
 
 // Such as address example shown above.
 $ eth.getBalance("0x8c35B69AC00EC3dA29a84C40842dfdD594Bf5d27")
 ```
 
-## 7.3. Get test WAN
+#### 3) Get test WAN
 
 If you want to get some test WAN to experiment with Galaxy Consensus, you can fill a form on this URL: (Waiting to update...)
 
@@ -456,18 +357,18 @@ If you want to get some test WAN to experiment with Galaxy Consensus, you can fi
 
 
 
-## 7.4. Registration and delegation
+#### 4) Registration and delegation
 
 If you have an account with WAN coins and you want to create a Galaxy Consensus validator, you should do it as in the diagram below:
 
-![img](./img_get_start/99.png)
+![img](/media/99.png)
 
 You can register as a staking node through Stake register.
 
 We have given a smart contract for registration and unregistration.
 
 The contract interface is shown below.
-```
+```javascript
 var cscDefinition = [{"constant":false,"inputs":[{"name":"addr","type":"address"},{"name":"lockEpochs","type":"uint256"}],"name":"stakeUpdate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"addr","type":"address"}],"name":"stakeAppend","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"secPk","type":"bytes"},{"name":"bn256Pk","type":"bytes"},{"name":"lockEpochs","type":"uint256"},{"name":"feeRate","type":"uint256"}],"name":"stakeIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateOut","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
 ```
 
@@ -489,16 +390,16 @@ In the script file, the password should be replaced with your own in `personal.u
 
 The `tranValue` should be filled with the amount of WAN you want to lock in the smart contract for stake registration. You can't get it back until the locking time is up.
 
-## 7.5. Check rewards
+#### 5) Check rewards
 
 You can check your balance as shown above to verify whether you have received a reward, and you can use the commands shown below to see which address was awarded and the reward amount for the specified epoch ID.
 
-```
+```bash
 // In an attached IPC session to run for epoch 19000.
 $ pos.getEpochIncentivePayDetail(19000)
 ```
 
-## 7.6. Unregister and Unlock
+#### 6) Unregister and Unlock
 
 Validators can use `stakeUpdate.js` to set lock time to 0. It will be un-register at next period. 
 

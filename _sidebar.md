@@ -23,10 +23,15 @@
 * [Storeman System](technology/storeman.md "Wanchain - Storeman System")
 * [Galaxy Consensus](technology/pos.md "Wanchain - Galaxy Consensus") 
 
-**Staking**
+**Staking (Beta Testnet)**
 
-* [Guide](staking/guide.md)
-* [Node Setup](staking/node_setup.md)
+* [Important Terms and Parameters](staking/parameters.md)
+* [Validator Node Setup](staking/node_setup.md)
+* [Get Testnet WAN](staking/get_test_wan.md)
+* [Delegation Guide](staking/delegation.md)
+* [AWS Getting Started Guide](staking/aws.md)
+* [Beta Test Rewards Program](staking/rewards_program.md)
+* [Beta Version Changes](staking/alpha_beta.md)
 
 **Community**
 
