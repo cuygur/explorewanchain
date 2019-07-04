@@ -6,8 +6,8 @@
 
 **Wallet & Tools**
 
-* [Official Wallet Guide](wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")
-* [Make a Transaction](wallet_and_tools/wallet-transactions.md "Wanchain - Make a Transaction")
+* [Official Wan Wallet Guide](wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")
+* [Wan Wallet (Beta Testnet Version)](wallet_and_tools/wan_wallet_beta.md)
 * [Ledger Support](wallet_and_tools/ledger.md "Wanchain - Ledger Support")
 * [Trezor Support](wallet_and_tools/trezor.md "Wanchain - Trezor Support")
 * [Other Wallets & Tools](wallet_and_tools/tools.md "Wanchain - Other Wallets and Tools")
