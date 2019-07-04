@@ -22,7 +22,7 @@ After the top-up is successful, the result is as below:
 ## Command Line Based Delegation
 
 **Step 1:** Install Docker (Ubuntu):
-```
+```bash
 $ sudo wget -qO- https://get.docker.com/ | sh
 
 $ sudo usermod -aG docker YourUserName
