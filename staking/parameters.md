@@ -17,13 +17,13 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 **Random Number Proposer (RNP)** — The RNP group is responsible for the critical work of jointly generating a random number for each block, to be used as an important seed for selecting which nodes make up the Epoch Leader groups to produce a given block. More technical detail in the Galaxy consensus research paper.
 
-Epoch Leader (EL) — Similar to the RNP nodes, the Epoch Leader nodes are selected using the probability according to the proportion of each node’s Staking Power compared to all other nodes. The EL group is responsible for validating transactions and packaging them into blocks.
+**Epoch Leader (EL)** — Similar to the RNP nodes, the Epoch Leader nodes are selected using the probability according to the proportion of each node’s Staking Power compared to all other nodes. The EL group is responsible for validating transactions and packaging them into blocks.
 
-Staking Power — Staking Power, unique to Wanchain’s Galaxy consensus and referred to as wanstake in the research paper, is earned by Validators mainly by the amount of WAN staked in the node. However, there is also a time multiplier applied when Validators commit to a longer lock period for their node.
+**Staking Power** — Staking Power, unique to Wanchain’s Galaxy consensus and referred to as wanstake in the research paper, is earned by Validators mainly by the amount of WAN staked in the node. However, there is also a time multiplier applied when Validators commit to a longer lock period for their node.
 
-Withdraw Delay — Validators have a 1–2 day withdraw delay, making it possible to withdraw funds after any given epoch is complete. Delegators can withdraw at any time, but there is a delay of approximately 7–8 days to avoid long range attacks.
+**Withdraw Delay** — Validators have a 1–2 day withdraw delay, making it possible to withdraw funds after any given epoch is complete. Delegators can withdraw at any time, but there is a delay of approximately 7–8 days to avoid long range attacks.
 
-Commission Rate — The commission rate is the fee charged by Validators for their service to delegators. Most Validators charge somewhere in the 10–20% range in the current market offerings.
+**Commission Rate** — The commission rate is the fee charged by Validators for their service to delegators. Most Validators charge somewhere in the 10–20% range in the current market offerings.
 
 ## Parameters
 
