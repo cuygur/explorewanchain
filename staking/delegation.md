@@ -1,23 +1,7 @@
 # Delegation Guide
 
 ## Wallet Based Delegation
-Since the [Beta version of the light wallet](https://github.com/wanchain/wan-wallet-desktop/releases) was released, delegators can use the visual interface of the wallet to delegate their WAN in Galaxy Consensus. Delegators may also choose to use the command line to delegate WAN.
-
-Wanchain’s Galaxy Consensus has a complete delegation mechanism. As a delegator, a user can select a trusted validator in Wanchain’s network, and delegate his or her WAN to that validator, and get rewards from this kind of indirect staking. The minimum threshold for a delegator is 100WAN.
-
-In the Delegation interface, a user can clearly get the general information of My Stake, My Reward, Average Network Reward and Pending Withdrawal. Meanwhile, he or she can view his or her delegation list and delegation history records.
-
-Click New Delegation, and Select Name and Address under Validator’s Account to choose the node you wish to delegate to, select Address which you want to delegate from under My Account, and input Amount. For the delegation settings, you should pay attention to several parameters:
-
-Quota, which represents how many remaining WAN this validator can receive;
-
-Fee(%), which represents the percentage of WAN which will be deducted from the reward. For example, if the total reward is 50WAN, and the fee is 15%, the delegator will receive a final reward of 42.5WAN.
-
-The following pictures shows a delegator who delegates 100WAN to a validator.
-
-After successful delegation, My Stake shows 100WAN. This delegation record shows in the delegation list. If you want to top-up the delegation amount, you can click Top-up.
-
-After the top-up is successful, the result is as below:
+Since the release of the [beta version of the light wallet](https://github.com/wanchain/wan-wallet-desktop/releases), delegators may use the graphical interface of the wallet to delegate their testnet WAN. Delegators may also choose to use the command line to delegate. See beta light [wallet instructions](wallet_and_tools/wan_wallet_beta?id=delegation) for more details
 
 ## Command Line Based Delegation
 
