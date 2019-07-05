@@ -7,6 +7,10 @@ This is a guide for helping getting started as a Wanchain Galaxy Consensus valid
 - Docker  
 - Install Golang from https://golang.org/ and set GO environment variables `$GOPATH` and `$GOROOT` if you want to build from source code.
 - You may use a cloud server such as AWS or run on bare metal. See our [AWS getting started guide](staking/aws.md) for more information.
+- If using AWS, we recommend AWS m4.xlarge with the following configuration
+  - CPU: 4
+  - RAM:16G
+  - Disk 256G
 
 ## Quick start from Script
 
