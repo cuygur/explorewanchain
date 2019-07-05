@@ -489,7 +489,14 @@ body.close .content {
 	}
 }
 
+@media screen and (max-width:450px) {
+  .sidebar-toggle .sidebar-toggle-button:hover {
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width:768px) {
+
 	.github-corner,
 	.sidebar,
 	.sidebar-toggle {
