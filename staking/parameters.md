@@ -7,7 +7,7 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 **Validators** — Validators on the Wanchain network secure the network by playing one of two roles (see RNP and EL below) in the process of proposing, validating, and finalizing blocks. Validators can take two forms in the Galaxy consensus, either taking delegation or being a non-delegating node (below). An epoch lasts 2 days, so there are approximately 15 epochs per month. To run a standard Validator node that can accept delegation, it will require a larger amount of WAN than it will to run a non-delegating validator.
 
-**Delegators** — Delegators are anyone who delegates their stake to a Validator node, such as Staked or Wetez.
+**Delegators** — Delegators are anyone who delegates their stake to a Validator node. See [Partners > Staking](/community/partners?id=staking).
 
 **Validator Delegate Ratio** — This is the ratio of stake between Validator and Delegators. Once the ratio has been reached, the Validator will need to increase their stake to make more room for additional delegation. For example, if the ratio is 1:10 and a validator has 100,000 WAN staked, then the validator may receive up to but no more than 1,000,000 WAN in delegations. 
 
