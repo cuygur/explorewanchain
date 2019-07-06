@@ -470,10 +470,7 @@ body.close .sidebar {
 body.close .sidebar-toggle {
   transform: translateX(-300px);
   transition: transform .25s ease;
-}
-
-body.close .sidebar-toggle {
-	width: 50px;
+  width: 50px;
 }
 
 body.close .content {
@@ -556,7 +553,7 @@ body.close .content {
     background: linear-gradient(to bottom, rgba(255,255,255,0.91) 1%,rgba(255,255,255,0.91) 79%,rgba(255,255,255,0) 98%,rgba(255,255,255,0) 99%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 		transition: background-color 1s;
-    width: 100%;
+    width: 50px;
     height: auto;
     padding: 10px;
     transform: translateX(0px);
