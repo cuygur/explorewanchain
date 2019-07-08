@@ -26,7 +26,7 @@ The script will prompt you to enter the name of the validator, which is used as 
 
 The script will prompt you to enter the password for the validator account.
 
-After executing the script you should see three pieces of information that you need to save. That includes your the validator public address and two other keys which you need for the contract to execute. You will not receive a private key, however the keystore/json file is generated (protected with the password you specified during the script generation). That keystore file is generated in a folder like this ( /home/<account name>/.wanchain/testnet/keystore or something similar to that).
+After executing the script you should see three pieces of information that you need to save. That includes your validator public address and two other keys which you need for the contract to execute. You will not receive a private key, however the keystore/json file is generated (protected with the password you specified during the script generation). That keystore file is generated in a folder like this: `/home/<account name>/.wanchain/testnet/keystore` 
 
 #### 2) Register validator from wallet
 
