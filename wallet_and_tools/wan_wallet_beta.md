@@ -44,6 +44,10 @@ Wan Wallet supports the creation of multiple addresses for one account, simply c
 
 Accounts may also be renamed as you wish.
 
+## Get Testnet WAN
+
+You can get testnet WAN from our [faucet](http://54.201.62.90/). Follow the instructions in the link to have testnet WAN sent to your account.
+
 ## Normal Transactions
 Click 'Send', enter sending and receiving account information along with the transaction amount, select the service fee, and click next, and then click send again to complete your transaction.  
 
