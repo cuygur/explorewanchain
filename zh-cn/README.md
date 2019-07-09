@@ -1,9 +1,9 @@
 # 介绍  
 
-### What is Wanchain?
-Wanchain is a public blockchain which supports the development of smart contracts written in Solidity, ring signature based private transactions, as well as decentralized cross chain functionality. Wanchain's [Storeman node](technology/storeman.md) system uniquely combines  secure multiparty computation, atomic swaps, threshold secret sharing, and decentralized account management to implement a fully decentralized cross chain solution. Any developer can write smart contracts, develop a DAPP, or issue a fungible or non-fungible token on Wanchain. Through its cross chain features, it is possible for any blockchain's assets to be connected with and circulate on Wanchain. This includes assets from public, private, as well as consortium chains.
+### 什么是Wanchain？
+Wanchain是一个公链项目，它支持用Solidity进行智能合约的开发，支持基于环签名的隐私保护，同时支持去中心化的跨链交易。Wanchain的[Storeman节点组](technology/storeman.md)结合了安全多方计算、原子互换、门限密钥共享、分布式账户管理等多种密码学技术，实现了完全去中心化的跨链解决方案。开发人员可以便捷地在Wanchain平台上编写智能合约，开发dApp，发布同质化代币（Fungible Token）或非同质化代币（Non-fungible Token）。基于跨链机制，Wanchain将打通不同链上的资产，不论资产是来自公链、私链还是联盟链，并让这些资产在不同链间实现自由流转。
 
-### Vision
+### 愿景
 
 Wanchain's vision is to become the asset transport layer of the blockchain world, similar to the TCP transport layer of the Internet, only for assets based on distributed ledger technology. Currently, the only way to efficiently transfer value between isolated blockchains is either P2P or through the use of a trusted third party such as a centralized cryptocurrency exchange or OTC trading desk. Since the abolition of the reliance on trusted 3rd parties is one of the core goals of the blockchain revolution, it is clear that a solution must be implemented to do away with them. Wanchain aims to be that solution. As the asset transport layer of the blockchain world, Wanchain will allow for direct transfer of value between blockchains without the use of a trusted 3rd party. It will allow for the development of entirely decentralized and unstoppable cross chain cryptocurrency exchanges and applications. 
 
