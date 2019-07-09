@@ -2,7 +2,7 @@
 
 ### What is WAN?
 
-WAN or Wancoin is the native currency of Wanchain. All Wanchain transactions, cross chain transactions, and smart contracts are powered by WAN. WAN is also used as stake in Wanchain's upcoming [Proof of Stake](../technology/pos.md) system, and also serves as bond for Wanchain's cross chain [Storeman](../technology/storeman.md) nodes.   <b><i>WAN and Wanchain based tokens are NOT ERC-20 tokens. Do not send any WAN or WRC-20 tokens to an Ethereum address or they will be lost forever.</i></b>
+WAN or Wancoin is the native currency of Wanchain. All Wanchain transactions, cross chain transactions, and smart contracts are powered by WAN. WAN is also used as stake in Wanchain's upcoming [Proof of Stake](../technology/pos.md) system and also serves as bond for Wanchain's cross chain [Storeman](../technology/storeman.md) nodes.   <b><i>WAN and Wanchain based tokens are NOT ERC-20 tokens. Do not send any WAN or WRC-20 tokens to an Ethereum address or they will be lost forever.</i></b>
 
 ### WAN Supply
 
