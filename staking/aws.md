@@ -64,7 +64,7 @@ Click the “Launch” button to launch the instance
 
 ![](media/staking10.png)
 
-Create a key, download the key pair and keep it safe. Use it when logging in by SSH.
+Create a key, download the key pair and keep it in a safe place. You will use this key when logging in with SSH.
 
 ![](media/staking11.png)
 
@@ -72,18 +72,18 @@ That completes the EC2 instance creation.
 
 ## SSH login to AWS EC2
 
-To use the SSH login method under Linux, set the key file permissions with the following command:
+To use the SSH login method under Linux, set the key file permissions with the following command (make sure to replace `your_keyfile.pem` with whatever you named your key file:
 
 ```  
-Chmod 400 aws.pem  
+chmod 400 your_keyfile.pem  
 ```
-SSH login command:
+SSH login command (make sure to replace `your_EC2_ip_address` with your EC2 instance's IPv4 Public IP address:
 ```
-Ssh -i aws.pem root@public DNS (IPv4)
+ssh -i your_keyfile.pem ubuntu@your_EC2_ip_address
 ```
 The PuTTy login on Windows needs to use PuTTyGen to convert .pem to ppk, and select ppk file in Auth option of PuTTy tool.
 
-Delete AWS EC2 instance
+## How to Delete an EC2 instance
 
 First terminate the instance:
 
@@ -92,6 +92,5 @@ First terminate the instance:
 Confirm termination:
 
 ![](media/staking13.png)
-
 
 After termination, check that the volume has been deleted to avoid any costs. In addition, the instance will remain in the list for a while after termination, and will generally disappear within half an hour.
