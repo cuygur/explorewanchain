@@ -1,4 +1,4 @@
-# 介绍  
+# Wanchain简介  
 
 ### 什么是Wanchain？
 Wanchain是一个公链项目，它支持用Solidity进行智能合约的开发，支持基于环签名的隐私保护，同时支持去中心化的跨链交易。Wanchain的[Storeman节点组](technology/storeman.md)结合了安全多方计算、原子互换、门限密钥共享、分布式账户管理等多种密码学技术，实现了完全去中心化的跨链解决方案。开发人员可以便捷地在Wanchain平台上编写智能合约，开发dApp，发布同质化代币（Fungible Token）或非同质化代币（Non-fungible Token）。基于跨链机制，Wanchain将打通不同链上的资产，不论资产是来自公链、私链还是联盟链，并让这些资产在不同链间实现自由流转。
