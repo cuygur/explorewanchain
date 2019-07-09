@@ -16,8 +16,7 @@
 ### Ecosystem Tools    
 [Wanscan](https://www.wanscan.org/)  *- The official Wanchain explorer*  
 [Wanscan (Testnet)](http://testnet.wanscan.org/)
-[Wanchain block explorer](https://wanscan.io/home) *- A community built block explorer*  
-[CryptoCurve explorer](https://explorer.cryptocurve.xyz)  
+[Wanchain block explorer](https://wanscan.io/home) *- A community built block explorer*    
 [WanFaucet](https://wanfaucet.net/)  
 [Wanstats](http://testnet.wanstats.io/) *- Network statistics*
 
