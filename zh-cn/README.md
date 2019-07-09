@@ -9,25 +9,25 @@ Wanchain是一个公链项目，它支持用Solidity进行智能合约的开发�
 
 ### 路线图
 
-| **项目进度关键节点**  |**时间**   |**状态** | 
+|**项目进度关键节点**|**时间**|**状态**| 
 |:---|:---|:---|
 |✓ Wanchain 1.0|2018年1月|已完成|   
 |✓ Wanchain 2.0|2018年7月|已完成|   
 |✓ Wanchain 3.0|2018年12月|已完成|   
-|✓ Release Wanchain Proof of Stake (PoS) research paper |2019年一季度|已完成|   
-|✓ Proof of Concept for PoS|2019年一季度|已完成|   
-|✓ Next batch of ERC20 integrations released|2019年一季度|已完成|   
-|✓ Staking Pilot April-July|2019年二季度|已完成|  
-|✓ Alpha testnet for Wanchain PoS|2019年二季度|已完成| 
-|⧖ Integration with EOS|2019年二季度|进行中| 
-|⧖ Wallet improvement (UX/UI)|2019年二季度|进行中| 
-|⧗ Next batch of ERC20 integrations release|2019年二季度|进行中|
-|✓ Beta testnet for Wanchain PoS|2019年三季度|已完成|
-|⧖ Next batch of ERC20 integrations release|2019年三季度|进行中|
-|⧖ Mobile/light multi-asset wallet release|2019年三季度|进行中|
-|⧗ Proof of Stake goes live on mainnet|2019年四季度|待启动|
-|⧗ Integration with another new blockchain|2019年四季度|待启动|
-|⧗ Next batch of ERC20 integrations released|2019年四季度|待启动|
-|⧗ Wanchain 4.0 - Cross-chain Integration with Enterprise Blockchain|2019年四季度|待启动|
+|✓ 发布Wanchain PoS星系共识研究论文|2019年一季度|已完成|   
+|✓ 发布Wanchain PoS星系共识原型|2019年一季度|已完成|   
+|✓ 新增USDC、GUSD代币跨链集成|2019年一季度|已完成|   
+|✓ Storeman节点奖励先行计划（4月-7月）|2019年二季度|已完成|  
+|✓ 发布Wanchain PoS星系共识Alpha测试|2019年二季度|已完成| 
+|⧖ 新增EOS跨链集成|2019年二季度|进行中| 
+|⧖ 钱包改进（界面、用户体验）|2019年二季度|进行中| 
+|⧖ 集成新一批有ERC20代币|2019年二季度|进行中|
+|✓ 发布Wanchain PoS星系共识Beta测试|2019年三季度|已完成|
+|⧖ 集成新一批有ERC20代币|2019年三季度|进行中|
+|⧖ 发布移动端和桌面端轻钱包|2019年三季度|进行中|
+|⧗ Wanchain PoS星系共识上线主网|2019年四季度|待启动|
+|⧗ 跨链集成新的公链|2019年四季度|待启动|
+|⧗ 集成新一批有ERC20代币|2019年四季度|待启动|
+|⧗ Wanchain 4.0 - 与商业联盟链实现跨链集成|2019年四季度|待启动|
 
 
