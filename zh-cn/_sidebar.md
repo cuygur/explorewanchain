@@ -2,7 +2,7 @@
 
   - [Wanchain简介](zh-cn/README.md "Wanchain - Introduction")
   - [集成的跨链代币](zh-cn/get_started/supported-chains.md "Wanchain - Supported Chains")
-  - [WAN](zh-cn/get_started/wan.md "Wanchain - WAN Token")
+  - [WAN代币](zh-cn/get_started/wan.md "Wanchain - WAN Token")
 
 - 钱包和工具
 
