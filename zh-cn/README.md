@@ -5,28 +5,29 @@ Wanchain是一个公链项目，它支持用Solidity进行智能合约的开发�
 
 ### 愿景
 
-Wanchain's vision is to become the asset transport layer of the blockchain world, similar to the TCP transport layer of the Internet, only for assets based on distributed ledger technology. Currently, the only way to efficiently transfer value between isolated blockchains is either P2P or through the use of a trusted third party such as a centralized cryptocurrency exchange or OTC trading desk. Since the abolition of the reliance on trusted 3rd parties is one of the core goals of the blockchain revolution, it is clear that a solution must be implemented to do away with them. Wanchain aims to be that solution. As the asset transport layer of the blockchain world, Wanchain will allow for direct transfer of value between blockchains without the use of a trusted 3rd party. It will allow for the development of entirely decentralized and unstoppable cross chain cryptocurrency exchanges and applications. 
+我们坚信未来是去中心化的。所谓民之所建，民之所有。万维链的愿景是依靠技术驱动，让世间万链互连互通。我们将纯粹依靠数学算法而非品牌、机构等中心化信任中介，致力于构建去中心化的金融基础设施，构建包容、分布式的经济社会。我们将继续专注于万维链的平台开发，集成更多的公链、私链和联盟链，丰富和完善我们的生态系统，提升开发工具的易用性和友好性，给广大用户带来越来越多有价值的行业落地应用。 
 
-### Milestones
+### 路线图
 
-| **Milestone**  |**Date**   |**Status** | 
+| **项目进度关键节点**  |**时间**   |**状态** | 
 |:---|:---|:---|
-|✓ Wanchain 1.0 | January 2018 |  Complete |   
-|✓ Wanchain 2.0 | July 2018  | Complete  |   
-|✓ Wanchain 3.0 | December 2018  | Complete|   
-|✓ Release Wanchain Proof of Stake (PoS) research paper |Q1 2019|Complete|   
-|✓ Proof of Concept for PoS|Q1 2019|Complete|   
-|✓ Next batch of ERC20 integrations released|Q1 2019|Complete|   
-|⧖ Staking Pilot April-July|Q2 2019|In Progress|  
-|⧖ Alpha testnet for Wanchain PoS|Q2 2019|In Progress| 
-|⧗ Integration with new blockchain|Q2 2019|Pending| 
-|⧗ Wallet improvement (UX/UI)|Q2 2019|Pending| 
-|⧗ Next batch of ERC20 integrations release|Q2 2019|Pending|
-|⧗ Beta testnet for Wanchain PoS|Q3 2019|Pending|
-|⧗ Next batch of ERC20 integrations release|Q3 2019|Pending|
-|⧗ Mobile/light multi-asset wallet release|Q3 2019|Pending|
-|⧗ Proof of Stake goes live on mainnet|Q4 2019|Pending|
-|⧗ Integration with another new blockchain|Q4 2019|Pending|
-|⧗ Next batch of ERC20 integrations released|Q4 2019|Pending|
-|⧗ Wanchain 4.0 - Cross-chain Integration with Enterprise Blockchain|Q4 2019|Pending|
+|✓ Wanchain 1.0|2018年1月|已完成|   
+|✓ Wanchain 2.0|2018年7月|已完成|   
+|✓ Wanchain 3.0|2018年12月|已完成|   
+|✓ Release Wanchain Proof of Stake (PoS) research paper |2019年一季度|已完成|   
+|✓ Proof of Concept for PoS|2019年一季度|已完成|   
+|✓ Next batch of ERC20 integrations released|2019年一季度|已完成|   
+|✓ Staking Pilot April-July|2019年二季度|已完成|  
+|✓ Alpha testnet for Wanchain PoS|2019年二季度|已完成| 
+|⧖ Integration with EOS|2019年二季度|进行中| 
+|⧖ Wallet improvement (UX/UI)|2019年二季度|进行中| 
+|⧗ Next batch of ERC20 integrations release|2019年二季度|进行中|
+|✓ Beta testnet for Wanchain PoS|2019年三季度|已完成|
+|⧖ Next batch of ERC20 integrations release|2019年三季度|进行中|
+|⧖ Mobile/light multi-asset wallet release|2019年三季度|进行中|
+|⧗ Proof of Stake goes live on mainnet|2019年四季度|待启动|
+|⧗ Integration with another new blockchain|2019年四季度|待启动|
+|⧗ Next batch of ERC20 integrations released|2019年四季度|待启动|
+|⧗ Wanchain 4.0 - Cross-chain Integration with Enterprise Blockchain|2019年四季度|待启动|
+
 
