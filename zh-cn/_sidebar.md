@@ -15,7 +15,7 @@
 - 技术
 
   - [Cross Chain Overview](technology/cross-chain.md "Wanchain - Cross Chain") 
-  - [隐私保护](technology/privacy.md "Wanchain - Privacy Protection") 
+  - [隐私保护](zh-cn/technology/privacy.md "Wanchain - Privacy Protection") 
   - [Smart Contracts](technology/smart-contracts.md "Wanchain - Smart Contracts")
   - [Gwan](technology/gwan.md "Wanchain - Gwan")
   - [iWan](technology/iwan.md "Wanchain - iWan")
