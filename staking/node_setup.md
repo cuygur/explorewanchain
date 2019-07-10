@@ -245,7 +245,7 @@ In the following command, you should replace the `0x8d8e7c0813a51d3bd1d08246af2a
 $ gwan --testnet --etherbase "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --unlock "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --password /tmp/pw.txt  --mine --minerthreads=1 --syncmode "full"
 ```
 
-## Common Operations (CLI Based)
+## Common Operations (CLI)
 
 #### 1) PoS account creation
 
@@ -343,7 +343,7 @@ Validators can use `stakeUpdate.js` to set lock time to 0. It will be un-registe
 
 Delegators can use Wan wallet to delegate In or delegate Out.
 
-## Common Operations (MyWanWallet Based)
+## Common Operations (Web)
 
 Various common staking operations may be accessed from the [MyWanWallet](https://mywanwallet.io) web wallet. 
 
