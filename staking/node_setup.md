@@ -29,7 +29,7 @@ The script will prompt you to enter the name of the validator, which is used as 
 
 The script will prompt you to enter the password for the validator account.
 
-After executing the script you should see three pieces of information that you need to save. That includes your validator public address, a pair of two validator public keys, and a JSON keystore file. Keep all this information in a safe place.  
+After executing the script you should see three pieces of information that you need to save. That includes your validator public address, a pair of two validator public keys, and a JSON keystore. Keep all this information in a safe place.  
 
 #### 2) Register validator from wallet
 
