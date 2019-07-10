@@ -1,8 +1,8 @@
-# WAN
+# WAN代币
 
-### What is WAN?
+### 什么是WAN?
 
-WAN or Wancoin is the native currancy of Wanchain. All Wanchain transactions, cross chain transactions, and smart contracts are powered by WAN. WAN will also used be used as stake in Wanchain's upcoming [Proof of Stake](../technology/pos.md) system, and also serves as bond for Wanchain's cross chain [Storeman](../technology/storeman.md) nodes.   <b><i>WAN and Wanchain based tokens are NOT ERC-20 tokens. Do not send any WAN or WRC-20 tokens to an Ethereum address or they will be lost forever.</i></b>
+WAN也叫Wancoin是Wanchain的原生代币。Wanchain的普通交易、跨链交易、智能合约的运行都要用到WAN。WAN还将用于即将在主网上线的[PoS星系共识](../technology/pos.md)中，人们用WAN来进行质押（Staking）和委托（Delegating），同时获得相应的奖励。[Storeman节点组](../technology/storeman.md)通过提供跨链服务同样获得WAN的奖励。**WAN以及在Wanchain平台上开发发行的代币不是ERC20代币。切勿将WAN或WRC20代币发送到ETH地址，此番操作，可能会导致您永久丢失WAN代币。**
 
 ### WAN Supply
 
