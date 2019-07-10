@@ -72,7 +72,7 @@ That completes the EC2 instance creation.
 
 ## SSH login to AWS EC2
 
-To use the SSH login method under Linux, set the key file permissions with the following command (make sure to replace `your_keyfile.pem` with whatever you named your key file:
+To use the SSH login method under Linux, set the key file permissions with the following command (make sure to replace `your_keyfile.pem` with whatever you named your key file):
 
 ```  
 chmod 400 your_keyfile.pem  
@@ -81,7 +81,7 @@ SSH login command (make sure to replace `your_EC2_ip_address` with your EC2 inst
 ```
 ssh -i your_keyfile.pem ubuntu@your_EC2_ip_address
 ```
-The PuTTy login on Windows needs to use PuTTyGen to convert .pem to ppk, and select ppk file in Auth option of PuTTy tool.
+Windows users should use PuTTY to SSH in, see Amazon's [instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html).
 
 ## How to Delete an EC2 instance
 
