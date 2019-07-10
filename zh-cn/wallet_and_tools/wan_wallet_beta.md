@@ -1,57 +1,109 @@
-Try the All New Wan Wallet (Beta Testnet Version)
-Updated UI and Galaxy Consensus features (staking, delegation, network info)
-Functions and Highlights
-Wan Wallet is Wanchain's first official desktop light wallet, and is available on Mac, Windows, and Linux. The initial release supports these functions:
-WAN asset management
-Standard transfer and receive transactions
-Supports for making and managing delegations under Galaxy Consensus Proof of Stake
-Ledger hardware wallet support
 
-Upcoming features to be implemented before the end of the year include:
-Staking support for validator node operators (will be implemented 3rd quarter along with the launch of Galaxy Consensus on the mainnet).
-Multi-crypto asset management support (4th quarter)
-Private transactions (4th quarter)
-Cross chain transactions (4th quarter)
+功能与亮点
 
-Note: The wallet currently only supports the testnet, please do not make any mainnet transactions to an address on the wallet!
-1. Download and Install
-Please download Wan Wallet (beta version) from the following link:
-wanchain/wan-wallet-desktop
-WAN Wallet for Desktop. Contribute to wanchain/wan-wallet-desktop development by creating an account on GitHub.github.com
-Double click the install package and follow the on screen instructions to install.
-2. Register New Account
-When you first open Wan Wallet, you must register a new account. First set your password:
-IMPORTANT: Next record your backup mnemonic phrase. Do not take a screenshot, rather you should write it by hand. Do not share your phrase with anyone. This phrase is the only way to recover your account. 
- Note: this is a throw away account, NEVER share your seed phrase with anyone Click 'Next' to complete the new account registration process. 
-3. Generate a New Address 
-Wan Wallet supports the creation of multiple addresses for one account, simply click: Wallet > WAN > Create
-Wallet > WAN > CreateAccounts may also be renamed as you wish.
-4. Normal Transactions
-Click 'Send', enter sending and receiving account information along with the transaction amount, select the service fee, and click next, and then click send again to complete your transaction. 
-Under 'Advanced Options' are additional parameters which advanced users may adjust.
-5. Delegation
-Wanchain's newly introduced Galaxy Consensus Proof of Stake has a completely non-custodial delegation mechanism. Users may choose from amongst all available validators the one which they trust to send their delegations too. By delegating their stake to validator nodes in this way, all users have the opportunity to earn consensus rewards. The minimum required amount for delegation is 100 WAN. 
-Within the delegation interface users may clearly check their amount of staked WAN, their accumulated rewards from delegation, the yearly return rate for the entire network, and pending withdrawals. Users can also check a table of all their previous delegation transaction history. 
-In order to make a new delegation, click 'New Delegation', choose a validator from the list, under 'My Account', choose the account from which you would like to delegate, and enter the amount you would like to delegate in the 'Amount' field. During the process of delegation, there are several parameters you should pay attention to. First, the validator's 'Quota' represents the amount of WAN that validator is able to accept in delegations. Please also note the 'Fee' parameter. This parameter is the percent fee charged as commission by the validator. For example, if the network reward is 50 WAN and the fee is 15%, then you will receive 42.5 WAN as your reward, and 7.5 WAN will be paid to the validator.
-In the images below, a user is delegating 100 WAN to a validator node. 
-After a completing a delegation, you can see 100 WAN displayed under "My Delegations." Previous delegation details may be viewed from within the delegations history. If the user wishes to increase their delegation, they may click on the 'Top up' button.
-6. Connecting a Hardware Wallet
-After the Wanchain mainnet officially moves over to proof of stake, Wan Wallet will support the Ledger hardware wallet.
-(NOTE: The current beta test version of the wallet does not support Ledger)
-7. Settings
-There are currently three selections under settings, 'Config', 'Backup' and 'Restore'.
-Under 'Config', you may choose to require your password to be input for every transaction.
-Under 'Backup', you may enter your password to get your backup mnemonic phrase.
-Under 'Restore', you may enter your backup phrase to restore a previous wallet.
-8. Multilingual Support
-Under Settings > Language, you may choose between English and Mandarin Chinese. In the future, we will add support for French, Spanish, Japanese, Korean, and other languages.
-Thank you for downloading and testing the new Wan Wallet! If you have any questions, please feel free to get in touch at techsupport@wanchain.org. Stay tuned for the official release!
-Learn more about Galaxy Consensus in our Deep Dive series:
-Part 1: General Overview
-Part 2: Random Number Generation
-Part 3: Leader Selection Algorithms
-Part 4: Delegation Mechanism
-Part 5: Economic Incentives
-About Wanchain
-Wanchain is the infrastructure connecting the decentralized financial world. Wanchain's live cross-blockchain solution is EVM-based, includes optional private transactions, and provides a decentralized, permissionless, and secure approach for interoperability. Wanchain has employees globally with teams in Beijing (China), Austin (USA), London (UK), Kuala Lumpur (Malaysia), Paris (France), and Madrid (Spain).
-You can find more information about Wanchain on our website. Additionally, you can reach us through Telegram, Discord, Medium, Twitter, and Reddit. You can also sign up for our monthly email newsletter here.
+Wan Wallet是Wanchain官方发布的首个轻节点钱包，此次发布同时提供Mac、Windows和Linux版本的安装包。目前主要功能包括：
+支持WAN资产管理
+支持普通转账
+支持星系共识中委托人的委托参与和管理
+支持硬件钱包Ledger
+ 
+同时，今年下半年，我们会在此轻钱包上新增几大亮点功能：
+支持星系共识中验证节点的质押和管理（第三季度，星系共识上线主网时推出）
+对其他加密货币资产的支持和管理（第四季度）
+隐私转账（第四季度）
+跨链转账（第四季度）
+
+注：当前发布的轻钱包只支持测试网络，请不要把主网上的WAN代币发送到该钱包的地址中。
+ 
+1. 下载与安装
+
+请通过如下地址下载Wan Wallet（Beta版）：
+https://github.com/wanchain/wan-wallet-desktop/releases
+
+双击安装包，根据提示一步步完成安装即可。
+ 
+2. 注册新账户
+
+首次打开Wan Wallet时，需要注册一个新账户。根据界面提示，设置密码：
+
+ 
+
+
+备份和确认助记词。请注意：一定要备份助记词，不要截屏或拍照，建议手抄下来，不要暴露给第三方。
+
+ 
+
+
+点击下一步，完成新账户注册。
+ 
+3. 新建地址
+ 
+Wan Wallet钱包允许在一个账户下创建多个地址。
+ 
+在钱包->WAN目录下，点击新建便可方便创建一个新地址。
+
+下图创建了两个新地址，Account1和Account2，并在Account1中存入60000WAN。地址名称可随意修改。
+
+ 
+
+
+4. 普通转账
+
+点击发送，输入转入方地址和转账金额，选择手续费用，完成转账交易。可在高级选项中设置更多的参数值。
+
+下图中，Account1地址向Account2地址转账500WAN。
+
+
+ 
+
+
+
+5. 委托质押
+ 
+Wanchain新推出的星系共识PoS具有完整的委托机制。用户作为委托人可在全网中选择自己认可的验证节点，并将手中的代币委托给该验证节点，从而获取权益挖矿的收益。委托最低门槛是100WAN。
+ 
+在委托界面中，用户可以清楚地了解到自己的WAN委托量、累计奖励金额、当前测算的全网年化收益率、退款WAN代币数量。同时，用户还可以查看自己当前的委托列表以及历史委托记录。
+
+
+
+点击新建委托，在验证人账户列表中选择想要委托的验证人名称，在我的账户中选择要进行委托的转出地址，输入委托金额。在设置委托过程中，需要关注几个参数，验证人的可用额度，其数值代表该验证人最多还能接受多少的委托量；验证人的佣金，该数值表示委托人的最终收益是总收益扣除相应的佣金，如总收益是50WAN，佣金是15%，则委托人最终收到42.5WAN。
+ 
+下图中，某用户向验证节点委托100WAN。
+
+
+ 
+委托成功之后，在我的委托中显示100WAN的委托量；在委托列表中，便能显示该条委托记录。如果用户想追加委托资金，则可点击充值。
+
+
+ 
+追加成功后，如下图所示：
+ 
+
+ 
+6. 连接硬件钱包
+
+待Wanchain主网的共识机制正式切换至PoS星系共识后，Wan Wallet将支持硬件钱包Ledger的接入。
+注：当前Beta测试版环境下，连接Ledger的功能不可用。
+
+
+ 
+7. 备份和恢复助记词
+
+在设置中，目前提供三部分功能：
+在配置栏中，对发送交易的时候再次输入密码勾选，则每次交易都会被要求再次输入密码，从而提高资金的安全性。
+在备份栏中，可对助记词进行备份。
+在恢复栏中，可对助记词进行恢复。
+
+
+ 
+8. 支持多语言
+
+通过设置->语言，用户便可方便切换钱包的界面语言，切换过程无须关闭钱包再重启。
+
+未来，我们会支持逐步支持法语、西班牙语、日语、韩语等全球主流国家的语言。
+
+
+
+感谢您下载并使用Wan Wallet。如您有任何疑问，可发送邮件到techsupport@wanchain.org，或者直接在我们的微信群、电报群反馈。
+ 
+Wanchain感谢您的支持！
