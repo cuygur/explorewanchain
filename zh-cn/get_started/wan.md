@@ -21,7 +21,9 @@ WAN的基本单位是Win。以下是WAN在不同单位下相对应的价值。
 |Wan|1e18 win|1,000,000,000,000,000,000|   
 
 **分配比例**
+
 ![](media/totaldistribution.png)
 
 **其中占比19% 生态基金的分配比例**
+
 ![](media/distribution.png)
