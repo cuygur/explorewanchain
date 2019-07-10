@@ -28,35 +28,40 @@ The script will prompt you to enter the name of the validator, which is used as 
 
 The script will prompt you to enter the password for the validator account.
 
-After executing the script you should see three pieces of information that you need to save. That includes your validator public address, a pair of two validator public keys, and a JSON keystore file.
+After executing the script you should see three pieces of information that you need to save. That includes your validator public address, a pair of two validator public keys, and a JSON keystore file. Keep all this information in a safe place. Copy the JSON string into a seperate file with a `.json` extension, for example, `mykeystore.json`.
 
 #### 2) Register validator from wallet
 
-Next, you can complete the validator registration behavior through the wallet.
+Next, you can complete the validator registration behavior through the web based [MyWanWallet](https://mywanwallet.io/).
 
-Register via web wallet: https://mywanwallet.io/
-
-When registering in the web wallet, you need to pay attention to first select the network in the upper right corner. The beta phase requires the selection of a testnet network.
+When registering in MyWanWallet, make certain to select the 'WAN Testnet' network in the upper right corner.  
 
 Click on the Contract page and select the Staking contract.
 
-After selecting Access, select StakeIn to complete the node registration.
+After selecting Access, select StakeIn.
 
-![img](/media/8.png)
+![](/media/8.png)
 
 **!!!Note!!!**
+Fill in all the empty fields. 
 
-The `secPk` and `bn256Pk` are the two public keys returned after the script is executed.
+The `secPk` and `bn256Pk` are the two public keys returned after the script is executed. 
 
-The `lockEpochs` is the lock time, which ranges from 7 to 90.
+The `lockEpochs` is the lock time, which ranges from 7 to 90 (one epoch is approximately one day, the chance for earning rewards increases with the length of lock time). 
 
-Where `feeRate` is the commission rate, which ranges from 0 to 10000, representing a commission rate of 0.00% to 100.00%.
+`feeRate` is the commission rate, which ranges from 0 to 10000, representing a commission rate of 0.00% to 100.00%.
 
-After filling out, select the wallet type and import the wallet.
+After filling out all the fields, select `Keystore / JSON File` as your wallet type and import your wallet using the JSON file you created in the above step (`mykeystore.json`, for example).
 
-The amount locked is entered on the next page.
+Then click 'Write' to begin the transaction.
 
-Follow the prompts to complete the validator registration.
+~[](/media/stake_register.png)
+
+In the pop up window, in the 'Amount to Send' field, enter the amount of WAN you will stake in your validator node.
+
+In the 'Gas Limit' field, enter the gas limit for your transaction (21000 is the default, you may need to increase if there is network congestion). 
+
+Click 'Yes, I am sure!' to complete your transaction. You can check your transaction by searching for your validator's address at [http://testnet.wanscan.org/](http://testnet.wanscan.org/). To have your node name and logo displayed on the Wanscan website, please get in touch at [techsupport@wanchain.org](techsupport@wanchain.org).
 
 #### 3) Send Tx Gas Fee to Validator address
 
@@ -234,7 +239,7 @@ In the following command, you should replace the `0x8d8e7c0813a51d3bd1d08246af2a
 $ gwan --testnet --etherbase "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --unlock "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --password /tmp/pw.txt  --mine --minerthreads=1 --syncmode "full"
 ```
 
-## Common Operations
+## Common Operations (CLI Based)
 
 #### 1) PoS account creation
 
@@ -284,19 +289,7 @@ $ eth.getBalance("Your Address Fill Here")
 $ eth.getBalance("0x8c35B69AC00EC3dA29a84C40842dfdD594Bf5d27")
 ```
 
-#### 3) Get test WAN
-
-If you want to get some test WAN to experiment with Galaxy Consensus, you can fill a form on this URL: (Waiting to update...)
-
-[Wanchain-Faucet](http://54.201.62.90/)
-
-| Index            | Email         | 
-| --------------  | :------------  | 
-|1| techsupport@wanchain.org| 
-
-
-
-#### 4) Registration and delegation
+#### 3) Registration and delegation
 
 If you have an account with WAN coins and you want to create a Galaxy Consensus validator, you should do it as in the diagram below:
 
@@ -343,3 +336,35 @@ $ pos.getEpochIncentivePayDetail(19000)
 Validators can use `stakeUpdate.js` to set lock time to 0. It will be un-register at next period. 
 
 Delegators can use Wan wallet to delegate In or delegate Out.
+
+## Common Operations (MyWanWallet Based)
+
+Various common staking operations may be accessed from the [MyWanWallet](https://mywanwallet.io) web wallet. 
+
+Make certain to select the 'WAN Testnet' network in the upper right corner.  
+
+Click on the 'Contracts' page and select the 'Staking' contract from the 'Select Existing Contract' drop down menu.
+
+Click 'Select a function' to see the available functions.
+
+![](media/staking_functions.png)
+
+`stakeIn` is the function used above to register as a validator and fund the intial stake on the network.
+
+![](media/stake_in.png)
+
+`stakeUpdate` is used to modify the length of the staking period. Validator nodes are set to auto renew at the end of each staking period for the same amount of time as the initial `lockEpochs` time specified when registering. In order to end staking and withdraw funds at the end of a staking period, the validator should use `stakeUpdate` to set the `lockEpochs` time to 0. This will be effective at the end of the current staking period. 
+
+![](media/stake_update.png)
+
+`stakeAppend` is used to add additional stake to the validator node. Validators may add stake at any time, but may not reduce stake during their staking period. 
+
+![](media/stake_append.png)
+
+`delegateIn` is a function available to normal WAN holders who wish to delegate to a validator through the web wallet interface. This function is available through the official WAN wallet, this is simply another option for users.
+
+![](media/delegate_in.png)
+
+`delegateOut` is a function available to normal WAN holders who wish to withdraw their delegation from a validator node. They may withdraw at any time, although there will be a withdrawal period of several epochs before their funds will be unlocked. 
+
+![](media/delegate_out.png)
