@@ -339,7 +339,7 @@ $ pos.getEpochIncentivePayDetail(19000)
 
 #### 6) Unregister and Unlock
 
-Validators can use `stakeUpdate.js` to set lock time to 0. It will be un-register at next period. 
+Validators can use [`stakeUpdate.js`](https://github.com/wanchain/go-wanchain/tree/develop/loadScript) to set lock time to 0. It will be un-register at next period. 
 
 Delegators can use Wan wallet to delegate In or delegate Out.
 
