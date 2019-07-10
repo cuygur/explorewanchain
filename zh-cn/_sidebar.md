@@ -25,13 +25,16 @@
 
 - PoS星系共识(Beta版)
 
-  - [关键术语和参数](zh-cn/staking/parameters.md)
-  - [创建成为验证节点](zh-cn/staking/node_setup.md)
-  - [申请WAN测试币](zh-cn/staking/get_test_wan.md)
-  - [创建成为委托人](zh-cn/staking/delegation.md)
-  - [申请和创建AWS账号](zh-cn/staking/aws.md)
-  - [Beta测试奖励方案](zh-cn/staking/rewards_program.md)
   - [Beta版产品新增和参数改进](zh-cn/staking/alpha_beta.md)
+  - [申请WAN测试币](zh-cn/staking/get_test_wan.md)
+  - [Beta测试奖励方案](zh-cn/staking/rewards_program.md)
+  - [关键术语和参数](zh-cn/staking/parameters.md)
+  - [软硬件环境要求](zh-cn/staking/environment.md)
+  - [申请和创建AWS账号](zh-cn/staking/aws.md)
+  - [创建合适的EC2虚拟机](zh-cn/staking/ec2.md)
+  - [创建成为验证节点](zh-cn/staking/node_setup.md)
+  - [创建成为委托人](zh-cn/staking/delegation.md)
+  - [常用操作](zh-cn/staking/common_operation.md)  
 
 - 社区
 
