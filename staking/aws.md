@@ -83,6 +83,8 @@ ssh -i your_keyfile.pem ubuntu@your_EC2_ip_address
 ```
 Windows users should use PuTTY to SSH in, see Amazon's [instructions](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html).
 
+Now you are finished. If you would like set up a validator node, please follow the instructions [here](staking/node_setup.md).
+
 ## How to Delete an EC2 instance
 
 First terminate the instance:
