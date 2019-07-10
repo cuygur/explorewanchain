@@ -6,6 +6,8 @@ WAN也叫Wancoin是Wanchain的原生代币。Wanchain的普通交易、跨链交
 
 ## WAN代币分配
 
+**WAN基本单位**
+
 WAN的基本单位是Win。以下是WAN在不同单位下相对应的价值。
 
 |**单位**|**Win值**|**Win**| 
@@ -18,8 +20,8 @@ WAN的基本单位是Win。以下是WAN在不同单位下相对应的价值。
 |Finney|1e15 win|1,000,000,000,000,000|   
 |Wan|1e18 win|1,000,000,000,000,000,000|   
 
-## 分配比例
+**分配比例**
 ![](media/totaldistribution.png)
 
-## 其中占比19% 生态基金的分配比例
+**其中占比19% 生态基金的分配比例**
 ![](media/distribution.png)
