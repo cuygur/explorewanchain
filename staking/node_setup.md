@@ -1,18 +1,20 @@
 # Validator Node Setup
 
-This is a guide for helping getting started as a Wanchain Galaxy Consensus validator node. Please join our [Gitter chat room](https://gitter.im/wandevs/community) for additional guidance. 
+This is a guide for helping getting started as a Wanchain Galaxy Consensus validator node. There are two options for setting up a validtor node. [Quick Start](staking/node_setup?id=quick-start-from-script), or [Extended Setup](staking/node_setup?id=extended-setup). We recommend users follow the Quick Start guide. Please join our [Gitter chat room](https://gitter.im/wandevs/community) for additional guidance. 
 
 **Software Environment**
 - We recommend using Linux or MacOS
-- [Docker](https://www.docker.com/)  
-- Install Golang from https://golang.org/ and set GO environment variables `$GOPATH` and `$GOROOT` if you want to build from source code.
 - You may use a cloud server such as AWS or run on bare metal. See our [AWS getting started guide](staking/aws.md) for more information.
 - If using AWS, we recommend AWS m4.xlarge with the following configuration
   - CPU: 4
   - RAM:16G
   - Disk 256G
+  
+*For manual setup you also need:*
+- [Docker](https://www.docker.com/)  
+- Install Golang from https://golang.org/ and set GO environment variables `$GOPATH` and `$GOROOT` if you want to build from source code.
 
-## Quick start from Script
+## Quick Setup
 
 #### 1) Run a command to create and run validator
 
@@ -64,7 +66,8 @@ The handling fee is generally not more than 0.01 wan per transaction, so a trans
 
 Please check the balance of the validator address regularly through the browser to ensure that transaction fees are always available.
 
-## Quick start from Docker
+## Extended Setup
+*This method of setup is deprecated, we recommend using the Quick Start guide above*
 
 #### Step by step node setup
 
