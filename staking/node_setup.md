@@ -55,7 +55,7 @@ After filling out all the fields, select `Keystore / JSON File` as your wallet t
 
 Then click 'Write' to begin the transaction.
 
-~[](/media/stake_register.png)
+[](/media/stake_register.png)
 
 In the pop up window, in the 'Amount to Send' field, enter the amount of WAN you will stake in your validator node.
 
