@@ -5,7 +5,7 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 **Wancoin (WAN)** — The Wancoin is the native currency staked by Validator nodes to secure and run Wanchain’s network. Validator nodes will gain “Staking Power” (see below) in Wanchain’s Proof of Stake consensus by staking more WAN and by committing to a longer period of staking. In return for Validators and Delegators staking in Wanchain’s network, both groups will be rewarded with Wancoins when their node is selected to produce a given set of blocks in an epoch (see “epoch” below). Validators and Delegators are also rewarded with transaction fees during the epoch, as the Wancoin is also used for network transaction fees in decentralized applications and cross-blockchain transactions.
 
-**Validators** — Validators on the Wanchain network secure the network by playing one of two roles (see RNP and EL below) in the process of proposing, validating, and finalizing blocks. Validators can take two forms in the Galaxy consensus, either taking delegation or being a non-delegating node (below). An epoch lasts 2 days, so there are approximately 15 epochs per month. To run a standard Validator node that can accept delegation, it will require a larger amount of WAN than it will to run a non-delegating validator.
+**Validators** — Validators on the Wanchain network secure the network by playing one of two roles (see RNP and EL below) in the process of proposing, validating, and finalizing blocks. Validators can take two forms in the Galaxy consensus, either taking delegation or being a non-delegating node (below). An epoch lasts ~1 day, so there are approximately 30 epochs per month. To run a standard Validator node that can accept delegation, it will require a larger amount of WAN than it will to run a non-delegating validator.
 
 **Delegators** — Delegators are anyone who delegates their stake to a Validator node. See [Partners > Staking](/community/partners?id=staking).
 
@@ -13,7 +13,7 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 **Non-Delegating Validators** — Non-delegating Validator nodes are nodes with a lower minimum WAN required and cannot accept delegation. There is no difference in how the two types of nodes participate in consensus, only in their ability to receive delegations. In order to become a Validator node, a larger amount of WAN must be staked by the node operator than the Non-Delegating node.
 
-**Epoch** — An epoch is one protocol cycle, which occurs roughly every two days. Nodes participating in the epoch, lasting 1400 blocks, will be rewarded for their contributions as Random Number Proposers or Epoch Leaders.
+**Epoch** — An epoch is one protocol cycle, which is roughly one day in length. Nodes participating in the epoch, lasting 1400 blocks, will be rewarded for their contributions as Random Number Proposers or Epoch Leaders.
 
 **Random Number Proposer (RNP)** — The RNP group is responsible for the critical work of jointly generating a random number for each block, to be used as an important seed for selecting which nodes make up the Epoch Leader groups to produce a given block. More technical detail in the Galaxy consensus research paper.
 
@@ -21,9 +21,9 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 **Staking Power** — Staking Power, unique to Wanchain’s Galaxy consensus and referred to as wanstake in the research paper, is earned by Validators mainly by the amount of WAN staked in the node. However, there is also a time multiplier applied when Validators commit to a longer lock period for their node.
 
-**Withdraw Delay** — Validators have a 1–2 day withdraw delay, making it possible to withdraw funds after any given epoch is complete. Delegators can withdraw at any time, but there is a delay of approximately 7–8 days to avoid long range attacks.
+**Withdraw Delay** — Validators have a 1–2 day withdraw delay at the end of their staking period. Delegators can withdraw at any time, but there is a delay of approximately 3-4 days to avoid long range attacks.
 
-**Commission Rate** — The commission rate is the fee charged by Validators for their service to delegators. Most Validators charge somewhere in the 10–20% range in the current market offerings.
+**Commission Rate** — The commission rate is the fee charged by Validators for their service to delegators.  
 
 ## Parameters
 
@@ -35,7 +35,6 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 |  The number of validator nodes chosen to participate each epoch | 75, of which 49 are open to the public. The Foundation temporarily reserves 26 for network security at launch (the Foundation’s nodes operate normally but will not receive rewards, and will gradually be phased out.  |  
 |  The maximum amount of stake for a single validator node | 10.5 million WAN. This value is the upper limit of the sum of the validator node’s own staking amount and the delegated amount received by the validator node.  |  
 |  Lifetime network reward | 21,000,000 WAN is reserved by the Foundation as PoS reward; 2,500,000 WAN will be distributed in the first year, and will then decrease by 12% per year. |  
-|  Validator node’s locking period | 7 to 90 days, can be freely chosen between this range. After the locking period expires, the staked WAN will become available within one day.  |  
-|  Delegators’ withdrawal delay | Staking can be initiated or canceled at any moment. Withdrawal Delay is 1 day if delegator is following the validator’s exit, otherwise the delay is 3–4 days.  |  
-
+|  Validator node’s locking period | 7 to 90 epochs/days, and can be freely chosen between this range. After the locking period expires, the staked WAN will become available within one day.  |  
+|  Delegators’ withdrawal delay | The withdrawal period for delegators is normally 3-4 days after they end delegation. Delegators may end delegation at any time, and may withdraw their funds after the withdrawal period. If delegation ends due to the validator's staking period finishing, then the withdrawal period for the delegator is only one day.|  
 
