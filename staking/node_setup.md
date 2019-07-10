@@ -78,7 +78,7 @@ Please check the balance of the validator address regularly through the [WanScan
 
 
 ## Extended Setup
-*This method of setup is deprecated, we recommend using the Quick Start guide above*
+*This method of setup is for advanced users. We recommend using the Quick Start guide above for most users.*
 
 #### Step by step node setup
 
