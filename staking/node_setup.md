@@ -2,8 +2,9 @@
 
 This is a guide for helping getting started as a Wanchain Galaxy Consensus validator node. There are two options for setting up a validtor node. [Quick Start](staking/node_setup?id=quick-start-from-script), or [Extended Setup](staking/node_setup?id=extended-setup). We recommend users follow the Quick Start guide. Please join our [Gitter chat room](https://gitter.im/wandevs/community) for additional guidance. 
 
-**Software Environment**
+**Setup**
 - We recommend using Linux or MacOS
+- A wallet with the WAN you wish to stake + a small amount of WAN for service fees.
 - You may use a cloud server such as AWS or run on bare metal. See our [AWS getting started guide](staking/aws.md) for more information.
 - If using AWS, we recommend AWS m4.xlarge with the following configuration
   - CPU: 4
@@ -28,7 +29,7 @@ The script will prompt you to enter the name of the validator, which is used as 
 
 The script will prompt you to enter the password for the validator account.
 
-After executing the script you should see three pieces of information that you need to save. That includes your validator public address, a pair of two validator public keys, and a JSON keystore file. Keep all this information in a safe place. Copy the JSON string into a seperate file with a `.json` extension, for example, `mykeystore.json`.
+After executing the script you should see three pieces of information that you need to save. That includes your validator public address, a pair of two validator public keys, and a JSON keystore file. Keep all this information in a safe place.  
 
 #### 2) Register validator from wallet
 
@@ -42,7 +43,6 @@ After selecting Access, select StakeIn.
 
 ![](/media/8.png)
 
-**!!!Note!!!**
 Fill in all the empty fields. 
 
 The `secPk` and `bn256Pk` are the two public keys returned after the script is executed. 
@@ -51,7 +51,13 @@ The `lockEpochs` is the lock time, which ranges from 7 to 90 (one epoch is appro
 
 `feeRate` is the commission rate, which ranges from 0 to 10000, representing a commission rate of 0.00% to 100.00%.
 
-After filling out all the fields, select `Keystore / JSON File` as your wallet type and import your wallet using the JSON file you created in the above step (`mykeystore.json`, for example).
+After filling out all the fields, select your wallet type.
+
+**!!!WARNING!!!**
+
+Do not use your validator account to fund the staking contract! The best security practice is to fund the account from a separate account secured with a hardware or offline wallet. The account which you use to fund the validator node will also be used to perform all staking related operations.
+
+**!!!WARNING!!!**
 
 Then click 'Write' to begin the transaction.
 
@@ -63,13 +69,12 @@ In the 'Gas Limit' field, enter the gas limit for your transaction (21000 is the
 
 Click 'Yes, I am sure!' to complete your transaction. You can check your transaction by searching for your validator's address at [http://testnet.wanscan.org/](http://testnet.wanscan.org/). To have your node name and logo displayed on the Wanscan website, please get in touch at [techsupport@wanchain.org](techsupport@wanchain.org).
 
-#### 3) Send Tx Gas Fee to Validator address
+#### 3) Send Gas Fee to Validator address
+The validator address must be funded with a small amount of WAN in order to pay network fees associated with the consensus process.
 
-After the registration is completed, a small transaction fee is also transferred to the verification node address for the execution of the POS protocol fee.
+Fees are generally not more than 0.01 WAN per transaction, so a transfer of 50 wan to the validator account can support long term use.
 
-The handling fee is generally not more than 0.01 wan per transaction, so a transfer of 50 wan to the validator account can support longe time use.
-
-Please check the balance of the validator address regularly through the browser to ensure that transaction fees are always available.
+Please check the balance of the validator address regularly through the [WanScan](http://testnet.wanscan.org/) to ensure that transaction fees are always available.
 
 ## Extended Setup
 *This method of setup is deprecated, we recommend using the Quick Start guide above*
