@@ -1,5 +1,6 @@
+# Wan Wallet官方轻钱包使用指南（Beta版）
 
-功能与亮点
+## 功能与亮点
 
 Wan Wallet是Wanchain官方发布的首个轻节点钱包，此次发布同时提供Mac、Windows和Linux版本的安装包。目前主要功能包括：
 支持WAN资产管理
