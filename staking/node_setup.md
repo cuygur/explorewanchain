@@ -67,14 +67,15 @@ In the pop up window, in the 'Amount to Send' field, enter the amount of WAN you
 
 In the 'Gas Limit' field, enter the gas limit for your transaction (21000 is the default, you may need to increase if there is network congestion). 
 
-Click 'Yes, I am sure!' to complete your transaction. You can check your transaction by searching for your validator's address at [http://testnet.wanscan.org/](http://testnet.wanscan.org/). To have your node name and logo displayed on the Wanscan website, please get in touch at [techsupport@wanchain.org](techsupport@wanchain.org).
+Click 'Yes, I am sure!' to complete your transaction. You can check your transaction by searching for your validator's address at [http://testnet.wanscan.org/](http://testnet.wanscan.org/). Your node should currently display `Joining` status. After 1-2 epochs (1 epoch ~ 1 day), your node will join the consensus process. To have your node name and logo displayed on the Wanscan website, please get in touch at [techsupport@wanchain.org](techsupport@wanchain.org).
 
-#### 3) Send Gas Fee to Validator address
+#### 3) Fund Validator Address With Gas Fees
 The validator address must be funded with a small amount of WAN in order to pay network fees associated with the consensus process.
 
 Fees are generally not more than 0.01 WAN per transaction, so a transfer of 50 wan to the validator account can support long term use.
 
 Please check the balance of the validator address regularly through the [WanScan](http://testnet.wanscan.org/) to ensure that transaction fees are always available.
+
 
 ## Extended Setup
 *This method of setup is deprecated, we recommend using the Quick Start guide above*
