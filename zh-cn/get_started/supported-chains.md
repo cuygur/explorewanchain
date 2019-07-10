@@ -1,6 +1,6 @@
-# Supported Tokens
+# 跨链集成的代币
 
-Below are the tokens for which cross chain transactions are currently supported on Wanchain. New tokens are continually added - follow our [Twitter](https://twitter.com/wanchain_org) to get the latest updates. 
+新的代币会持续集成，敬请期待。关注Wanchain微信公众号**Wanchain万维链**获取最新动态。
 
 - [Bitcoin (BTC)](https://bitcoin.org/en/)
 
