@@ -25,6 +25,8 @@ https://console.aws.amazon.com/ec2/
 
 ![](media/12.png)
 
+![](media/12-1.png)
+
 点击**下一步：配置实例详细信息**按钮
  
 配置实例详细信息，默认即可：
