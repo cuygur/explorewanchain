@@ -1,21 +1,19 @@
-# Beta Testnet Rewards Program
+# Beta测试奖励方案
+**Wanchain星系共识Beta测试奖励共分3大类：**
 
-**There are 3 categories of rewards for the PoS Beta Testnet:**
+### 任务类：
+- 成功搭建验证人节点（发放200WAN奖励）
+- 验证人节点运行达10日（发放200WAN奖励）
+- 吸引到1倍本金或更高的委托金额（发放100WAN奖励）
+ 
+### 纠错类：
 
-#### 1. Completing tasks:
+纠错范围：Gwan，钱包，浏览器，WanStats等POS相关工具
 
-* Successfully set up a validator node (200 WAN)
+按照发现的缺陷等级给与奖励（按照严重程度分3级，分别给予50，200，400WAN作为奖励）。Wanchain开发团队有权对缺陷等级进行鉴定。
+ 
+### 安全测试类：
 
-* The validator node runs for 10 days (200 WAN)
+若发现可能影响钱包，节点或公链安全的缺陷，将由Wanchain基金会单独给予特别奖励，由Wanchain总裁亲自授予。
 
-* Absorb a delegation amount higher or equal to the validator’s own staking amount (100 WAN)
-
-#### 2. Bug reporting: Send bug reports to - techsupport@wanchain.org
-
-**Scope: Gwan, Wan Wallet, new Explorer, WanStats and other POS related tools**
-
-Rewards are distributed according to the severity level of valid bug reported (50, 200, 400 WAN for 3 levels of severity). TheWanchain development team owns the whole right to identify the severity level.
-
-#### 3. Security reports: Send security reports to - techsupport@wanchain.org
-
-Finding defects that may affect the security of the wallet, nodes or public chain will be granted a special reward by the Wanchain Foundation. We sincerely encourage experienced teams or individuals to work with the Wanchain R&D team for security testing.
+我们诚邀有经验的团队或个人与Wanchain技术团队合作进行安全测试。
