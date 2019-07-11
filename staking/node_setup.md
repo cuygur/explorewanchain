@@ -2,6 +2,10 @@
 
 This is a guide for helping getting started as a Wanchain Galaxy Consensus validator node. There are two options for setting up a validtor node. [Quick Start](staking/node_setup?id=quick-start-from-script), or [Extended Setup](staking/node_setup?id=extended-setup). We recommend users follow the Quick Start guide. Please join our [Gitter chat room](https://gitter.im/wandevs/community) for additional guidance. 
 
+Check your validator node's status at: [http://testnet.wanscan.org/](http://testnet.wanscan.org/)
+
+Check the network status at: [http://testnet.wanstats.io/](http://testnet.wanstats.io/)
+
 **Setup**
 - We recommend using Linux or MacOS
 - A wallet with the WAN you wish to stake + a small amount of WAN for service fees.
@@ -25,11 +29,23 @@ After ssh login into cloud server. Run this command below:
 wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/deployValidator.sh && chmod +x deployValidator.sh && ./deployValidator.sh
 ```
 
-The script will prompt you to enter the name of the validator, which is used as the monitor display name on the wanstats website and does not represent the name on the blockchain browser.
+The script will prompt you to enter the name of the validator, which is used as the display name on the [wanstats website](http://testnet.wanstats.io/) and does not represent the name on the blockchain browser.
 
 The script will prompt you to enter the password for the validator account.
 
 After executing the script you should see three pieces of information that you need to save. That includes your validator public address, a pair of two validator public keys, and a JSON keystore. Keep all this information in a safe place.  
+
+If you need to restart your node, please use the following script:
+
+```
+wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/restartValidator.sh && chmod +x restartValidator.sh && ./restartValidator.sh
+```
+
+You can use the following command to see the validator logs (`Ctrl + c` to exit logs):
+
+```
+sudo docker logs -f gwan
+```
 
 #### 2) Register validator from wallet
 
