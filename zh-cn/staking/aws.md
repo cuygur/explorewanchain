@@ -1,97 +1,26 @@
-# Getting Started With AWS
+# 如何申请和创建AWS账号
+### 需要预先准备
 
-## Create an AWS Account
+- VISA等支持AWS支付的信用卡
+- 能接听电话的座机或手机号
+ 
+### 注册AWS账号
 
-AWS (Amazon Cloud) account creation
-Prerequisites:
-- Credit card
-- Landline or mobile phone
+访问亚马逊AWS官网：
+https://aws.amazon.com/cn/
+ 
+进入注册页面，填写注册信息，AWS账户名称填写拼音的姓名即可，如下图：
 
-* Navigate to the [AWS official website](https://aws.amazon.com/) and click the “Sign Up” button.
-* Fill in all registration information including your personal information and credit card details.
-* Next, the system will call to confirm your phone number. Enter the 4-digit number (ending with #) displayed on the computer screen.
-* If the account was successfully created, your card will be charged for $1 as part of the verification process (this will be refunded later).
+![](media/05.png)
+ 
+填写个人信息，需要使用拼音，地址填写信用卡的账单地址：
 
-## Create a Suitable EC2 Virtual Machine
+![](media/06.png)
 
-EC2 virtual machine set up
-##### 1. Create an AWS EC2 instance
+填写信用卡信息：
 
-Log in to the [EC2 console](https://console.aws.amazon.com/ec2/):
+![](media/07.png)
 
-Select the location of the machine in the upper right corner:
-
-![](media/staking1.png)
-
-Find “Instances” in the menu on the left side of the page
-
-![](media/staking2.png)
-
-Then click on the “Launch Instance” button:
-
-![](media/staking3.png)
-
-Choose an Amazon system image: Ubuntu 18.04 is recommended
-
-![](media/staking4.png)
-
-Select the instance type. We recommend the m4.large configuration.
-
-![](media/staking5.png)
-
-Click the “Next: Configure Instance Details” button and input the following default configuration:
-
-![](media/staking6.png)
-
-Click the “Next: Add Storage” button
-
-The recommended setting is 80GB
-
-![](media/staking7.png)
-
-
-Click the “Next: Add Tags” button to add tags for easy recall:
-
-![](media/staking8.png)
-
-Click the “Next: Configure Security Group” button
-
-Add firewall rule and then click the “Review and Launch” button to verify the instance:
-
-![](media/staking9.png)
-
-Click the “Launch” button to launch the instance
-
-![](media/staking10.png)
-
-Create a key, download the key pair and keep it safe. Use it when logging in by SSH.
-
-![](media/staking11.png)
-
-That completes the EC2 instance creation.
-
-## SSH login to AWS EC2
-
-To use the SSH login method under Linux, set the key file permissions with the following command:
-
-```  
-Chmod 400 aws.pem  
-```
-SSH login command:
-```
-Ssh -i aws.pem root@public DNS (IPv4)
-```
-The PuTTy login on Windows needs to use PuTTyGen to convert .pem to ppk, and select ppk file in Auth option of PuTTy tool.
-
-Delete AWS EC2 instance
-
-First terminate the instance:
-
-![](media/staking12.png)
-
-Confirm termination:
-
-![](media/staking13.png)
-
-
-After termination, check that the volume has been deleted to avoid any costs. In addition, the instance will remain in the list for a while after termination, and will generally disappear within half an hour.
+接下来系统会拨打电话给你，拨号界面上输入电脑屏幕显示的4位数字（以#结尾）即可。
+ 
+账户创建成功，信用卡会产生1美元的交易，该交易为验证信用卡冻结资金，过一段时间会返还。
