@@ -1,6 +1,6 @@
 # 如何申请加入Beta测试，如何申请WAN测试币
 
-## 下载Wan Wallet轻钱包，创建可接收WAN测试币的地址
+### 下载Wan Wallet轻钱包，创建可接收WAN测试币的地址
 
 请下载[Wan Wallet（Beta版）轻钱包](https://github.com/wanchain/wan-wallet-desktop/releases)。**注意，目前Wan Wallet轻钱包只支持测试币，请勿将主网WAN代币转入此钱包。**
 
@@ -10,7 +10,7 @@
 
 除了使用钱包创建地址，您也可以采用命令行方式生成地址，用于接收测试币。具体方法详见[如何创建成为验证节点](node_setup.md)中的使用docker中的gwan创建keystore账号部分。
 
-## 填写Beta测试申请表，提交用于接收WAN测试币的地址
+### 填写Beta测试申请表，提交用于接收WAN测试币的地址
 
 有意向参与Beta测试的参与者请访问此链接填写Beta测试申请表：
 http://wanchain.mikecrm.com/USjDMuk
