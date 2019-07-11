@@ -25,16 +25,16 @@ For users who only want to perform delegations, they can apply directly through 
 
 ![](media/01.png)
 
-除了使用钱包创建地址，您也可以采用命令行方式生成地址，用于接收测试币。具体方法详见八、如何创建成为验证节点中的使用docker中的gwan创建keystore账号部分。
+除了使用钱包创建地址，您也可以采用命令行方式生成地址，用于接收测试币。具体方法详见[如何创建成为验证节点](node_setup.md)中的使用docker中的gwan创建keystore账号部分。
 
-2. 填写Beta测试申请表，提交用于接收WAN测试币的地址
+## 填写Beta测试申请表，提交用于接收WAN测试币的地址
 
 有意向参与Beta测试的参与者请访问此链接填写Beta测试申请表：
 http://wanchain.mikecrm.com/USjDMuk
 
 或扫描如下二维码填写申请表：
 
-
+![](media/02.png)
 
 收到申请后，我们将向申请者的Wan地址随机分配50,000WAN 至150,000WAN 不等的大额度WAN代币。
  
@@ -42,5 +42,6 @@ http://wanchain.mikecrm.com/USjDMuk
 
 Faucet地址：http://54.201.62.90/
 
+![](media/03.png)
 
-注：对于已参加Alpha测试的用户，由于Alpha版和Beta版是两个独立的网络，所以须重新申请测试币，重新创建节点。
+**注：对于已参加Alpha测试的用户，由于Alpha版和Beta版是两个独立的网络，所以须重新申请测试币，重新创建节点。**
