@@ -23,7 +23,7 @@ For users who only want to perform delegations, they can apply directly through 
 
 完成Wan Wallet安装后，在**钱包->WAN**目录下，点击**新建**便可方便创建一个新地址。该地址便可用于接收Beta版测试币。
 
-![]
+![](media/01.png)
 
 除了使用钱包创建地址，您也可以采用命令行方式生成地址，用于接收测试币。具体方法详见八、如何创建成为验证节点中的使用docker中的gwan创建keystore账号部分。
 
