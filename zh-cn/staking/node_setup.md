@@ -127,7 +127,7 @@ $ docker run -d -p 17717:17717 -p 17717:17717/udp -v /home/YourUserName/.wanchai
 “your-node-name”请自定义为您想要的节点名称，例如“Community-WAN-node_EMEA1”，请避免使用大小写字母，数字，“-”，“_”以外的字符。
 您可以通过WanStats网站来查看这些信息，Beta测试阶段WanStats的网址为：http://54.193.4.239/
 
-执行完上述脚本，即可完成开启验证节点的权益挖矿（Staking）运行。测试者可通过 `docker logs -f \`docker ps -q\`` 命令查看工作日志。
+执行完上述脚本，即可完成开启验证节点的权益挖矿（Staking）运行。测试者可通过 docker logs -f `docker ps -q` 命令查看工作日志。
 注：权益挖矿工作，将在所有块同步完成后正式开始。当前测试网数据较大，同步时间可能需要几个小时，请耐心等待。
 
 
