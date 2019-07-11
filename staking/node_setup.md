@@ -229,11 +229,7 @@ The "--wanstats your-node-name:admin@54.193.4.239:80" part in parameters is for 
 
 Please customize "your-node-name" part with the node name you prefer, i.e. "Community-WAN-node_EMEA1". Please avoid using characters other than alphanumeric, dash and underscore, for example do not use spaces in node name.
 
-You can refer to WanStats website to check your node's status and network status. 
-
-The link to WanStats in Beta testing phase is:
-
-http://54.193.4.239/
+You can refer to THE [WanStats website](http://testnet.wanstats.io/) to check your node's status and network status. 
 
 Setup is now complete, mining will begin as soon as syncing is finished.
 
