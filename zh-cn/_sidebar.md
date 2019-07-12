@@ -23,7 +23,7 @@
   - [Storeman机制](zh-cn/technology/storeman.md "Wanchain - Storeman System")
   - [星系共识](zh-cn/technology/pos.md "Wanchain - Galaxy Consensus") 
 
-- PoS星系共识指南(Beta版)
+- PoS星系共识参与指南(Beta版)
 
   - [Beta版产品新增和参数改进](zh-cn/staking/alpha_beta.md)
   - [申请WAN测试币](zh-cn/staking/get_test_wan.md)
