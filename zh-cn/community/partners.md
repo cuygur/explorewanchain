@@ -39,7 +39,7 @@
 #### 稳定币
 | **名称**  |**内容**   |
 |:---|:---|
-|[Maker DAO](https://makerdao.com/zh-CN/)| Wanchain已跨链集成DAI|
+|[Maker DAO](https://makerdao.com/zh-CN/)|已跨链集成DAI|
 |[GUSD](https://gemini.com/dollar/)| 已跨链集成|
 |[USDC](https://www.circle.com/en/usdc)| 已跨链集成|
 |[TUSD](https://www.trusttoken.com/trueusd/)|已跨链集成|
@@ -48,43 +48,45 @@
 | **名称**  |**内容**   |
 |:---|:---|
 |[Loopring](https://loopring.org/)| 正在Wanchain上开发DEX|
-|[Pundi X](https://pundix.com/)| In process of officially integrating WAN into their product|
-|[0xcert](https://0xcert.org/)|Cooperating to build non fungible token framework on Wanchain |
-|[Litex](http://litex.io/)| Building layer 2 scaling solution for Wanchain|
-|[Chainlink](https://chain.link)|Building oracle services on Wanchain|
-|[Open Source Exchange Network](https://www.osen.io/)| Cooperating to research cross chain smart contract based OTC trading|
-|[BAT](https://basicattentiontoken.org/)| Advertising token officially integrated on Wanchain|
-|[Morpheus Labs](https://morpheuslabs.io/)|Blockchain Platform as a Service (BPaaS), provides a platform for developing on Wanchain|
+|[Pundi X](https://pundix.com/)| 将WAN集成到其产品中|
+|[0xcert](https://0xcert.org/)| 在Wanchain上开发NFT框架|
+|[Litex](http://litex.io/)|提供Layer2解决方案|
+|[Chainlink](https://chain.link)|提供预言机服务|
+|[Open Source Exchange Network](https://www.osen.io/)|合作研究利用跨链技术实现场外交易|
+|[BAT](https://basicattentiontoken.org/)| 广告代币集成至Wanchain|
+|[Morpheus Labs](https://morpheuslabs.io/)|BPaaS平台，提供基于Wanchain的开发服务|
 
 
-#### Exchanges 
+#### 交易所 
 | **名称**  |
 |:---|
+|[Binance](https://www.binance.com/en)| 
+|[Huobi Pro](https://www.hbg.com/)| 
+|[Kucoin](https://www.kucoin.com/#/)|
 |[Bitkub](https://www.bitkub.com/)|  
 |[Bitrue](https://www.bitrue.com/)| 
 |[DragonEX](https://dragonex.io/en-us/)| 
-|[Binance](https://www.binance.com/en)| 
-|[Kucoin](https://www.kucoin.com/#/)| 
+ 
 
-#### Enterprise Partners
+#### 行业合作伙伴
 | **名称**  |**内容**   |
 |:---|:---|
-|[ElevenPaths](https://www.elevenpaths.com/index.html)|Spanish telecom giant Telefonica's cybersecurity unit|
-|Hui Mei Hui| Enterprise solutions for real estate management |
-|[iQunxing](https://www.iqunxing.com/)| Supply chain finance services |
+|[ElevenPaths](https://www.elevenpaths.com/index.html)|西班牙电信Telefonica的网络安全部门|
+|惠美慧| Wanchain为其开发房屋租赁资产金融交易平台 |
+|[群星金融](https://www.iqunxing.com/)| Wanchain为其开发供应链金融服务平台 |
 
-#### Galaxy PoS Node Operators
+#### 星系共识合作节点
 | **名称**  |**内容**   |
 |:---|:---|
-|[Staked](https://staked.us/)|Staking services provider|
-|[Wetez](https://www.wetez.io/)|Staking services provider|
-|[MatPool](https://matpool.io/)|Staking services provider|
-|[Keystore](https://www.keystore.com/#/)|Digital asset services provider|
-|[Blocks.tech](https://blocks.tech/)|Crypto media, marketing, staking, and service provider|
-|[Bitrue](https://www.bitrue.com/)|Cryptocurrency exchange|
-|[Validators.Online](https://validators.online/)|Staking services community|
-|[HashQuark](https://www.hashquark.io/#/supernode)|Staking services provider|
-|[SNZ Holding](https://snzholding.com/)|Cryptoasset fund|
-|[Bepal](https://www.bepal.pro/)|Wallet & digital asset services provider|
+|[Staked](https://staked.us/)|Staking专业服务供应商|
+|[Wetez](https://www.wetez.io/)|Staking专业服务供应商|
+|[MatPool](https://matpool.io/)|Staking专业服务供应商|
+|[Keystore](https://www.keystore.com/#/)|企业级加密资产服务商|
+|[Blocks.tech](https://blocks.tech/)|金融科技、区块链资讯及数据服务供应商|
+|[Bitrue](https://www.bitrue.com/)|加密货币交易所|
+|[Validators.Online](https://validators.online/)|Staking服务社区|
+|[HashQuark](https://www.hashquark.io/#/supernode)|Staking专业服务供应商|
+|[SNZ Holding](https://snzholding.com/)|专业PoS矿池服务机构|
+|[Bepal](https://www.bepal.pro/)|钱包与数字资产服务供应商|
 
 
