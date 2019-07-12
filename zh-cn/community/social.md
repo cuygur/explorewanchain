@@ -2,7 +2,7 @@
 
 - **微信公众号：** Wanchain万维链
 
-![](media/99.png)
+![](media/01.png)
 
 - [微博](http://weibo.com/wanchain)
 
