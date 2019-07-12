@@ -6,7 +6,7 @@
 |[以太坊企业联盟(EEA)](https://entethalliance.org/)| Wanchain副总裁张卫家是EEA中国区总代表|
 |[超级账本(Hyperledger)](https://hyperledger.org)| 官方会员 |
 |[北京区块链技术应用协会](http://www.bbaachina.org.cn)| 创始会员 |
-|区块链互操作性联盟(Blockchain Interoperability Alliance)| 创始会员|
+|区块链互操作性联盟(BIA)| 创始会员|
 |[Wandarin](http://wandarin.org/)| 社区教育合作|
 |[清华X-Lab](http://www.x-lab.tsinghua.edu.cn/)| 会员，共同打造创意创新创业教育平台|
 |[公链技术联盟(PCTA)](https://bitsclubvp.io/cn/index.html)| 创始会员|
@@ -23,31 +23,31 @@
 #### 服务供应商
 | **名称**  |**内容**   |
 |:---|:---|
-|[Portal Network](https://www.portal.network/)| Provides Wanchain naming serveice, currently live |
-|[Formosa Financial](https://www.formosa.financial/)| Custodial & brokerage services provider partner in Taiwan|
-|[Kronos](https://kronostoken.com/) |Financial services provider partner in Taiwan|
+|[Portal Network](https://www.portal.network/)| 提供Wanchain域名服务WNS |
+|[Formosa Financial](https://www.formosa.financial/)| 提供金融托管与经纪服务|
+|[Kronos](https://kronostoken.com/) |金融服务提供商|
 
 
 #### 钱包
 | **名称**  |**内容**   |
 |:---|:---|
-|[Ledger Wallet](https://www.ledger.com/)| Officially integrated WAN|
-|[Trezor](https://trezor.io/)| Officially integrated WAN|
-|[Trust Wallet](https://trustwallet.com/)|Officially integrated WAN |
-|[Theia](http://www.thachain.org/)| The first crosschain multitoken wallet to leverage Wanchain's cross chain tech |
+|[Ledger Wallet](https://www.ledger.com/)| 支持WAN|
+|[Trezor](https://trezor.io/)| 支持WAN|
+|[Trust Wallet](https://trustwallet.com/)|支持WAN |
+|[Theia](http://www.thachain.org/)| 首款基于Wanchain跨链技术研发的移动轻钱包 |
 
-#### Stablecoins
+#### 稳定币
 | **名称**  |**内容**   |
 |:---|:---|
-|[Maker DAO](https://makerdao.com/en/)| Wanchain has integrated their stable coin DAI|
-|[GUSD](https://gemini.com/dollar/)| Stablecoin officially integrated on Wanchain|
-|[USDC](https://www.circle.com/en/usdc)| Stablecoin officially integrated on Wanchain|
-|[TUSD](https://www.trusttoken.com/trueusd/)| Stablecoin officially integrated on Wanchain|
+|[Maker DAO](https://makerdao.com/zh-CN/)| Wanchain已跨链集成DAI|
+|[GUSD](https://gemini.com/dollar/)| 已跨链集成|
+|[USDC](https://www.circle.com/en/usdc)| 已跨链集成|
+|[TUSD](https://www.trusttoken.com/trueusd/)|已跨链集成|
 
-#### Technology Partners
+#### 技术合作伙伴
 | **名称**  |**内容**   |
 |:---|:---|
-|[Loopring](https://loopring.org/)| Currently building DEX on top of Wanchain|
+|[Loopring](https://loopring.org/)| 正在Wanchain上开发DEX|
 |[Pundi X](https://pundix.com/)| In process of officially integrating WAN into their product|
 |[0xcert](https://0xcert.org/)|Cooperating to build non fungible token framework on Wanchain |
 |[Litex](http://litex.io/)| Building layer 2 scaling solution for Wanchain|
