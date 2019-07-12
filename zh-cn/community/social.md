@@ -1,4 +1,4 @@
-# 中文频道
+## 中文频道
 
 - **微信公众号：** Wanchain万维链
 
@@ -6,7 +6,7 @@
 
 - [微博](http://weibo.com/wanchain)
 
-# 英文频道
+## 英文频道
 
 - [Twitter](https://twitter.com/wanchain_org)
 - [Reddit](https://www.reddit.com/r/wanchain/)
@@ -16,7 +16,7 @@
 - [Telegram Ann](https://t.me/WanchainANN)
 - [Github](https://github.com/wanchain)
 
-# 联系我们
+## 联系我们
 
 - **商务合作：** bryan@wanchain.org
 - **市场合作：** ruby@wanchain.org
