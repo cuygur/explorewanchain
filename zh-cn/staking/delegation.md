@@ -69,7 +69,7 @@ root> gwan attach .wanchain/testnet/gwan.ipc
 ]
 ```
 
-通过上述执行，得到本地账号 `YourAccountAddress` 和想要投注的具备理想委托费率FeeRate的验证节点地址 `DelegateAddress`。
+通过上述执行，得到本地账号 `YourAccountAddress` 和想要投注的具备理想委托费率`FeeRate`的验证节点地址 `DelegateAddress`。
 
 #### 3）确保您的测试账户地址拥有足额的WAN测试币（委托人至少大于100枚）
 
