@@ -1,3 +1,3 @@
 # Gwan
 
-Gwan is the GO implementation of Wanchain and the command line interface for running running a full Wanchain node. Gwan allows users to interact with the Wanchain network, create accounts, transfer funds, deploy and interact with contracts. To learn more, check out the [Github page](https://github.com/wanchain/go-wanchain) or navigate to our [developer portal](https://wandevs.org/).Gwan是Wanchain用GO语言实现的，Gwan也是Wanchain全节点运行的命令行交互界面。Gwan允许用户与Wanchain网络进行诸如创建账户、交易资产、部署合约、使用合约等交互操作。了解更多有关Gwan的信息，请登录Wanchain Github频道https://github.com/wanchain/go-wanchain ，或访问WanDevs官网https://wandevs.org/ 。
+Gwan是Wanchain用GO语言实现的，Gwan也是Wanchain全节点运行的命令行交互界面。Gwan允许用户与Wanchain网络进行诸如创建账户、交易资产、部署合约、使用合约等交互操作。了解更多有关Gwan的信息，请登录Wanchain Github频道https://github.com/wanchain/go-wanchain ，或访问WanDevs官网https://wandevs.org/ 。
