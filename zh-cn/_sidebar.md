@@ -22,7 +22,6 @@
   - [Gwan](zh-cn/technology/gwan.md "Wanchain - Gwan")
   - [iWan](zh-cn/technology/iwan.md "Wanchain - iWan")
   - [安全多方计算](zh-cn/technology/smpc.md "Wanchain - Secure Multi Party Computation")
-  - [Storeman机制](zh-cn/technology/storeman.md "Wanchain - Storeman System")
 
 
 - PoS星系共识参与指南(Beta版)
