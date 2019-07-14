@@ -1,3 +1,3 @@
-# Smart Contracts
+# 智能合约
 
-Wanchain supports smart contracts written in Solidity and can be developed using the same tools developers are familiar with from working on Ethereum. This allows blockchain developers with experience developing on Ethereum to quickly and easily leverage Wanchain's cross-chain capabilities since there is no need to learn a new smart contract scripting language or figure out new developers tools. For developers who are interested in learning more about getting started writing smart contracts using Wanchain, please navigate to our [developer portal](https://wandevs.org/).
+Wanchain支持使用Solidity编写智能合约。以太坊上的开发工具同样适用于Wanchain的代码开发。因此，具备以太坊开发经验的开发人员很容易上手Wanchain开发，并能充分调用Wanchain独特的跨链功能模块。因为对于开发者来讲，他们开发Wanchain几乎没有学习成本。关于如何快速入门Wanchain上的智能合约开发，可移步到[WanDevs官网](https://wandevs.org)，那里提供了详细的API说明。
