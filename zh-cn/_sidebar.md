@@ -15,13 +15,15 @@
 - 技术
 
   - [跨链机制](zh-cn/technology/cross-chain.md "Wanchain - Cross Chain") 
+  - [星系共识](zh-cn/technology/pos.md "Wanchain - Galaxy Consensus") 
+  - [星系共识技术深入解读](zh-cn/technology/pos_explanary.md "Wanchain - Galaxy Consensus Explanary") 
   - [隐私保护](zh-cn/zh-cn/technology/privacy.md "Wanchain - Privacy Protection") 
   - [智能合约](zh-cn/technology/smart-contracts.md "Wanchain - Smart Contracts")
   - [Gwan](zh-cn/technology/gwan.md "Wanchain - Gwan")
   - [iWan](zh-cn/technology/iwan.md "Wanchain - iWan")
   - [安全多方计算](zh-cn/technology/smpc.md "Wanchain - Secure Multi Party Computation")
   - [Storeman机制](zh-cn/technology/storeman.md "Wanchain - Storeman System")
-  - [星系共识](zh-cn/technology/pos.md "Wanchain - Galaxy Consensus") 
+
 
 - PoS星系共识参与指南(Beta版)
 
