@@ -66,7 +66,7 @@
 ![](media/102.png)
 
 
-# Transactions Guide
+# 转账交易指南
 
 1. [跨链交易](#crosschain)   
   * [ETH到Wanchain](#ethtowan)
