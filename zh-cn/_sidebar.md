@@ -8,8 +8,6 @@
 
   - [官方全节点钱包](zh-cn/wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")
   - [官方桌面端轻钱包Wan Wallet(Beta版)](zh-cn/wallet_and_tools/wan_wallet_beta.md)
-  - [Ledger指南](zh-cn/wallet_and_tools/ledger.md "Wanchain - Ledger Support")
-  - [Trezor指南](zh-cn/wallet_and_tools/trezor.md "Wanchain - Trezor Support")
   - [其他钱包和工具](zh-cn/wallet_and_tools/tools.md "Wanchain - Other Wallets and Tools")
 
 - 技术
