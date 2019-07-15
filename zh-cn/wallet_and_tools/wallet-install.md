@@ -132,91 +132,91 @@
 
 ![](media/WanwalletWETHtoETH.png)
 
-The process is similar to the ETH to Wanchain one, please refer to section 7 for details about how to confirm or cancel the transaction.
+此操作过程与ETH到Wanchain非常类似，可参考上述的操作步骤。
 
 
 <div id="wan"></div>  
 
-## Normal Wanchain transactions
+## 普通WAN转账
 
-To make a regular on chain Wanchain transaction, click the "Transfer" button from the home screen of the wallet. 
+在钱包首页点击"Transfer". 
 
 ![](media/wanhome.jpg)
 
-Fill in "To" and "From" accounts, "Amount", and "Fee", then click the "Send" button to complete your transaction.
+填写"To"和"From"地址，"Amount"和"Fee"值, 然后点击"Send"完成WAN的普通转账。
 
 ![](media/wantrans.jpg)
 
 <div id="eth"></div> 
 
-## Normal Ethereum transactions
+## 普通ETH转账
 
-You can perform Ethereum to Ethereum transactions through the official Wanchain wallet.
+Wanchain钱包同样提供ETH之间的转账功能。
 
-Click the "Normal transaction" tab below, fill source and destination accounts, transaction amount, fee preference, then click "SEND"
+点击"Normal transaction"，填写源地址和目标地址，转账金额，转账费，然后点击"SEND"
 
 ![](media/WanwalletETHtoETH.png)
 
 <div id="private"></div> 
 
-## Private Transactions
+## 隐私交易
 
->#### NOTE: Public & Private Addresses  
->Transactions made using public addresses are, as the name suggests, publicly visible. Transactions made using your private address (do not confuse with private key) on the other hand, are not be publicly visible.  
->**Public Address Example**  
+>#### 隐私交易须要有公共地址（短地址）和隐私地址（长地址）  
+>普通交易的过程，地址是公开的，因此转账记录链上可查。但隐私交易的过程进行了隐私加密，因此，转账记录是完全匿名的。  
+>**公共地址示例**  
 >`0xefe000C1b9f9ca9bf063857aAF5fCb7B8A25eaA1`  
->**Private Address Example:**  
+>**隐私地址示例**  
 >`0x02bddd6c139a10c5c9e81d1d6438dd26bc4a26824a2c729819d21ee1fca8b2dbc203936c798596ac4adcbe89e96c88397894b6dfab14a95ea7e137c31f56b9c81255`  
 
-### Sending Private Transactions
+### 发送隐私交易
 
-**Step 1**: Click the **Transfer** button on the right to start a private transaction
+**步骤1**: 点击**Transfer**
 
 
 ![](media/WanchainPrivate1.png)
 
-**Step 2**: Click **Switch to Private** in the **From** field and enter a **Private address** in the **To** field. The Recipient will need to share their Private address beforehand. Enter the amount of WAN to send and click **SEND** to start the private transaction. 
+**步骤2**: 在 **From**栏点击**Switch to Private**，在**To**栏输入**隐私地址**。因此，目标用户需要提前告知他的隐私地址。输入要转账的金额。点击**SEND**。 
 
 
 ![](media/WanchainPrivate2.png)
 
-**Step 3**: Enter the **Password** for your account and click **SEND TRANSACTION** to send a private transaction. 
+**步骤3**: 输入发送地址的**密码**，点击**SEND TRANSACTION**。 
 
 ![](media/WanchainPrivate3.png)
 
 
-**Step 4**: The latest transaction is displayed at the top of the **Transaction List**. 
+**步骤4**: 最新一笔转账会在**Transaction List**中呈现。 
 
 ![](media/WanchainPrivate4.png)
 
-**Step 5**: On the **Wanchain Explorer**, the **Value**  and the **To** address are masked and hidden from the public.
+**步骤5**: 在**Wanchain浏览器**上, **Value**和**To**地址均被隐藏，无法公开查询。
 
 ![](media/WanchainPrivate5.png)
 
 
-### Receiving Private Transactions
+### 接收隐私交易
 
-**Step 1**: Click **Details** to view detailed account settings
+**步骤1**: 点击**Details**，查看详情。
 
 ![](media/WanchainPrivate6.png)
 
 
-**Step 2**: Click **Get OTA (One Time Address)** to begin the process to receive a private transaction.
+**步骤2**: 点击**Get OTA (One Time Address)** ，开始执行隐私交易代币的接收。
 
 ![](media/WanchainPrivate7.png)
 
-**Step 3**: Enter the **Password** for your Account and Click **OK**. 
+**步骤3**: 输入账户的**密码**，点击**OK**
 
 ![](media/WanchainPrivate8.png)
 
-**Step 4**: Wait a few minutes for the transaction to be processed and click **Redeem**. 
+**步骤4**: 等待几分钟，按钮出现**Redeem**
 
 ![](media/WanchainPrivate10.png)
 
-**Step 5**: Click **Redeem** to accept the transaction.
+**步骤5**: 点击 **Redeem**完成隐私交易代币的接收。
 
 ![](media/WanchainPrivate11.png)
 
-**Step 6**: The transaction details are show under **Redeem from OTAs**
+**步骤6**: 交易详情展示在**Redeem from OTAs**中
 
 ![](media/WanchainPrivate12.png)
