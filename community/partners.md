@@ -76,7 +76,6 @@
 ## Staking
 | **Partner**  |**Details**   |
 |:---|:---|
-|[Staked](https://staked.us/)|Staking services provider - USA|
 |[Wetez](https://www.wetez.io/)|Staking services provider - China|
 |[MatPool](https://matpool.io/)|Staking services provider - China|
 |[Keystore](https://www.keystore.com/#/)|Digital asset services provider - China|
