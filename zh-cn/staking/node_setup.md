@@ -46,8 +46,6 @@ root> echo "YourPassword" > /root/.wanchain/pw.txt
 root> exit
 ```
 
-![](media/22.png)
-
 ### 3）确保您的测试账户地址拥有足额的WAN测试币（运行普通验证节点至少大于10,000WAN，运行受托验证节点至少大于50,000WAN）
  
 如果已经使用钱包账号申请过测试币，可以手动将测试币转账到上文创建的validator账号中，完成后续步骤。
