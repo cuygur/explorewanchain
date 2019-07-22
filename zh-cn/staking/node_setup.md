@@ -58,33 +58,36 @@ root> exit
 ```
 //validatorRegister.js
 
-// If you want to register as a validator you can modify and use this script.
+// If you want to register to be a miner you can modify and use this script to run.
 
 
-//-------INPUT PARAMS SHOULD BE REPLACED WITH YOURS--------------------
+//-------INPUT PARAMS YOU SHOULD MODIFY TO YOURS--------------------
 
-// tranValue is the value you want to stake - minValue is 100000 
-var tranValue = "100000"
+// tranValue is the value you want to stake
+// non-delegate mode validator - minValue is 10000
+// delegate mode validator - minValue is 50000  
+var tranValue = "50000"
 
-// secpub is the validator node's secpub value
+// secpub is the miner node's secpub value
 var secpub    = "YourPK1"
 
-// g1pub is the validator node's g1pub value
+// g1pub is the miner node's g1pub value
 var g1pub     = "YourPK2"
 
-// feeRate is the percent of the reward kept by the node in delegation - 100 indicates the node does not accept delegation.
-var feeRate   = 100
+// feeRate is the delegate dividend ratio if set to 10000, means it's a single miner do not accept delegate in.
+// range 0~10000 means 0%~100%
+var feeRate   = 1000
 
-// lockTime is the length of stake locking time measured in epochs - minimum required locking time of 5 epochs
+// lockTime is the time for miner works which measures in epoch count. And must >= 7 and <= 90.
 var lockTime  = 30
 
-// baseAddr is the stake funding source account
+// baseAddr is the fund source account.
 var baseAddr  = "YourAccountAddress"
 
-// passwd is the stake funding source account password
+// passwd is the fund source account password.
 var passwd    = "YourPassword"
 
-//-------INPUT PARAMS SHOULD BE REPLACED WITH YOURS--------------------
+//-------INPUT PARAMS YOU SHOULD MODIFY TO YOURS--------------------
 
 
 //------------------RUN CODE DO NOT MODIFY------------------
@@ -93,7 +96,7 @@ var cscDefinition = [{"constant":false,"inputs":[{"name":"addr","type":"address"
 
 
 var contractDef = eth.contract(cscDefinition);
-var cscContractAddr = "0x00000000000000000000000000000000000000da";
+var cscContractAddr = "0x00000000000000000000000000000000000000DA";
 var coinContract = contractDef.at(cscContractAddr);
 
 var payload = coinContract.stakeIn.getData(secpub, g1pub, lockTime, feeRate)
