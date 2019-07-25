@@ -8,19 +8,19 @@
    <br/><br/>
    
   <li>
-    <b>Q:</b> I deployed the contract on the test chain, and successfully reversed the contract address, but I could not call the contract, what is the reason?  
+    <b>Q:</b> I deployed a contract on the test chain, but I could not call the contract, what is the reason?  
   </li>
    <b>A:</b> Please change Solidity compiler to 0.5.1 or above.
    <br/><br/>
 
   <li>
-    <b>Q:</b> My validator node has been running for +8 days now, but it seems that the 'Total reward' is still 0 ...is there something in the configuration that I forgot to do or...? 
+    <b>Q:</b> My validator node has been running for +8 days now, but it seems that the 'Total reward' is still 0. Is there something in the configuration that I forgot to do? 
   </li>
     <b>A:</b> Please update GWAN to the most recent version.
     <br/><br/>
 
   <li>
-    <b>Q:</b> What happened if I register the same pk1/pk2 from 2 addresses? Replace with the second or more self stake? 
+    <b>Q:</b> What happens if I register the same pk1/pk2 from 2 addresses? 
   </li>
     <b>A:</b> The second register transaction will fail.
     <br/><br/>  
@@ -56,25 +56,25 @@
     <br/><br/>
 
   <li>
-    <b>Q:</b> Why we need 256GB of disk space for validator node? 
+    <b>Q:</b> Why do we need 256GB of disk space for a validator node? 
   </li>
     <b>A:</b> This takes into account long term growth. 40GB should be sufficient for the first year.
     <br/><br/>  
 
   <li>
-    <b>Q:</b> For the final release, will we be able to register from WAN Wallet, so that the keystore file or mnemonic never leaves the machine? 
+    <b>Q:</b> For the final release, will we be able to register from WAN Wallet so that the keystore file or mnemonic phrase never leaves the machine? 
   </li>
     <b>A:</b> Yes this will be available when PoS launches on the mainnet.
     <br/><br/>
 
   <li>
-    <b>Q:</b> I have my validator's keystore. Then how can I import it to the Wan Wallet? 
+    <b>Q:</b> I have my validator node's keystore, how can I import it to the Wan Wallet? 
   </li>
     <b>A:</b> The option is in the Wan Wallet menu under Wan Wallet > Developer > Assets > Wanchain > Import Keystore File.
     <br/><br/>  
 
   <li>
-    <b>Q:</b> If a deployed a smart contract before POS, is the chain still the same and is the contract available? 
+    <b>Q:</b> If a deployed a smart contract before POS, will it still be available after the switch on the mainnet? 
   </li>
     <b>A:</b> Yes, all smart contracts deployed before POS is rolled out on the mainnet will be unchanged by the rollout.
     <br/><br/>
