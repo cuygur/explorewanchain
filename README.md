@@ -17,14 +17,14 @@ Wanchain's vision is to become the asset transport layer of the blockchain world
 |✓ Release Wanchain Proof of Stake (PoS) research paper |Q1 2019|Complete|   
 |✓ Proof of Concept for PoS|Q1 2019|Complete|   
 |✓ Next batch of ERC20 integrations released|Q1 2019|Complete|   
-|⧖ Staking Pilot April-July|Q2 2019|In Progress|  
-|⧖ Alpha testnet for Wanchain PoS|Q2 2019|In Progress| 
-|⧗ Integration with new blockchain|Q2 2019|Pending| 
-|⧗ Wallet improvement (UX/UI)|Q2 2019|Pending| 
-|⧗ Next batch of ERC20 integrations release|Q2 2019|Pending|
-|⧗ Beta testnet for Wanchain PoS|Q3 2019|Pending|
-|⧗ Next batch of ERC20 integrations release|Q3 2019|Pending|
-|⧗ Mobile/light multi-asset wallet release|Q3 2019|Pending|
+|✓ Staking Pilot April-July|Q2 2019|Completed|  
+|✓ Alpha testnet for Wanchain PoS|Q2 2019|Completed| 
+|⧖ Integration with EOS |Q2 2019|In progress| 
+|✓ Wallet improvement (UX/UI)|Q2 2019|Completed| 
+|⧖ Next batch of ERC20 integrations release|Q2 2019|In progress|
+|✓ Beta testnet for Wanchain PoS|Q3 2019|Completed|
+|⧖ Next batch of ERC20 integrations release|Q3 2019|In progress|
+|⧖ Mobile/light multi-asset wallet release|Q3 2019|In progress|
 |⧗ Proof of Stake goes live on mainnet|Q4 2019|Pending|
 |⧗ Integration with another new blockchain|Q4 2019|Pending|
 |⧗ Next batch of ERC20 integrations released|Q4 2019|Pending|
