@@ -32,6 +32,7 @@
   - [AWS Getting Started Guide](staking/aws.md)
   - [Beta Test Rewards Program](staking/rewards_program.md)
   - [Beta Version Changes](staking/alpha_beta.md)
+  - [Staking FAQ](staking/faq.md)
 
 - Community
 
