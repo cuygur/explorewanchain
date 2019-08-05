@@ -48,7 +48,7 @@ sudo docker logs -f gwan
 
 选取Access后，在下发选取StakeIn，完成节点注册。
 
-![img](./img_get_start/8.png)
+![img](https://github.com/wanchain/go-wanchain/blob/develop/docs/img_get_start/8.png)
 
 ！！！注意！！！
 
