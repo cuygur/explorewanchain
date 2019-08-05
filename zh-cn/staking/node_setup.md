@@ -1,5 +1,81 @@
 # 如何创建成为验证节点
 
+## 通过脚本启动节点
+
+### 运行脚本创建并启动validator
+
+在ssh登录到云服务器后，执行如下命令：
+
+```
+wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/deployValidator.sh && chmod +x deployValidator.sh && ./deployValidator.sh
+```
+
+脚本将提示您输入validator的名字，这个名字用作wanstats网站上的监控显示名称，不代表区块链浏览器上的名称。
+
+脚本将提示您输入validator账号的密码。
+
+脚本执行完成后，将反馈validator的账号地址和2个公钥，请将其完整备份下来供后续注册使用。
+
+如果需要重启节点，请使用如下命令：
+
+```
+wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/restartValidator.sh && chmod +x restartValidator.sh && ./restartValidator.sh
+```
+
+可以使用如下命令查看工作日志：
+
+```
+sudo docker logs -f gwan
+```
+
+停止日志查看按Ctrl-C
+
+### 通过钱包注册验证节点
+
+接下来，可通过钱包完成validator注册行为
+
+首先确保自己的本地轻钱包，或keystore账号中有足够的wan币，beta阶段为测试币，可接受委托的验证节点需要至少50000，不可接受委托的节点至少10000。并确认账户中除此之外还有足够的交易手续费。
+
+在轻钱包上线之前，可通过web钱包注册：https://mywanwallet.io/
+
+在轻钱包正式版上线后，推荐使用轻钱包注册，安全性更高。
+
+(注意，如果使用wan wallet的助记词在mywanwallet上注册，需要在填写助记词时，密码位置需要留空)
+
+在web钱包注册时，需要注意首先在右上角选取网络。beta阶段需要选择testnet网络。
+
+点击Contract页面，选取Staking合约。
+
+选取Access后，在下发选取StakeIn，完成节点注册。
+
+![img](./img_get_start/8.png)
+
+！！！注意！！！
+
+其中的`secPk`和`bn256Pk`即为上文中脚本执行完毕后返回的2个公钥。
+
+其中`lockEpochs`为锁定时间，取值范围是7~90。
+
+其中`feeRate`为佣金费率，取值范围是0~10000，代表0.00%~100.00%的佣金费率。
+
+填写完成后，在下发选取钱包类型，并导入钱包。
+
+锁定的金额，在下一页中输入。
+
+按照提示操作，即可完成validator注册。
+
+### 转少量交易费到验证节点
+
+在注册完成后，还需要转账少量交易手续费到验证节点地址，用于执行POS协议的手续费。
+
+手续费消耗一般不超过0.01 wan每比交易，因此转50 wan币到验证人账号，便可支持较长时间的使用。
+
+请定期通过浏览器检查验证人地址的余额，保证始终有交易费可用。
+
+至此节点已经部署完成，如果需要详细的手动操作，不使用脚本的部署流程，可以继续看下文内容。
+
+## 手动操作完成节点部署
+
 ### 1）安装 docker(Ubuntu):
 
 ```
