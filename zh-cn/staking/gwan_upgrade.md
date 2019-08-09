@@ -17,7 +17,7 @@ $ ./gwan version
 
 ## 1. 下载最新gwan节点
 
-登录网页 https://github.com/wanchain/go-wanchain/releases 选则与本地操作系统匹配的版本下载
+登录网页 https://github.com/wanchain/go-wanchain/releases/tag/v2.1.2 选则与本地操作系统匹配的版本下载
 
 解压缩后，使用`./gwan version`命令查询确认版本号
 
