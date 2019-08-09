@@ -4,7 +4,7 @@ Wanchain将在2019年8月12日发布最新的gwan版本，新版本将支持POS�
 
 最新的gwan版本号为：`v2.1.2`
 
-下载地址为：https://github.com/wanchain/go-wanchain/releases
+下载地址为：https://github.com/wanchain/go-wanchain/releases/tag/v2.1.2
 
 下载完成后可使用如下命令验证版本号是否正确：
 ```
