@@ -35,6 +35,7 @@
   - [创建成为委托人](zh-cn/staking/delegation.md)
   - [常用操作](zh-cn/staking/common_operation.md)  
   - [POS-API手册](zh-cn/staking/pos-api-manual-CN.md)
+  - [Wanchain节点升级指南](zh-cn/staking/gwan_upgrade.md)
 
 - 社区
 
