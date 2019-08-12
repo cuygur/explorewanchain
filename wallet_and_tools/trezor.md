@@ -6,7 +6,7 @@
 |:---|:---| 
 | [Wanchain GUI wallet](https://wanchain.org/products) | 1.0.5 or later  |
 | [Gwan](https://github.com/wanchain/go-wanchain) |   1.0.5 or later|  
-| Trezor One (Trezor T not supported) |   1.6.2 to 1.7.1|  
+| Trezor One or Trezor T |   1.6.2 to 1.7.1|  
 
 *You can find instructions for updating your Trezor firmware [here](https://wiki.trezor.io/index.php?title=User_manual:Updating_your_Trezor%27s_firmware&ModelType=1)*
 
