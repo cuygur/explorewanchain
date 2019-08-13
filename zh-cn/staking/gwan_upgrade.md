@@ -25,6 +25,7 @@ $ ./gwan version
 ### 2. 备份旧节点
 
 通过命令行方式备份旧版本gwan的命令行启动参数和gwan文件
+![](./media/update02.png)
 
 ### 3. 停止旧版本Gwan节点运行
 
@@ -33,9 +34,13 @@ $ ./gwan version
 $ pkill gwan
 ```
 
+![](./media/update03.png)
+
 ### 4. 使用新版本gwan节点替换旧版本gwan节点
 
 使用新版本gwan文件替换老版本gwan文件
+
+![](./media/update04.png)
 
 ### 5. 使用新版本gwan启动
 
@@ -44,3 +49,5 @@ $ pkill gwan
 查看gwan日志，是否可以正常启动并同步新块
 
 至此升级完成。
+
+![](./media/update05.png)
