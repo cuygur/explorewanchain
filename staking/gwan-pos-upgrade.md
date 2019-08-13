@@ -40,11 +40,11 @@ Back up the command line startup parameters (highlighted in red in the screensho
 
     $ pkill gwan
 
-![](https://cdn-images-1.medium.com/max/2000/0*QmaoHJPio9BIFIlz.png)
+![](media/gwan-pos-upgrade-3.png)
 
 **4.** Replace the old version of GWAN node with the new version
 
-![](media/gwan-pos-upgrade-3.png)
+![](media/gwan-pos-upgrade-4.png)
 
 **5.** Start with the new version of GWAN
 
@@ -54,9 +54,8 @@ Check the GWAN log to ensure that you can start and synchronize new blocks prope
 
 The upgrade is now complete.
 
-![](media/gwan-pos-upgrade-4.png)
+![](media/gwan-pos-upgrade-5.png)
 
 If you use Wanchain’s full-node wallet, you will be prompted to upgrade after opening the wallet. Please select the DOWNLOAD NEW VERSION button to upgrade. After the upgrade is successful, it can be used normally.
 
-![](media/gwan-pos-upgrade-5.png)
 
