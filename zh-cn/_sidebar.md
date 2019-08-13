@@ -35,7 +35,7 @@
     - [创建成为验证节点](zh-cn/staking/node_setup.md)
     - [创建成为委托人](zh-cn/staking/delegation.md)
   - 主网
-    - [创建成为验证节点](zh-cn/staking/node_setup.md)
+    - [创建成为验证节点](zh-cn/staking/node_setup_mainnet.md)
     - [创建成为委托人](zh-cn/staking/delegation.md)
   - [常用操作](zh-cn/staking/common_operation.md)  
   - [POS-API手册](zh-cn/staking/pos-api-manual-CN.md)
