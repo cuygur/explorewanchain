@@ -31,8 +31,12 @@
   - [软硬件环境要求](zh-cn/staking/environment.md)
   - [申请和创建AWS账号](zh-cn/staking/aws.md)
   - [创建合适的EC2虚拟机](zh-cn/staking/ec2.md)
-  - [创建成为验证节点](zh-cn/staking/node_setup.md)
-  - [创建成为委托人](zh-cn/staking/delegation.md)
+  - [测试网]
+    - [创建成为验证节点](zh-cn/staking/node_setup.md)
+    - [创建成为委托人](zh-cn/staking/delegation.md)
+  - [主网]
+    - [创建成为验证节点](zh-cn/staking/node_setup.md)
+    - [创建成为委托人](zh-cn/staking/delegation.md)
   - [常用操作](zh-cn/staking/common_operation.md)  
   - [POS-API手册](zh-cn/staking/pos-api-manual-CN.md)
   - [Wanchain节点升级指南](zh-cn/staking/gwan_upgrade.md)
