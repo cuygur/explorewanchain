@@ -28,13 +28,13 @@ Select the version that matches your operating system.
 
 After unzipping, use the ./gwan version command to query and confirm the version number.
 
-![](https://cdn-images-1.medium.com/max/3572/0*vd2lX59FrREegzc2.png)
+![](media/gwan-pos-upgrade-1.png)
 
 **2.** Back up the old node
 
 Back up the command line startup parameters (highlighted in red in the screenshot) and old GWAN files.
 
-![](https://cdn-images-1.medium.com/max/2000/0*4l7bEAy5s154bplY.png)
+![](media/gwan-pos-upgrade-2.png)
 
 **3**. Stop the old version of the GWAN node from running with the following command
 
@@ -44,7 +44,7 @@ Back up the command line startup parameters (highlighted in red in the screensho
 
 **4.** Replace the old version of GWAN node with the new version
 
-![](https://cdn-images-1.medium.com/max/2000/0*Bh6KyoCLxSbwQLbl.png)
+![](media/gwan-pos-upgrade-3.png)
 
 **5.** Start with the new version of GWAN
 
@@ -54,9 +54,9 @@ Check the GWAN log to ensure that you can start and synchronize new blocks prope
 
 The upgrade is now complete.
 
-![](https://cdn-images-1.medium.com/max/2000/0*oI-SogZwFQlXdBfw.png)
+![](media/gwan-pos-upgrade-4.png)
 
 If you use Wanchain’s full-node wallet, you will be prompted to upgrade after opening the wallet. Please select the DOWNLOAD NEW VERSION button to upgrade. After the upgrade is successful, it can be used normally.
 
-![](https://cdn-images-1.medium.com/max/2800/0*gTYeYeLs9nDkXuEr.png)
+![](media/gwan-pos-upgrade-5.png)
 
