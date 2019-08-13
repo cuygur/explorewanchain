@@ -18,7 +18,7 @@ After the download is complete, you can use the following command to verify that
 The new version of GWAN is fully compatible with the old version of the chain data, so you can directly replace the old version of GWAN with the new version of GWAN for a smooth upgrade.
 
 The following is a brief description of the steps:
-> **Note: **Specifics may vary according to your local environment. These instructions are provided for your reference. If you are in doubt, please ask for help in the official [WanDevs Gitter](https://gitter.im/wandevs/community). Please contact @molin0000 with any of your questions.
+> **Note:** Specifics may vary according to your local environment. These instructions are provided for your reference. If you are in doubt, please ask for help in the official [WanDevs Gitter](https://gitter.im/wandevs/community). Please contact @molin0000 with any of your questions.
 
 **1.** Download the latest version of GWAN at:
 
