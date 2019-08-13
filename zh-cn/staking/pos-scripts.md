@@ -30,6 +30,6 @@ wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/r
 
 ## 节点删除命令
 ```
-pkill gwan
+sudo pkill gwan
 sudo docker rm gwan
 ```
