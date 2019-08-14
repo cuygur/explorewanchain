@@ -20,5 +20,19 @@ wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/u
 使用mywanwallet注册的验证节点，可继续使用mywanwallet调用stakeUpdate接口退出，退出方法为设置locktime为0，这样下一个工作周期会自动退出。
 
 使用loadScript加载脚本注册的验证节点，请使用 https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/stakeUpdate.js 脚本进行注销操作。使用方法为填写对应地址和密码后，将locktime值填为0后，在gwan的ipc控制台中使用loadScript()方式运行。
+```
+wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/stakeUpdate.js
+
+vi stakeUpdate.js
+
+# fill the information
+
+cp stakeUpdate.js .wanchain/
+
+docker exec -it `docker ps -q` /bin/gwan attach /root/.wanchain/testnet/gwan.ipc
+
+loadScript('/root/.wanchain/stakeUpdate.js')
+
+```
 
 后续主网正式上线后，注册和退出均可通过GUI轻钱包执行，操作更加便捷。
