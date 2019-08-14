@@ -11,8 +11,8 @@ Wanchain主网版本gwan已经正式上线，原本运行在测试网的验证�
 低于v2.1.2的版本将会停在块号4,204,545位置无法继续同步
 
 ```
-rm updateValidator.sh
-wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/updateValidator.sh && chmod +x updateValidator.sh && ./updateValidator.sh
+$ rm updateValidator.sh
+$ wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/updateValidator.sh && chmod +x updateValidator.sh && ./updateValidator.sh
 ```
 
 ## 测试网验证节点退出方法
@@ -21,24 +21,24 @@ wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/u
 
 使用loadScript加载脚本注册的验证节点，请使用 https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/stakeUpdate.js 脚本进行注销操作。使用方法为填写对应地址和密码后，将locktime值填为0后，在gwan的ipc控制台中使用loadScript()方式运行。
 ```
-wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/stakeUpdate.js
+$ wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/stakeUpdate.js
 
-vi stakeUpdate.js
+$ vi stakeUpdate.js
 
 # 修改其中的地址、密码和locktime=0
 
-cp stakeUpdate.js .wanchain/
+$ cp stakeUpdate.js .wanchain/
 
-docker exec -it `docker ps -q` /bin/gwan attach /root/.wanchain/testnet/gwan.ipc
+$ docker exec -it `docker ps -q` /bin/gwan attach /root/.wanchain/testnet/gwan.ipc
 
-loadScript('/root/.wanchain/stakeUpdate.js')
+> loadScript('/root/.wanchain/stakeUpdate.js')
 
 # 返回成功后，即可停止docker运行
 
-exit
+> exit
 
-sudo pkill gwan
-sudo docker rm gwan
+$ sudo pkill gwan
+$ sudo docker rm gwan
 ```
 
 后续主网正式上线后，注册和退出均可通过GUI轻钱包执行，操作更加便捷。
