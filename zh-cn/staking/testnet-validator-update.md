@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/s
 
 vi stakeUpdate.js
 
-# fill the information
+# 修改其中的地址、密码和locktime=0
 
 cp stakeUpdate.js .wanchain/
 
@@ -33,6 +33,12 @@ docker exec -it `docker ps -q` /bin/gwan attach /root/.wanchain/testnet/gwan.ipc
 
 loadScript('/root/.wanchain/stakeUpdate.js')
 
+# 返回成功后，即可停止docker运行
+
+exit
+
+sudo pkill gwan
+sudo docker rm gwan
 ```
 
 后续主网正式上线后，注册和退出均可通过GUI轻钱包执行，操作更加便捷。
