@@ -48,3 +48,7 @@
   - [官方频道](zh-cn/community/social.md "Wanchain - Official Accounts")
   - [开发者社区WanDevs](zh-cn/community/dev.md "Wanchain - Developer Portal") 
   - [合作伙伴](zh-cn/community/partners.md "Wanchain - Partners")
+  
+- 其它
+
+  - [Wanchain网址大全](zh-cn/others/wanchain-websites.md)
