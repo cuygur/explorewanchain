@@ -97,9 +97,9 @@ $ exit
 - YourPK1、2：返回的你账号的2个公钥信息，注册validator时需要；
 
 ```
-$ docker pull wanchain/client-go:2.1.1-beta
+$ docker pull wanchain/client-go:2.1.2
 
-$ docker run -d -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/client-go:2.1.1-beta /bin/gwan --testnet
+$ docker run -d -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/client-go:2.1.2 /bin/gwan --testnet
 
 YourContainerID
 
@@ -137,38 +137,41 @@ root> exit
 
 //-------INPUT PARAMS YOU SHOULD MODIFY TO YOURS--------------------
 
-// tranValue is the value you want to stake
-// non-delegate mode validator - minValue is 10000
-// delegate mode validator - minValue is 50000  
+// tranValue is the value you want to stake in minValue is 10000 for non-delegate validator and 50000 for delegate validator 
 var tranValue = "50000"
 
-// secpub is the miner node's secpub value
-var secpub    = "YourPK1"
+// gasValue is the value you send to miner for protocal run's gas usage.
+var gasValue = 100
 
-// g1pub is the miner node's g1pub value
-var g1pub     = "YourPK2"
+// validatorAddr is the validator accounts which create nearly.
+var validatorAddr = ""
+
+// secpub is the miner accounts's secpub value which is get by personal.showPublicKey
+var secpub    = ""
+
+// g1pub is the miner accounts's g1pub value which is get by personal.showPublicKey
+var g1pub     = ""
 
 // feeRate is the delegate dividend ratio if set to 10000, means it's a single miner do not accept delegate in.
-// range 0~10000 means 0%~100%
+// range 0 ~ 1000 ~ 10000 means 0% ~ 10.00% ~ 100.00%
 var feeRate   = 1000
 
-// lockTime is the time for miner works which measures in epoch count. And must >= 7 and <= 90.
-var lockTime  = 30
+// lockTime do not use in POC
+var lockTime  = 7
 
 // baseAddr is the fund source account.
-var baseAddr  = "YourAccountAddress"
+var baseAddr  = ""
 
 // passwd is the fund source account password.
-var passwd    = "YourPassword"
+var passwd    = ""
 
 //-------INPUT PARAMS YOU SHOULD MODIFY TO YOURS--------------------
 
 
 //------------------RUN CODE DO NOT MODIFY------------------
 personal.unlockAccount(baseAddr, passwd)
-var cscDefinition = [{"constant":false,"inputs":[{"name":"addr","type":"address"},{"name":"lockEpochs","type":"uint256"}],"name":"stakeUpdate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"addr","type":"address"}],"name":"stakeAppend","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"secPk","type":"bytes"},{"name":"bn256Pk","type":"bytes"},{"name":"lockEpochs","type":"uint256"},{"name":"feeRate","type":"uint256"}],"name":"stakeIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateOut","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}];
-
-
+var pay = eth.sendTransaction({from:baseAddr, to:validatorAddr, value:web3.toWin(gasValue)})
+var cscDefinition = [{"constant":false,"inputs":[{"name":"addr","type":"address"}],"name":"stakeAppend","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"addr","type":"address"},{"name":"lockEpochs","type":"uint256"}],"name":"stakeUpdate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"secPk","type":"bytes"},{"name":"bn256Pk","type":"bytes"},{"name":"lockEpochs","type":"uint256"},{"name":"feeRate","type":"uint256"}],"name":"stakeIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"secPk","type":"bytes"},{"name":"bn256Pk","type":"bytes"},{"name":"lockEpochs","type":"uint256"},{"name":"feeRate","type":"uint256"},{"name":"maxFeeRate","type":"uint256"}],"name":"stakeRegister","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"addr","type":"address"},{"name":"renewal","type":"bool"}],"name":"partnerIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateIn","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"delegateAddress","type":"address"}],"name":"delegateOut","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"addr","type":"address"},{"name":"feeRate","type":"uint256"}],"name":"stakeUpdateFeeRate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"},{"indexed":true,"name":"v","type":"uint256"},{"indexed":false,"name":"feeRate","type":"uint256"},{"indexed":false,"name":"lockEpoch","type":"uint256"},{"indexed":false,"name":"maxFeeRate","type":"uint256"}],"name":"stakeRegister","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"},{"indexed":true,"name":"v","type":"uint256"},{"indexed":false,"name":"feeRate","type":"uint256"},{"indexed":false,"name":"lockEpoch","type":"uint256"}],"name":"stakeIn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"},{"indexed":true,"name":"v","type":"uint256"}],"name":"stakeAppend","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"},{"indexed":true,"name":"lockEpoch","type":"uint256"}],"name":"stakeUpdate","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"},{"indexed":true,"name":"v","type":"uint256"},{"indexed":false,"name":"renewal","type":"bool"}],"name":"partnerIn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"},{"indexed":true,"name":"v","type":"uint256"}],"name":"delegateIn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"}],"name":"delegateOut","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"sender","type":"address"},{"indexed":true,"name":"posAddress","type":"address"},{"indexed":true,"name":"feeRate","type":"uint256"}],"name":"stakeUpdateFeeRate","type":"event"}]
 var contractDef = eth.contract(cscDefinition);
 var cscContractAddr = "0x00000000000000000000000000000000000000DA";
 var coinContract = contractDef.at(cscContractAddr);
@@ -197,10 +200,10 @@ $ docker exec -it YourContainerID /bin/gwan attach .wanchain/testnet/gwan.ipc
 
 $ docker stop YourContainerID
 
-$ docker run -d -p 17717:17717 -p 17717:17717/udp -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/client-go:2.1.1-beta /bin/gwan --testnet --etherbase "YourAccountAddress" --unlock "YourAccountAddress" --password /root/.wanchain/pw.txt --mine --minerthreads=1 --wanstats your-node-name:admin@testnet.wanstats.io
+$ docker run -d -p 17717:17717 -p 17717:17717/udp -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/client-go:2.1.2 /bin/gwan --testnet --etherbase "YourAccountAddress" --unlock "YourAccountAddress" --password /root/.wanchain/pw.txt --mine --minerthreads=1 --wanstats your-node-name:admin@testnet.wanstats.io
 ```
 
-其中参数中的“--wanstats your-node-name:admin@54.193.4.239:80”部分是PoS beta测试用于统计节点和PoS网络运行情况的。
+其中参数中的“--wanstats your-node-name:admin@testnet.wanstats.io”部分是PoS beta测试用于统计节点和PoS网络运行情况的。
 “your-node-name”请自定义为您想要的节点名称，例如“Community-WAN-node_EMEA1”，请避免使用大小写字母，数字，“-”，“_”以外的字符。
 您可以通过WanStats网站来查看这些信息，Beta测试阶段WanStats的网址为：http://testnet.wanstats.io
 
