@@ -18,6 +18,6 @@
 [Wanscan (Testnet)](http://testnet.wanscan.org/)
 [Wanchain block explorer](https://wanscan.io/home) *- A community built block explorer*    
 [WanFaucet](https://wanfaucet.net/)  
-[Wanstats](http://testnet.wanstats.io/) *- Network statistics*
+[Wanstats](http://testnet.wanstats.io/) *- Network statistics* 
 [Staking Calculator](http://calculator.wandevs.org/) *- A calculator for wanchain pos incentive*
 
