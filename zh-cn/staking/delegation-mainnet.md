@@ -27,6 +27,8 @@ Wanchain新推出的星系共识PoS具有完整的委托机制。用户作为委
 ## 通过命令行进行委托质押
 
 #### 1）安装 docker(Ubuntu):
+
+安装docker是为了方便的使用gwan，如果不使用docker，也可以直接下载gwan二进制文件来运行。
 ```
 $ sudo wget -qO- https://get.docker.com/ | sh
 
