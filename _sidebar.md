@@ -23,17 +23,24 @@
   - [Storeman System](technology/storeman.md "Wanchain - Storeman System")
   - [Galaxy Consensus](technology/pos.md "Wanchain - Galaxy Consensus") 
 
-- Staking (Beta Testnet)
-
+- Staking
   - [Important Terms and Parameters](staking/parameters.md)
-  - [Validator Node Setup](staking/node_setup.md)
+  - [Node Setup (Quick Start)](staking/node-setup-mainnet.md)
+  - [Node Setup (Manual)](staking/manually-deploy-validator.md)
+  - [AWS Getting Started Guide](staking/aws.md)
+  - [GWAN PoS Upgrade Instructions](staking/gwan-pos-upgrade.md)
+  - [Common Operations](staking/common-operations.md)
+  - [Delegation Guide](staking/delegation-mainnet.md)
+  - [Commonly Used PoS Scripts](staking/pos-scripts.md)
+  - [GWAN PoS API](staking/pos-api-manual-en.md)
+  - [Staking FAQ](staking/faq.md)
+
+- Staking (Testnet)  
+  - [Node Setup](staking/node_setup.md)
   - [Get Testnet WAN](staking/get_test_wan.md)
   - [Delegation Guide](staking/delegation.md)
-  - [AWS Getting Started Guide](staking/aws.md)
   - [Beta Test Rewards Program](staking/rewards_program.md)
   - [Beta Version Changes](staking/alpha_beta.md)
-  - [GWAN PoS Upgrade Instructions](staking/gwan-pos-upgrade.md)
-  - [Staking FAQ](staking/faq.md)
 
 - Community
 

@@ -41,7 +41,7 @@
   - [POS-API手册](zh-cn/staking/pos-api-manual-CN.md)
   - [Wanchain节点升级指南](zh-cn/staking/gwan_upgrade.md)
   - [常用脚本](zh-cn/staking/pos-scripts.md)
-  - [手动启动验证节点](zh-cn/staking/manully-deploy-validator.md)
+  - [手动启动验证节点](zh-cn/staking/manually-deploy-validator.md)
 
 - 社区
 
