@@ -28,3 +28,4 @@
 
 [WanFaucet](https://wanfaucet.net/) -WAN测试币申请网站
 
+[Wanchain Calculator](http://calculator.wandevs.org)  -Wanchain POS收益计算器
