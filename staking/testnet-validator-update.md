@@ -4,7 +4,7 @@ Both Wanchain's mainnet and testnet GWAN version has been updated to 2.1.2. If y
 
 If you do not want to continue running the test network node, but want to go to the mainnet node, please make sure to log out of the test network to ensure that the test network can continue to function normally.
 
-## Test Network Validator Node Update
+## Node Update
 
 Use the following script to update your validator node to the latest 2.1.2 version
 
@@ -27,7 +27,7 @@ rm updateValidator.sh
 wget https://raw.githubusercontent.com/wanchain/go-wanchain/develop/loadScript/updateValidator.sh && chmod +x ./updateValidator.sh && ./updateValidator.sh
 ```
 
-## Test Network Validator Node Exit Method
+## Node Exit Method
 
 You may use MyWanWallet to exit from the staking by using the staking smart contract and selecting the stakeUpdate function. Simply update your lockEpochs to 0, and your node will automatically exit at the end of the cycle.
 
