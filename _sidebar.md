@@ -25,6 +25,7 @@
 
 - Staking
   - [Important Terms and Parameters](staking/parameters.md)
+  - [Hardware & Software Recommendations](staking/environment.md)
   - [Node Setup (Quick Start)](staking/node-setup-mainnet.md)
   - [Node Setup (Manual)](staking/manually-deploy-validator.md)
   - [AWS Getting Started Guide](staking/aws.md)
@@ -41,6 +42,7 @@
   - [Delegation Guide](staking/delegation.md)
   - [Beta Test Rewards Program](staking/rewards_program.md)
   - [Beta Version Changes](staking/alpha_beta.md)
+  - [v2.1.2 GWAN Update Instructions](staking/testnet-validator-update.md)
 
 - Community
 
