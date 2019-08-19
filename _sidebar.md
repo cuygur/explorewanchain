@@ -21,7 +21,7 @@
   - [iWan](technology/iwan.md "Wanchain - iWan")
   - [Secure Multi Party Computation](technology/smpc.md "Wanchain - Secure Multi Party Computation")
   - [Storeman System](technology/storeman.md "Wanchain - Storeman System")
-  - [Galaxy Consensus](technology/pos.md "Wanchain - Galaxy Consensus") 
+  - [Galaxy Consensus](technology/galaxy-consensus.md "Wanchain - Galaxy Consensus") 
 
 - Staking
   - [Important Terms and Parameters](staking/parameters.md)
