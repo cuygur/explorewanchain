@@ -1,4 +1,5 @@
-# Wan Wallet (Beta Testnet Version)
+# Wan Wallet 
+
 ![](media/wan_wallet_1.png)
 ## Wallet Features
 
@@ -9,14 +10,12 @@ Wanchain's first official desktop light wallet is available on Mac, Windows, and
 * Making and managing delegations under Galaxy Consensus Proof of Stake
 * Ledger hardware wallet support
 
-Upcoming features to be implemented before the end of the year include:
+Upcoming features to be implemented before the end of 2019 include:
 
 * Staking support for validator node operators (will be implemented 3rd quarter along with the launch of Galaxy Consensus on the mainnet).
 * Multi-crypto asset management support (4th quarter 2019)
 * Private transactions (4th quarter 2019)
 * Cross chain transactions (4th quarter 2019)
-
-*Note: The wallet currently only supports the testnet, please do not make any mainnet transactions to an address on the wallet!*
 
 ## Download and Install
 Download [Wan Wallet](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fwanchain%2Fwan-wallet-desktop%2Freleases) (beta version).
@@ -77,7 +76,7 @@ After a completing a delegation, you can see 100 WAN displayed under "My Delegat
 ## Connecting a Hardware Wallet
 After the Wanchain mainnet officially moves over to proof of stake, Wan Wallet will support the Ledger hardware wallet.
 
-(NOTE: The current beta test version of the wallet does not support Ledger)
+(NOTE: The current version of the wallet does not support Ledger)
 
 ![](media/wan_wallet_11.png)
 

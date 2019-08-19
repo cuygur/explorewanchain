@@ -1,7 +1,7 @@
 # Delegation Guide
 
 ## Wallet Based Delegation
-Since the release of the [beta version of the light wallet](https://github.com/wanchain/wan-wallet-desktop/releases), delegators may use the graphical interface of the wallet to delegate their testnet WAN. Delegators may also choose to use the command line to delegate. See beta light [wallet instructions](wallet_and_tools/wan_wallet_beta?id=delegation) for more details
+Since the release of the [beta version of the light wallet](https://github.com/wanchain/wan-wallet-desktop/releases), delegators may use the graphical interface of the wallet to delegate their testnet WAN. Delegators may also choose to use the command line to delegate. See beta light [wallet instructions](wallet_and_tools/wan-wallet?id=delegation) for more details
 
 ## Command Line Based Delegation
 
