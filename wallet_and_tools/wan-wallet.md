@@ -76,8 +76,6 @@ After a completing a delegation, you can see 100 WAN displayed under "My Delegat
 ## Connecting a Hardware Wallet
 After the Wanchain mainnet officially moves over to proof of stake, Wan Wallet will support the Ledger hardware wallet.
 
-(NOTE: The current version of the wallet does not support Ledger)
-
 ![](media/wan_wallet_11.png)
 
 
