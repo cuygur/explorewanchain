@@ -112,12 +112,12 @@
   </li>
     <b>A:</b> Not we do not currently support Ledger used to directly run a validator node.
     <br/><br/>  
-  <!--<li>
-    <b>Q:</b> 
-  </li>
-    <b>A:</b> 
-    <br/><br/>  
   <li>
+    <b>Q:</b> Test
+  </li>
+    <b>A:</b> Test
+    <br/><br/>  
+  <!--<li>
     <b>Q:</b> 
   </li>
     <b>A:</b> 
