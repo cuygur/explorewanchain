@@ -3,6 +3,7 @@
   - [Introduction](README.md "Wanchain - Introduction")
   - [Supported Tokens](get_started/supported-chains.md "Wanchain - Supported Chains")
   - [WAN](get_started/wan.md "Wanchain - WAN Token")
+  - [Downloads](get_started/downloads.md)
 
 - Wallet & Tools
   - [Wan Wallet (Old Version)](wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")

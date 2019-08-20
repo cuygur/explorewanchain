@@ -18,7 +18,7 @@ Upcoming features to be implemented before the end of 2019 include:
 * Cross chain transactions (4th quarter 2019)
 
 ## Download and Install
-Download [Wan Wallet](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fwanchain%2Fwan-wallet-desktop%2Freleases) (beta version).
+Download [Wan Wallet](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fwanchain%2Fwan-wallet-desktop%2Freleases).
 
 Double click the install package and follow the on screen instructions to install.
 
