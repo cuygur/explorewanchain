@@ -24,7 +24,7 @@ YourContainerID
 
 $ docker exec -it YourContainerID /bin/bash
 
-root> gwan attach .wanchain/testnet/gwan.ipc
+root> gwan attach .wanchain/gwan.ipc
 
 > personal.newAccount('YourPassword')
 
