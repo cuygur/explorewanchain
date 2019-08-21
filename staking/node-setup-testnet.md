@@ -1,6 +1,6 @@
-# Validator Node Setup
+# Testnet Validator Node Setup
 
-This is a guide for helping getting started as a Wanchain Galaxy Consensus validator node. There are two options for setting up a validator node. [Quick Start](staking/node_setup?id=quick-start-from-script), or [Extended Setup](staking/node_setup?id=extended-setup). We recommend users follow the Quick Start guide. Please join our [Gitter chat room](https://gitter.im/wandevs/community) for additional guidance. 
+This is a guide for helping getting started as a Wanchain Galaxy Consensus validator node. There are two options for setting up a validator node. [Quick Start](staking/node-setup-testnet?id=quick-start-from-script), or [Extended Setup](staking/node-setup-testnet?id=extended-setup). We recommend users follow the Quick Start guide. Please join our [Gitter chat room](https://gitter.im/wandevs/community) for additional guidance. 
 
 Check your validator node's status at: [http://testnet.wanscan.org/](http://testnet.wanscan.org/)
 

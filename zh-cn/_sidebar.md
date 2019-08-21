@@ -32,7 +32,7 @@
   - [申请和创建AWS账号](zh-cn/staking/aws.md)
   - [创建合适的EC2虚拟机](zh-cn/staking/ec2.md)
   - 测试网
-    - [创建成为验证节点](zh-cn/staking/node_setup.md)
+    - [创建成为验证节点](zh-cn/staking/node-setup-testnet.md)
     - [创建成为委托人](zh-cn/staking/delegation.md)
   - 主网
     - [创建成为验证节点](zh-cn/staking/node_setup_mainnet.md)

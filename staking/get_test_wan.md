@@ -5,7 +5,7 @@
 
 **After the Wan Wallet installation, refer to the “Wallet” -> “WAN” page, click “Create” button to create a new address. This address can be used to receive beta testnet tokens.**
 
-*Note: In addition to the wallet interface, you can also use the command line to generate an address for receiving testnet tokens. For details, see [common operations guide](staking/node_setup?id=common-operations) in the Node Setup section.*
+*Note: In addition to the wallet interface, you can also use the command line to generate an address for receiving testnet tokens. For details, see [common operations guide](staking/node-setup-testnet?id=common-operations) in the Node Setup section.*
 
 ##### 2. Fill out the Beta test application form and submit the WAN test tokens to the **(NOT mainnet)** address to receive WAN testnet tokens
 [Application form](https://forms.gle/5apYwdge9An8ZmMR9)

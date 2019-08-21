@@ -37,7 +37,7 @@
   - [Staking FAQ](staking/faq.md)
 
 - Staking (Testnet)  
-  - [Node Setup](staking/node_setup.md)
+  - [Node Setup](staking/node-setup-testnet.md)
   - [Get Testnet WAN](staking/get_test_wan.md)
   - [Delegation Guide](staking/delegation.md)
   - [Beta Test Rewards Program](staking/rewards_program.md)

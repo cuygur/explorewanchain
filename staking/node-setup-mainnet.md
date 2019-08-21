@@ -1,4 +1,4 @@
-# Wanchain Mainnet Node Setup
+# Mainnet Validator Node Setup
 This tutorial will guide you through deploying and running a mainnet validator node on a newly created cloud server.
 
 After the node is started, the validator node registration can be completed by through newest version of the [official light wallet](https://github.com/wanchain/wan-wallet-desktop/releases).
