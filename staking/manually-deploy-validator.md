@@ -4,8 +4,6 @@ This tutorial shows you how to manually start a validator node using GWAN. This 
 
 This method is suitable for developers with the technical ability to flexibly customize and modify instructions according to their specific environment.
 
-(For the automatic startup method, please refer to [Quick Start](staking/node_setup.md) setup method)
-
 ## Download gwan node
 First get the latest gwan node, select the version for your operating system and download it at:
 
