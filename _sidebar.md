@@ -37,9 +37,9 @@
   - [Staking FAQ](staking/faq.md)
 
 - Staking (Testnet)  
-  - [Node Setup](staking/node-setup-testnet.md)
+  - [Testnet Node Setup](staking/node-setup-testnet.md)
   - [Get Testnet WAN](staking/get_test_wan.md)
-  - [Delegation Guide](staking/delegation.md)
+  - [Testnet Delegation Guide](staking/delegation-testnet.md)
   - [Beta Test Rewards Program](staking/rewards_program.md)
   - [Beta Version Changes](staking/alpha_beta.md)
   - [v2.1.2 GWAN Update Instructions](staking/testnet-validator-update.md)
