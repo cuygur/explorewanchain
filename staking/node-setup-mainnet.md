@@ -46,7 +46,7 @@ You can view the node information on the [WanStats](https://wanstats.io/) websit
 
 ## Node Registration
 
-First download and install the latest version of the light wallet at https://github.com/wanchain/wan-wallet-desktop/releases.
+First download and install the latest version of the [light wallet](https://github.com/wanchain/wan-wallet-desktop/releases).
 
 The first time you run a light wallet, you will be prompted to create and back up your mnemonic phrase. Please **properly back up the mnemonic**, as it is the ONLY way to recover your wallet!
 
