@@ -18,7 +18,7 @@ $ exit
 The verification node information can be found through the command line or through the explorer.
 
 ```
-$ docker run -d -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/wanpos /bin/gwan --testnet
+$ docker run -d -v /home/YourUserName/.wanchain:/root/.wanchain wanchain/wanpos /bin/gwan
 
 YourContainerID
 
@@ -82,7 +82,7 @@ var cscDefinition = [{"constant":false,"inputs":[{"name":"addr","type":"address"
 
 
 var contractDef = eth.contract(cscDefinition);
-var cscContractAddr = "0x00000000000000000000000000000000000000d2";
+var cscContractAddr = "0x00000000000000000000000000000000000000da";
 var coinContract = contractDef.at(cscContractAddr);
 
 var payloadDelegate = coinContract.delegateIn.getData(delegateAddr)
@@ -96,7 +96,7 @@ console.log("tx2=" + tx2)
 ```
 $ docker exec -it YourContainerID /bin/bash
 
-root> gwan attach .wanchain/testnet/gwan.ipc
+root> gwan attach .wanchain/gwan.ipc
 
 > loadScript("/root/.wanchain/sendDelegate.js")
 ```
