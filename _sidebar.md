@@ -25,7 +25,7 @@
 
 - Staking
   - [Important Terms and Parameters](staking/parameters.md)
-  - [Hardware & Software Recommendations](staking/environment.md)
+  - [Recommended Specs](staking/environment.md)
   - [Node Setup (Quick Start)](staking/node-setup-mainnet.md)
   - [Node Setup (Manual)](staking/manually-deploy-validator.md)
   - [AWS Getting Started Guide](staking/aws.md)
