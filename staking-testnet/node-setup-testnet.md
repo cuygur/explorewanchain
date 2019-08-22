@@ -94,6 +94,8 @@ Fees are generally not more than 0.01 WAN per transaction, so a transfer of 50 w
 
 Please check the balance of the validator address regularly through the [WanScan](http://testnet.wanscan.org/) to ensure that transaction fees are always available.
 
+To update your validator display information on WanScan.org, fill in this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=VPnN3XSIEEqLYwFUDjqIlhDN00eQ8opLu9Rbjur15g5UOTVCNFoxQ0dCRUNFTFQzTTVBVFFVMjI2OS4u)
+
 
 ## Extended Setup
 *This method of setup is for advanced users. We recommend using the Quick Start guide above for most users.*
