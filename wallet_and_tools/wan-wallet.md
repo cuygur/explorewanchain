@@ -69,7 +69,9 @@ In the images below, a user is delegating 100 WAN to a validator node. 
 ![](media/wan_wallet_8.png)
 ![](media/wan_wallet_9.png)
 
-After a completing a delegation, you can see 100 WAN displayed under "My Delegations." Previous delegation details may be viewed from within the delegations history. If the user wishes to increase their delegation, they may click on the 'Top up' button.
+After a completing a delegation, you can see 100 WAN displayed under "My Delegations." Previous delegation details may be viewed from within the delegations history. If the user wishes to increase their delegation, they may click on the 'Top up' button. 
+
+*Note: Be sure to turn Contract Data on if you are using a Ledger hardware wallet*
 
 ![](media/wan_wallet_10.png)
 
