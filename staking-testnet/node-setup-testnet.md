@@ -6,6 +6,8 @@ Check your validator node's status at: [http://testnet.wanscan.org/](http://test
 
 Check the network status at: [http://testnet.wanstats.io/](http://testnet.wanstats.io/)
 
+![](media/validator-process.jpeg "Validator Overview") 
+
 **Setup**
 - We recommend using Linux or MacOS
 - A wallet with the WAN you wish to stake + a small amount of WAN for service fees.

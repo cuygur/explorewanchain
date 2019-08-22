@@ -34,15 +34,16 @@
   - [Delegation Guide](staking/delegation-mainnet.md)
   - [Commonly Used PoS Scripts](staking/pos-scripts.md)
   - [GWAN PoS API](staking/pos-api-manual-en.md)
+  - [Partner Model](staking/partner.md)
   - [Staking FAQ](staking/faq.md)
 
 - Staking (Testnet)  
-  - [Testnet Node Setup](staking/node-setup-testnet.md)
-  - [Get Testnet WAN](staking/get_test_wan.md)
-  - [Testnet Delegation Guide](staking/delegation-testnet.md)
-  - [Beta Test Rewards Program](staking/rewards_program.md)
-  - [Beta Version Changes](staking/alpha_beta.md)
-  - [v2.1.2 GWAN Update Instructions](staking/testnet-validator-update.md)
+  - [Testnet Node Setup](staking-testnet/node-setup-testnet.md)
+  - [Get Testnet WAN](staking-testnet/get_test_wan.md)
+  - [Testnet Delegation Guide](staking-testnet/delegation-testnet.md)
+  - [Beta Test Rewards Program](staking-testnet/rewards_program.md)
+  - [Beta Version Changes](staking-testnet/alpha_beta.md)
+  - [v2.1.2 GWAN Update Instructions](staking-testnet/testnet-validator-update.md)
 
 - Community
 

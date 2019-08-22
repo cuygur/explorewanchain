@@ -5,6 +5,8 @@ After the node is started, the validator node registration can be completed by t
 
 (This tutorial will use the latest docker image to start the node when the node starts. During the run, sudo privileges will be used. If you don't want to use sudo privileges, please see the [manual setup tutorial](staking/manually-deploy-validator.md).
 
+![](media/validator-process.jpeg "Validator Overview") 
+
 ## Quickstart Script
 
 After logging in to the cloud server through ssh, run the following command:
