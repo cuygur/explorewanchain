@@ -73,8 +73,21 @@ After a completing a delegation, you can see 100 WAN displayed under "My Delegat
 
 ![](media/wan_wallet_10.png)
 
-## Connecting a Hardware Wallet
-After the Wanchain mainnet officially moves over to proof of stake, Wan Wallet will support the Ledger hardware wallet.
+## Validator Node Registration
+To access the validator node menu, make sure that you have checked the `Enable Validator` box inside the Settings menu. The `Validator` option will then appear under the `Galaxy PoS` tab on the left.
+
+![](media/wan_wallet_16.png)
+
+To register your validator node and start staking, click `Register`.
+
+![](media/wan_wallet_17.png)
+
+Fill in all the required parameters which were obtained during your validator setup under the `Validator Account` section, and fill in all the information from your funding wallet under `My Account`. If you are using Ledger, make certain that you have turned Contract Data on in the settings. 
+
+![](media/wan_wallet_18.png)
+
+## Hardware Wallet
+Currently the Ledger hardware wallet is supported. Follow the on screen instructions to connect your Ledger. Other hardware wallets may be supported in the future.
 
 ![](media/wan_wallet_11.png)
 
