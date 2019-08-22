@@ -48,23 +48,23 @@ You can view the node information on the [WanStats](https://wanstats.io/) websit
 
 ## Node Registration
 
-First download and install the latest version of the [light wallet](https://github.com/wanchain/wan-wallet-desktop/releases).
+1. First download and install the latest version of the [light wallet](https://github.com/wanchain/wan-wallet-desktop/releases).
 
-The first time you run a light wallet, you will be prompted to create and back up your mnemonic phrase. Please **properly back up the mnemonic**, as it is the ONLY way to recover your wallet!
+1. The first time you run a light wallet, you will be prompted to create and back up your mnemonic phrase. Please **properly back up the mnemonic**, as it is the ONLY way to recover your wallet!
 
-Transfer the WAN you will be staking to your funding account and wait for the transaction to complete.
+1. Transfer the WAN you will be staking to your funding account and wait for the transaction to complete.
 
-Click on the left side of the wallet Settings -> Galaxy Consensus Options -> Tick the Show Validator List.
+1. Click on the left side of the wallet Settings -> Galaxy Consensus Options -> Tick the Show Validator List.
 
-Expand the left Galaxy Consensus page to see the Validator page.
+1. Expand the left Galaxy Consensus page to see the Validator page.
 
-Click the Register button on the Validator page.
+1. Click the Register button on the Validator page.
 
-Follow the prompts and fill in the public key information backed up above. Please fill in 2 public key strings in order. The first one is 65 characters, the second is 64 characters, and the wallet automatically verifies that the length is correct.
+1. Follow the prompts and fill in the public key information backed up above. Please fill in 2 public key strings in order. The first one is 65 characters, the second is 64 characters, and the wallet automatically verifies that the length is correct.
 
-Fill in the remaining information as appropriate, select the local account with sufficient amount, and complete the validator node registration.
+1. Fill in the remaining information as appropriate, select the local account with sufficient amount, and complete the validator node registration.
 
-After registering successfully, you can view the validator address just registered in the validator list on the [WanScan](https://wanscan.org/) website. (same as the address backed up above)
+1. After registering successfully, you can view the validator address just registered in the validator list on the [WanScan](https://wanscan.org/) website. (same as the address backed up above)
 
 
 
