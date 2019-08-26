@@ -6,7 +6,7 @@
 Before you run a PoS node you should create an account.
 
 ```bash
-$ gwan --testnet console --exec "personal.newAccount('Your Password')"
+$ gwan console --exec "personal.newAccount('Your Password')"
 
 // Or run after ipc attach
 $ personal.newAccount('Your Password')
@@ -14,12 +14,12 @@ $ personal.newAccount('Your Password')
 
 You can see your address created and printed in the screen, then you can press `Ctrl+C` to exit.
 
-You will get a keystore file with three crypto key words in your path `~/.wanchain/testnet/keystore/` in Ubuntu or `~/Library/Wanchain/testnet/keystore/` in Mac OS.
+You will get a keystore file with three crypto key words in your path `~/.wanchain/keystore/` in Ubuntu or `~/Library/Wanchain/keystore/` in Mac OS.
 
 And you can use a command to get the `Address Public Key` and `G1 Public Key` of your account.
 
 ```bash
-$ gwan --testnet console --exec "personal.showPublicKey('Your Address', 'Your Password')"
+$ gwan console --exec "personal.showPublicKey('Your Address', 'Your Password')"
 
 // Or run after ipc attach
 $ personal.showPublicKey('Your Address', 'Your Password')
@@ -33,10 +33,10 @@ You can check your balance in the address when you attach a GWAN console in the 
 
 ```bash
 // In ubuntu
-$ gwan attach ~/.wanchain/testnet/gwan.ipc
+$ gwan attach ~/.wanchain/gwan.ipc
 
 // In MacOS
-$ gwan attach ~/Library/Wanchain/testnet/gwan.ipc
+$ gwan attach ~/Library/Wanchain/gwan.ipc
 
 ```
 
@@ -101,7 +101,7 @@ Delegators can use Wan wallet to delegate In or delegate Out.
 
 Various common staking operations may be accessed from the [MyWanWallet](https://mywanwallet.io) web wallet. 
 
-Make certain to select the 'WAN Testnet' network in the upper right corner.  
+Make certain to select the 'Mainnet' network in the upper right corner.  
 
 Click on the 'Contracts' page and select the 'Staking' contract from the 'Select Existing Contract' drop down menu.
 
