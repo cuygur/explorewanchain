@@ -1,10 +1,10 @@
 # 常用操作
 ### 账号创建
 ```
-$ gwan --testnet account new
+$ gwan account new
 ```
 
-执行上述命令后，keystore文件会存储在默认目录 `~/.wanchain/testnet/keystore/` in Ubuntu 或者 `~/Library/Wanchain/testnet/keystore/` in Mac OS.
+执行上述命令后，keystore文件会存储在默认目录 `~/.wanchain/keystore/` in Ubuntu 或者 `~/Library/Wanchain/keystore/` in Mac OS.
 
 使用如下命令获取两个星系共识需要用到的公钥。
 
@@ -18,10 +18,10 @@ $ gwan --testnet account pubkeys 'Your Address' 'Your Password'
 
 ```
 // In ubuntu
-$ gwan attach ~/.wanchain/testnet/gwan.ipc
+$ gwan attach ~/.wanchain/gwan.ipc
 
 // In MacOS
-$ gwan attach ~/Library/Wanchain/testnet/gwan.ipc
+$ gwan attach ~/Library/Wanchain/gwan.ipc
 ```
 
 在链同步完成后，可通过下面指令查询余额。
@@ -42,7 +42,7 @@ $ eth.getBalance("0x8c35B69AC00EC3dA29a84C40842dfdD594Bf5d27")
 
 #### 非验证节点（全节点）
 ```
-$ gwan --testnet --rpc --syncmode "full"
+$ gwan --rpc --syncmode "full"
 ``` 
 
 #### 验证节点
@@ -50,7 +50,7 @@ $ gwan --testnet --rpc --syncmode "full"
 在下面命令中请替换地址为您的个人地址 `0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e` ，并替换 `/tmp/pw.txt` 为您地址的密码文本文件。
 
 ```
-$ gwan --testnet --rpc --etherbase "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --unlock "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --password /tmp/pw.txt--rpc  --mine --minerthreads=1 --syncmode "full"
+$ gwan --rpc --etherbase "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --unlock "0x8d8e7c0813a51d3bd1d08246af2a8a7a57d8922e" --password /tmp/pw.txt--rpc  --mine --minerthreads=1 --syncmode "full"
 ```
 
 ### Stake注册和委托投注
