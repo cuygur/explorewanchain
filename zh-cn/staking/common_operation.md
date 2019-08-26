@@ -9,7 +9,7 @@ $ gwan account new
 使用如下命令获取两个星系共识需要用到的公钥。
 
 ```
-$ gwan --testnet account pubkeys 'Your Address' 'Your Password'
+$ gwan account pubkeys 'Your Address' 'Your Password'
 ```
 
 星系共识需要使用key1和key3，作为SecPk和G1PK。
