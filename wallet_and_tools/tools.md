@@ -7,7 +7,6 @@
 
 ### Mobile Wallets  
 [Trust Wallet](https://trustwallet.com/) *- Binance's official wallet supports WAN*  
-[Theia Wallet](https://www.thachain.org/#press)
 
 ### Hardware Wallets  
 [Trezor](https://trezor.io/)  
