@@ -1,11 +1,13 @@
 # Wallets & Tools
 
 ### Desktop and Browser Wallets  
-[WanWallet](https://wanchain.org/products) *- Wanchain official secure desktop wallet*  
+[WanWallet](https://github.com/wanchain/wan-wallet-desktop/releases) *- Wanchain official secure desktop wallet*  
 [Wanmask](https://wanmask.io/)  *- Browser Extension Wallet*  
 [MyWanWallet](https://mywanwallet.nl/) *- Open source web wallet with Wancoin and WRC20 support*  
 
-### Mobile Wallets  
+### Mobile Wallets
+[WanWallet (Android)](https://play.google.com/store/apps/details?id=com.wanchain.WanWallet)  
+[WanWallet (iOS)](https://apps.apple.com/us/app/wanwallet/id1477039507)  
 [Trust Wallet](https://trustwallet.com/) *- Binance's official wallet supports WAN*  
 
 ### Hardware Wallets  
