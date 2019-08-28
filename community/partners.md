@@ -27,14 +27,12 @@
 |[Formosa Financial](https://www.formosa.financial/)| Custodial & brokerage services provider partner in Taiwan|
 |[Kronos](https://kronostoken.com/) |Financial services provider partner in Taiwan|
 
-
 ## Wallets
 | **Partner**  |**Details**   |
 |:---|:---|
 |[Ledger Wallet](https://www.ledger.com/)| Officially integrated WAN|
 |[Trezor](https://trezor.io/)| Officially integrated WAN|
 |[Trust Wallet](https://trustwallet.com/)|Officially integrated WAN |
-|[Theia](http://www.thachain.org/)| The first crosschain multitoken wallet to leverage Wanchain's cross chain tech |
 
 ## Stablecoins
 | **Partner**  |**Details**   |
@@ -47,6 +45,7 @@
 ## Technology Partners
 | **Partner**  |**Details**   |
 |:---|:---|
+|[PUC](https://www.puc.com/)|Major Malaysian based digital company plans to integrate Wanchain in a variety of initiatives|
 |[Loopring](https://loopring.org/)| Currently building DEX on top of Wanchain|
 |[Pundi X](https://pundix.com/)| In process of officially integrating WAN into their product|
 |[0xcert](https://0xcert.org/)|Cooperating to build non fungible token framework on Wanchain |
@@ -55,6 +54,7 @@
 |[Open Source Exchange Network](https://www.osen.io/)| Cooperating to research cross chain smart contract based OTC trading|
 |[BAT](https://basicattentiontoken.org/)| Advertising token officially integrated on Wanchain|
 |[Morpheus Labs](https://morpheuslabs.io/)|Blockchain Platform as a Service (BPaaS), provides a platform for developing on Wanchain|
+|[Orion Protocol](https://orionprotocol.io/)|Liquidity aggregator protocol to use|
 
 
 ## Exchanges 
@@ -85,5 +85,10 @@
 |[HashQuark](https://www.hashquark.io/#/supernode)|Staking services provider - China|
 |[SNZ Holding](https://snzholding.com/)|Cryptoasset fund - China|
 |[Bepal](https://www.bepal.pro/)|Wallet & digital asset services provider - China|
+|[Prestige IT](https://prestigeit.io/)| IT, cybersecurity & blockchain services provider - USA |
+|[Ztake](https://ztake.org/)|Staking services provider - USA|
+|[Chainlayer](https://www.chainlayer.io/)|Staking services provider - Netherlands|
+|[Cypher Core](http://cyphercore.io/)|Staking services provider - USA|
+|[MangoBerry](http://mangoberry.io/)| Staking services provider - Korea|
 
 
