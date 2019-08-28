@@ -21,7 +21,7 @@
 > Yes, here are the instructions:
 > 1. Set up the new server
 > 2. Install Docker manually
-> 3. Create folder at .wanchain/keystore
+> 3. Create folder at ~/.wanchain/keystore
 > 4. Copy/paste the content of the JSON keystore content you got when first starting the validator node into a "keystore" file and put it into the folder created in step 3
 > 5. Run updateMainnetValidator.sh with the name, address and password from the validator node first created.  
 >
