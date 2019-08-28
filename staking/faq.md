@@ -15,7 +15,7 @@
 1. What is the threshold for the "offline" status for nodes? For example, if the internet disconnects for 5 seconds is it considered being down (and lose reward)?
 > No. 5 seconds disconnect will not affect online status. Only if the validator is selected and doesn’t do its work of EL or RNP will be considered not active in the current epoch. The important work times are 00:00, 4:00, 8:00, 12:00... every 4 hours in UTC time.  
 
-<p id="node-switch"></p>
+  <p id="node-switch"></p>
 
 1. Will it be possible to switch an active node from one server to another (e.g. AWS --> GCloud)?  
 > Yes, here are the instructions:
