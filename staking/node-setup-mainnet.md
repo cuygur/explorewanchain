@@ -69,3 +69,6 @@ You can view the node information on the [WanStats](https://wanstats.io/) websit
 1. To update your validator display information on WanScan.org, fill in this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=VPnN3XSIEEqLYwFUDjqIlhDN00eQ8opLu9Rbjur15g5UOTVCNFoxQ0dCRUNFTFQzTTVBVFFVMjI2OS4u)
 
 
+## Switching Node to a New Server
+
+[See FAQ](staking/faq?id=node-switch)

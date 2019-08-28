@@ -90,7 +90,7 @@ console.log("tx2=" + tx2)
 //------------------RUN CODE DO NOT MODIFY------------------
 ``` 
 
-#### 5）Run a bet script in gwan to finish
+#### 5）Run delegation script in GWAN to finish
  
 ```
 $ docker exec -it YourContainerID /bin/bash

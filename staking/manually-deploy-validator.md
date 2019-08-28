@@ -56,3 +56,7 @@ If you need to run the node in the background, try running with pm2, nohup, scre
 
 ## Register Validator Node
 You can register through the official [WanWallet](https://github.com/wanchain/wan-wallet-desktop/releases). See [instructions here](staking/node-setup-mainnet?id=node-registration).  
+
+## Switching Node to a New Server
+
+[See FAQ](staking/faq?id=node-switch)

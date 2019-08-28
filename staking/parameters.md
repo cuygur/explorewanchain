@@ -29,8 +29,10 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 | **Parameter**  |**Value**   | 
 |:---|:---|
+|Epoch Time| 24 Hours|
+|Slots per epoch|17280|
 | Delegating Node’s minimum staking amount  |  50,000 WAN | 
-|  Non-delegating Node’s minimum staking amount | 10,000 WAN, cannot accept delegations|  
+|  Non-delegating Node’s minimum staking amount | 10,000 WAN, cannot accept delegations| 
 |  Validator Delegate Ratio | 1:10  |  
 |  The number of validator nodes chosen to participate each epoch | 75, of which 49 are open to the public. The Foundation temporarily reserves 26 for network security at launch (the Foundation’s nodes operate normally but will not receive rewards, and will gradually be phased out.  |  
 |  The maximum amount of stake for a single validator node | 10.5 million WAN. This value is the upper limit of the sum of the validator node’s own staking amount and the delegated amount received by the validator node.  |  
@@ -38,3 +40,8 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 |  Validator node’s locking period | 7 to 90 epochs/days, and can be freely chosen between this range. After the locking period expires, the staked WAN will become available within one day.  |  
 |  Delegators’ withdrawal delay | The withdrawal period for delegators is normally 3-4 days after they end delegation. Delegators may end delegation at any time, and may withdraw their funds after the withdrawal period. If delegation ends due to the validator's staking period finishing, then the withdrawal period for the delegator is only one day.|  
 
+## Protocol Timeline
+
+The protocol is divided into 6 distinct 4 hour stages, with important work happening at the end of each stage. The stages are divided according to which role is performing work, the Epoch Leader (EL) or the Random Number Proposer (RNP). The EL role participates in three stages: SMA1, SMA2, and Generate SMA stages. The RNP role participates in three different stages: DKG1, DKG2, and SIGN stages. See detailed explanations [here](technology/galaxy-consensus).  
+
+![](media/protocol-timeline.png "Protocol Timeline")

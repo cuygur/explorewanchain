@@ -15,8 +15,17 @@
 1. What is the threshold for the "offline" status for nodes? For example, if the internet disconnects for 5 seconds is it considered being down (and lose reward)?
 > No. 5 seconds disconnect will not affect online status. Only if the validator is selected and doesn’t do its work of EL or RNP will be considered not active in the current epoch. The important work times are 00:00, 4:00, 8:00, 12:00... every 4 hours in UTC time.  
 
-1. Will it be possible to switch an active node from one server to another (e.g. AWS --> GCloud)? What would the drawbacks be? 
-> You can copy all the file and path in ~/.wanchain directory from one server to another and start the same node at a safe time (after 23:00 UTC). 
+<p id="node-switch"></p>
+
+1. Will it be possible to switch an active node from one server to another (e.g. AWS --> GCloud)?  
+> Yes, here are the instructions:
+> 1. Set up the new server
+> 2. Install Docker manually
+> 3. Create folder at .wanchain/keystore
+> 4. Copy/paste the content of the JSON keystore content you got when first starting the validator node into a "keystore" file and put it into the folder created in step 3
+> 5. Run updateMainnetValidator.sh with the name, address and password from the validator node first created.  
+>
+> **Note:** In order not to lose staking rewards, take care about when in the protocol timeline you perform the switch. If your node has not been selected, you can do it anytime. If you are selected as Epoch Leader or Random Number Proposer, you should do it after 23:00 UTC and before 00:00 UTC, and if have been selected as Slot Leader, you should wait for next day.
 
 1. What does "Reorg len" mean on testnet.wanstats.io? 
 > When the network quality is poor, the blockchain will produce a temporary soft fork, and then reach agreement through fork rollback. Reorg len represents the maximum rollback length of the current epoch. 
