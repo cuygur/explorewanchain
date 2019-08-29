@@ -42,6 +42,6 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 ## Protocol Timeline
 
-The protocol is divided into 6 distinct 4 hour stages, with important work happening at the end of each stage. The stages are divided according to which role is performing work, the Epoch Leader (EL) or the Random Number Proposer (RNP). The EL role participates in three stages: SMA1, SMA2, and Generate SMA stages. The RNP role participates in three different stages: DKG1, DKG2, and SIGN stages. See detailed explanations [here](technology/galaxy-consensus).  
+The protocol is divided into 6 distinct 4 hour stages, with important work happening throughout each stage. The stages are divided according to which role is performing work, the Epoch Leader (EL) or the Random Number Proposer (RNP). The EL role participates in three stages: SMA1, SMA2, and Generate SMA stages. The RNP role participates in three different stages: DKG1, DKG2, and SIGN stages. See detailed explanations [here](technology/galaxy-consensus).  
 
 ![](media/protocol-timeline.png "Protocol Timeline")
