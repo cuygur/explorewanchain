@@ -22,5 +22,5 @@
 [Wanstats](http://wanstats.io/) *- Network statistics*    
 [Wanstats (Testnet)](http://testnet.wanstats.io/) *- Network statistics*    
 [Staking Calculator](http://calculator.wandevs.org/) *- A calculator for estimating wanchain PoS rewards*  
-[Staking Explorer](https://www.wanstakeinsight.com) *- A staking explorer built by community member [Cryptofennec](https://www.cryptofennec.com/)*
+[WanStakeInsight](https://www.wanstakeinsight.com) *- A staking explorer built by community member [Cryptofennec](https://www.cryptofennec.com/)*
 
