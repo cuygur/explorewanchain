@@ -387,7 +387,7 @@ amount：principal stake of validator node
 
 clients: list of delegators
 
-votingPower: staking weight
+votingPower: the validator's 'tickets' for the lottery for EL and RNP roles, determined by amount of stake and locking time
 
 quitEpoch: The epoch number where delegators will receive their delegation back if the validator quits. Returns 0 when the validator is not quitting.
 
