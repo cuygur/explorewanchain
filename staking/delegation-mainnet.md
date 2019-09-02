@@ -2,7 +2,7 @@
 
 ## Wallet Based Delegation
 
-For simple delegation, please delegate through the official [WanWallet](https://github.com/wanchain/wan-wallet-desktop/releases) or [MyWanWallet](https://mywanwallet.nl/).
+For simple delegation, please delegate through the official [WanWallet](https://github.com/wanchain/wan-wallet-desktop/releases) or [MyWanWallet](https://mywanwallet.nl/). See [WanWallet delegation instructions](wallet_and_tools/wan-wallet?id=delegation) to get started.
 
 ## Command Line Based Delegation
 
