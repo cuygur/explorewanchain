@@ -1,6 +1,10 @@
-# Command Line Based Delegation
+# Delegation Guide
+
+## Wallet Based Delegation
 
 For simple delegation, please delegate through the official [WanWallet](https://github.com/wanchain/wan-wallet-desktop/releases) or [MyWanWallet](https://mywanwallet.nl/).
+
+## Command Line Based Delegation
 
 #### 1）Install docker(Ubuntu):
 ```
