@@ -17,4 +17,12 @@
 ## Software
 - [GWAN](https://github.com/wanchain/go-wanchain/releases/tag/v2.1.2)  
 
-- [Wan Wallet](https://github.com/wanchain/wan-wallet-desktop/releases)
+- [Wan Wallet (Desktop Versions)](https://github.com/wanchain/wan-wallet-desktop/releases)
+
+- [Wan Wallet (Android APK Direct Download](https://raw.githubusercontent.com/wanchain/mobile-wallet-updates/master/mainnet/WanWallet.apk)
+
+- [Wan Wallet (Android Google Play Store Link](https://play.google.com/store/apps/details?id=com.wanchain.WanWallet)
+
+- [Wan Wallet (iOS HK store)](https://itunes.apple.com/hk/app/wanwallet/id1477039507)
+
+- [Wan Wallet (iOS US store)](https://apps.apple.com/us/app/wanwallet/id1477039507)
