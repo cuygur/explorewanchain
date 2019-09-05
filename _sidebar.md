@@ -47,7 +47,7 @@
 
   - [Official Accounts](community/social.md "Wanchain - Official Accounts")
   - [Developer Portal](community/dev.md "Wanchain - Developer Portal") 
-  - [Ambassador's Program](community/ambassadors.md "Wanchain - Ambassadors")
+  - [Ambassadors Program](community/ambassadors.md "Wanchain - Ambassadors")
   - [Meetups](community/meetups.md "Wanchain - Meetups")
   - [Partners](community/partners.md "Wanchain - Partners")
   
