@@ -29,7 +29,6 @@
   - [Node Setup (Quick Start)](staking/node-setup-mainnet.md)
   - [Node Setup (Manual)](staking/manually-deploy-validator.md)
   - [AWS Getting Started Guide](staking/aws.md)
-  - [GWAN PoS Upgrade Instructions](staking/gwan-pos-upgrade.md)
   - [Common Operations](staking/common-operations.md)
   - [Delegation Guide](staking/delegation-mainnet.md)
   - [Commonly Used PoS Scripts](staking/pos-scripts.md)
@@ -43,10 +42,12 @@
   - [Testnet Delegation Guide](staking-testnet/delegation-testnet.md)
   - [Beta Test Rewards Program](staking-testnet/rewards_program.md)
   - [Beta Version Changes](staking-testnet/alpha_beta.md)
-  - [v2.1.2 GWAN Update Instructions](staking-testnet/testnet-validator-update.md)
 
 - Community
 
   - [Official Accounts](community/social.md "Wanchain - Official Accounts")
   - [Developer Portal](community/dev.md "Wanchain - Developer Portal") 
+  - [Ambassador's Program](community/ambassadors.md "Wanchain - Ambassadors")
+  - [Meetups](community/meetups.md "Wanchain - Meetups")
   - [Partners](community/partners.md "Wanchain - Partners")
+  
