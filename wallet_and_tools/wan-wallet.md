@@ -71,7 +71,9 @@ In the images below, a user is delegating 100 WAN to a validator node. 
 
 After a completing a delegation, you can see 100 WAN displayed under "My Delegations." Previous delegation details may be viewed from within the delegations history. If the user wishes to increase their delegation, they may click on the 'Top up' button. 
 
-*Note: Be sure to turn Contract Data on if you are using a Ledger hardware wallet*
+**Note:** Users may un-delegate at any time, but please note there is ~3 day unlocking period after which you can withdraw your WAN.
+
+**Note:** Be sure to turn Contract Data on if you are using a Ledger hardware wallet.
 
 ![](media/wan_wallet_10.png)
 
@@ -84,7 +86,7 @@ To register your validator node and start staking, click "Register".
 
 ![](media/wan_wallet_17.png)
 
-Fill in all the required parameters which were obtained during your [validator setup](staking/node-setup-mainnet) under the "Validator Account" section, and fill in all the information from your funding wallet under "My Account". If you are using Ledger, make certain that you have turned Contract Data on in the settings. 
+Fill in all the required parameters which were obtained during your [validator setup](staking/node-setup-mainnet) under the "Validator Account" section, and fill in all the information from your funding wallet under "My Account". If you are using Ledger, make certain that you have turned Contract Data on in the settings. When selecting locking period, please note that the longer your locking period, the higher your reward rate. Please use the [staking calculator](http://calculator.wandevs.org/) for reward rate estimates.
 
 ![](media/wan_wallet_18.png)
 
