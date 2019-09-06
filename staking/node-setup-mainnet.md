@@ -72,3 +72,7 @@ You can view the node information on the [WanStats](https://wanstats.io/) websit
 ## Switching Node to a New Server
 
 [See FAQ](staking/faq?id=node-switch)
+
+## Common Operations
+
+For common operations such as restarting, updating, or deleting your node, see the [commonly used scripts section](staking/pos-scripts).
