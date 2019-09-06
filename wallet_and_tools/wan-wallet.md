@@ -71,7 +71,7 @@ In the images below, a user is delegating 100 WAN to a validator node. 
 
 After a completing a delegation, you can see 100 WAN displayed under "My Delegations." Previous delegation details may be viewed from within the delegations history. If the user wishes to increase their delegation, they may click on the 'Top up' button. 
 
-**Note:** Users may un-delegate at any time, but please note there is ~3 day unlocking period after which you can withdraw your WAN.
+**Note:** Users may exit their delegation at any time, but please note there is ~3 epoch unlocking period after which you can withdraw your WAN.
 
 **Note:** Be sure to turn Contract Data on if you are using a Ledger hardware wallet.
 
