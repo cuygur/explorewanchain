@@ -22,7 +22,7 @@
   - [安全多方计算](zh-cn/technology/smpc.md "Wanchain - Secure Multi Party Computation")
 
 
-- PoS星系共识参与指南(Beta版)
+- PoS星系共识参与指南
 
   - [Beta版产品新增和参数改进](zh-cn/staking/alpha_beta.md)
   - [申请WAN测试币](zh-cn/staking/get_test_wan.md)
@@ -42,6 +42,7 @@
   - [Wanchain节点升级指南](zh-cn/staking/gwan_upgrade.md)
   - [常用脚本](zh-cn/staking/pos-scripts.md)
   - [手动启动验证节点](zh-cn/staking/manaully-deploy-validator.md)
+  - [常见问题](zh-cn/staking/faq.md)
 
 - 社区
 
