@@ -29,6 +29,8 @@ After the script is executed, the output will show:
 * 2 public keys
 * JSON content of the keystore. 
 
+**NOTE: The validator address should not be used as the registration address where staking funds come from. Don't mix up your validator address and your registration address you use to supply the staking funds.**
+
 **Carefully backup all this information!**
 
 This information together with your password is used to restore your node in case of corruption or loss of data, so it is vital that you store it safely.
