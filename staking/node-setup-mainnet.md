@@ -46,6 +46,9 @@ If you see the words Validator Start Success, the node has started successfully 
 
 You can view the node information on the [WanStats](https://wanstats.io/) website.
 
+## Fund your validator address 
+You must fund your validator address with a small amount of WAN in order to pay for PoS transaction fees. As transactions fees are very small, for example, ~0.005 WAN, 100 WAN should be plenty to get started. 
+
 ## Node Registration
 
 You can register your node using the officia [Wan Wallet](https://github.com/wanchain/wan-wallet-desktop/releases).
