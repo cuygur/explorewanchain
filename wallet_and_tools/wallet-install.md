@@ -7,25 +7,77 @@ Download Wanwallet installation file from https://wanchain.org/product
 
 *Wanwallet supports **Linux, Windows, and OSX**, please download corresponding installation file for your OS.*
 
-## Verify install package 
+## How to verify the downloaded file:
+1. Navigate to www.wanchain.org
 
-**Windows**
+![Navigating to www.wanchain.org](_media/navigatetowanchainorggif.gif)
 
-The following command will display SHA256 hash value on a Windows operating system (“SHA256” parameter is case sensitive on certain versions of Windows):
+2. On the left hand side under blockchain developers, click get started.
+3. You will be navigated to https://www.wanchain.org/getstarted/ 
+4. Scroll down to Wanchain Wallet
+5. You will be presented with 4 different types of Wallets with the option of choosing an operating system.
 
-`certutil -hashfile <path><filename> SHA256`
+6. <p>Wanchain has Wallets for Windows, OSX and Linux. Select the appropriate operating system and Wallet type. (As shown in the image above)</pr>
+    <p>a. Desktop Light<br></pr>
+    <pr>b. Desktop<br></pr>
+    <pr>c. Offline and <br></pr>
+    <pr>d. Mobile<br></pr>
+**Example:** If you have a Mac Operating system and intend to download the Desktop wallet, follow the below steps as shown in the image.
 
-**Linux**
+![Mac desktop wallet](_media/walletexample.gif)
+
+<pr>7. A pop-up with Wanchain Wallet Application Terms and Conditions will be shown, please read the terms and conditions carefully and at the bottom of the page, the SHA256 Check Value of the files will be shown.<br></pr>
+<pr>8. Please note the Sha256 of the file you want to verify.<br></pr>
+<pr>9. Click **Agree** and the download will begin.<br></pr>
+
+## Verifying the file after downloading on Mac Operating system:
+
+1. Open Terminal in Mac-OSX. 
+2. Type the following command in the terminal:
+> $ shasum -a 1 /path/to/file
+**Example:**
+>shasum -a 256 WanWalletGui-mac-3.0.28.zip
+
+## Alternative Method:
+1. Open Terminal
+2. Change the directory to the one you have downloaded the file
+**Example:** If you have downloaded the file to the desktop, your directory should look like 
+/user/desktop
+3. Type
+>ls 
+(This will show all the files in the current directory, check if WanWalletGui-mac-3.0.28.zip exists, if yes, type the following command:
+> Shasum -a 256 WanWalletGui-mac-3.0.28.zip
+
+It will return the Sha256 of the above selected file i..e, WanWalletGui-mac-3.0.28.zip
+
+In the above image the Sha256 of the zip file mentioned on the website matches the output. It states that the file is secure and uncorrupted.
+
+Follow the same steps for Desktop and Offline wallet. Please replace the name of the file WanWalletGui-mac-3.0.28.zip to the downloaded file.
+
+## Verifying the file after downloading in Windows Operating system:
+1. Navigate to the folder where the file has been downloaded.
+2. Press Shift and right click in the window.
+3. From the right click menu select OPEN POWERSHELL WINDOW HERE
+4. Type the following command:
+>certutil -hashfile WanWalletGui-installer-3.0.28.exe sha256
+5. Hit enter, a string of 64 characters will be displayed. This is the SHA256 checksum of the application.
+
+![](_media/hashinstructions.PNG)
+
+In the Image above, the Sha256 of the file matches with the one mentioned on the website.
+The Sha256 of the file has to match the one provided in the official website. 
+**Example:** Downloading the file on windows operating system.
+
+![](_media/windowsfilehash.gif)
+
+This step will help you stay safe and verify if the files have been altered.
+
+**Verifying the file after downloading in Linux Operating system:**
 
 The following command will display SHA256 hash value on a Linux operating system:
 
-`sha256sum <path>/<filename>`
+>sha256sum <path>/<filename>`
 
-**OSX**
-
-The following command will display SHA256 hash value on a Mac operating system.
-
-`openssl dgst -sha256 <path>/<filename>`
 
 ## Installation and launch
 
