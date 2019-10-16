@@ -32,7 +32,7 @@ Wanchain's vision is to become the asset transport layer of the blockchain world
 |✓ Beta testnet for Wanchain PoS|Q3 2019|Completed|
 |⧖ Next batch of ERC20 integrations release|Q3 2019|In progress|
 |✓ Mobile/light multi-asset wallet release|Q3 2019|Completed|
-|⧗ Proof of Stake goes live on mainnet|Q4 2019|Pending|
+|✓ Proof of Stake goes live on mainnet|Q4 2019|Completed|
 |⧗ Integration with another new blockchain|Q4 2019|Pending|
 |⧗ Next batch of ERC20 integrations released|Q4 2019|Pending|
 |⧗ Wanchain 4.0 - Cross-chain Integration with Enterprise Blockchain|Q4 2019|Pending|
