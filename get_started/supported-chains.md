@@ -21,3 +21,7 @@ Below are the tokens for which cross chain transactions are currently supported 
 - [USD Coin (USDC)](https://www.centre.io/usdc)
 
 - [TrueUSD (TUSD)](https://www.trusttoken.com/trueusd/)
+
+- [0xcert (ZXC)](https://0xcert.org/)
+
+- [Stasis Euro (EURS)](https://stasis.net/)
