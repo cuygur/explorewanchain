@@ -13,7 +13,7 @@ The Wanchain PoS Consensus [research paper](https://www.wanchain.org/files/Wanch
 
 **Non-Delegating Validators** — Non-delegating Validator nodes are nodes with a lower minimum WAN required and cannot accept delegation. There is no difference in how the two types of nodes participate in consensus, only in their ability to receive delegations. In order to become a Validator node, a larger amount of WAN must be staked by the node operator than the Non-Delegating node.
 
-**Epoch** — An epoch is one protocol cycle, which is roughly one day in length. Nodes participating in the epoch, lasting 1400 blocks, will be rewarded for their contributions as Random Number Proposers or Epoch Leaders.
+**Epoch** — An epoch is one protocol cycle, which is roughly one day in length. Nodes participating in the epoch, with no more than 17280 blocks, will be rewarded for their contributions as Random Number Proposers or Epoch Leaders.
 
 **Random Number Proposer (RNP)** — The RNP group is responsible for the critical work of jointly generating a random number for each block, to be used as an important seed for selecting which nodes make up the Epoch Leader groups to produce a given block. More technical detail in the Galaxy consensus research paper.
 
