@@ -90,5 +90,7 @@
 |[Chainlayer](https://www.chainlayer.io/)|Staking services provider - Netherlands|
 |[Cypher Core](http://cyphercore.io/)|Staking services provider - USA|
 |[MangoBerry](http://mangoberry.io/)| Staking services provider - Korea|
+|[Staking Rewards](http://stakingrewards.com/)| Staking services provider|
+
 
 
