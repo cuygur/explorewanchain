@@ -18,12 +18,12 @@ Wanchain's vision is to become the asset transport layer of the blockchain world
 
 | **Milestone**  |**Date**   |**Status** | 
 |:---|:---|:---|
-|✓ Wanchain 1.0 | January 2018 |  Complete |   
-|✓ Wanchain 2.0 | July 2018  | Complete  |   
-|✓ Wanchain 3.0 | December 2018  | Complete|   
-|✓ Release Wanchain Proof of Stake (PoS) research paper |Q1 2019|Complete|   
-|✓ Proof of Concept for PoS|Q1 2019|Complete|   
-|✓ Next batch of ERC20 integrations released|Q1 2019|Complete|   
+|✓ Wanchain 1.0 | January 2018 |  Completed |   
+|✓ Wanchain 2.0 | July 2018  | Completed  |   
+|✓ Wanchain 3.0 | December 2018  | Completed|   
+|✓ Release Wanchain Proof of Stake (PoS) research paper |Q1 2019|Completed|   
+|✓ Proof of Concept for PoS|Q1 2019|Completed|   
+|✓ Next batch of ERC20 integrations released|Q1 2019|Completed|   
 |✓ Staking Pilot April-July|Q2 2019|Completed|  
 |✓ Alpha testnet for Wanchain PoS|Q2 2019|Completed| 
 |⧖ Integration with EOS |Q2 2019|In progress| 
