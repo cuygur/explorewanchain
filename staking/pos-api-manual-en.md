@@ -185,7 +185,8 @@ Get the start time of the specified epoch, returns UTC time seconds
 >
 ```
 ### 1.1.16. getWhiteListConfig
-Obtain the configuration information of the Wanchain Foundation controlled nodes, including the effective epochID, the number of controlled nodes, and the starting sequence number.```
+Obtain the configuration information of the Wanchain Foundation controlled nodes, including the effective epochID, the number of controlled nodes, and the starting sequence number.
+```
 > pos.getWhiteListConfig()
 [{
     EpochId: 0,
