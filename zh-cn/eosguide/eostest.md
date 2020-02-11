@@ -12,36 +12,24 @@ EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最
 
 您所填写的申请表信息以及您接下来的测试反馈结果是我们给予测试人员一定奖励报酬的重要依据。
 
-## 测试资源下载汇总
+**测试周期：EOS跨链平台测试时间为即日起至EOS跨链平台上线Wanchain主网时止。**
+
+## 测试资源链接汇总
 
 - [Wan Wallet测试版钱包](https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta)
 - [eos-cross测试版SDK](https://github.com/wanchain/wanchain-js-sdk/tree/eos-cross)
 - [WAN测试币申请](http://54.201.62.90/)
+- [EOS Jungle Testnet测试币申请](http://monitor.jungletestnet.io/)
 
-
-
-### 一、Wanchain测试网络成功跨链集成EOS
+## Wanchain钱包管理EOS资产
  
-2020年1月2日， 期盼已久的Wanchain跨链集成EOS问世了！作为继以太坊之后全球第二大dApp公链平台，Wanchain对EOS的跨链集成便成了顺理成章的选择。
- 
-wEOS代币是EOS在Wanchain上的映射代币，可自由地用于跨链交易场景。用户可直接在Wanchain轻钱包上管理原生EOS账户，包括CPU、NET和RAM等资源，并通过钱包进行可视化操作，完成从EOS到wEOS的跨链转账。
-
-<!--more-->
-
-EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最大、活跃度最高的公链之一，此次的跨链集成对Wanchain团队来讲意义重大。万维链创始人兼CEO 吕旭军表示：“非常欢迎EOS加入到了Wanchain的生态中，此次将EOS强大的dApp社区与以太坊和比特币网络连接起来，我们非常荣幸。从今往后，EOS的全球开发者社区以及节点也都可以利用万维链的平台做跨链开发。”
- 
-此次Wanchain是在测试网络上跨链集成EOS。我们鼓励广大社区小伙伴积极参与到EOS的跨链公测中来。**经过为期一个月的公测检验后，我们将会在Wanchain主网上完成对EOS的跨链集成。**敬请期待！
- 
-### 二、Wanchain钱包新增支持EOS资产管理
- 
-此次，我们同步发布了新版Wanchain桌面轻钱包。新版钱包能够支持多币种管理（目前囊括比特币、以太坊、EOS和WAN，以及基于以太坊、EOS和WAN网络上的生态代币）。
+此次新版钱包能够支持多币种管理（目前囊括比特币、以太坊、EOS和WAN，以及基于以太坊、EOS和WAN网络上的生态代币）。
  
 **注：新版Wanchain桌面轻钱包目前只开放Wanchain测试网络，请不要将主网代币转账至该新版钱包。**
 
 **启动钱包后，请手动将钱包网络从Wanchain主网切换至Wanchain测试网。**
 
-**测试版钱包主页入口：
-https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta**
+**测试版钱包主页入口：https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta**
 
 其中，
 Windows普通用户可下载Wan-Wallet-win-1.2.0-beta.exe；
@@ -49,7 +37,8 @@ Mac普通用户可下载Wan-Wallet-mac-1.2.0-beta.dmg；
 Linux普通用户可下载Wan-Wallet-linux-1.2.0-beta.AppImage。
 
 在Wanchain轻钱包中，用户首先需要在钱包中创建密钥地址，然后通过EOS Jungle Testnet网站创建EOS账户，最后把EOS账户关联到Wanchain轻钱包。
-**http://monitor.jungletestnet.io/#account**
+
+EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
 ![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-01.png)
 
@@ -81,7 +70,7 @@ Linux普通用户可下载Wan-Wallet-linux-1.2.0-beta.AppImage。
 
 ![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-08.png)
 
-当前，Wanchain已实现跨链集成BTC、ETH和EOS公链，这只是Wanchain实现万链互链宏伟目标的第一步。在即将到来的2020年，Wanchain团队计划将跨链集成至少两条公链和一批基于ETH和EOS的生态代币。
+当前，Wanchain已实现跨链集成BTC、ETH和EOS公链，Wanchain团队计划将跨链集成至少两条公链和一批基于ETH和EOS的生态代币。
  
 ### 三、EOS到wEOS，Wanchain钱包支持一键跨链 
  
