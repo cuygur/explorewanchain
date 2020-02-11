@@ -46,7 +46,7 @@
 
 - EOS跨链集成测试指南
 
-  - [Wanchain测试网EOS跨链平台测试指南](zh-cn/eosguide/eostest.md)
+  - [EOS跨链测试指南(测试网)](zh-cn/eosguide/eostest.md)
 
 - 社区
 
