@@ -46,6 +46,8 @@
 
 - EOS跨链集成测试指南
 
+  -[Wanchain测试网EOS跨链平台测试指南](zh-cn/eosguide/eostest.md)
+
 - 社区
 
   - [官方频道](zh-cn/community/social.md "Wanchain - Official Accounts")
