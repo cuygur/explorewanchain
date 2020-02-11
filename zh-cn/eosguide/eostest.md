@@ -72,11 +72,11 @@ EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
 当前，Wanchain已实现跨链集成BTC、ETH和EOS公链，Wanchain团队计划将跨链集成至少两条公链和一批基于ETH和EOS的生态代币。
  
-### 三、EOS到wEOS，Wanchain钱包支持一键跨链 
+## 一键跨链生成EOS的映射代币WEOS 
  
 此次新版Wanchain桌面轻钱包支持了多种主流币种的跨链转账，包括BTC、ETH和EOS，以及基于ETH和EOS网络上的生态代币。
  
-在EOS跨链界面，用户选择Storeman地址，接收方地方和要跨链转账的EOS数量。跨链操作简单友好，真正做到了一键跨链的效果。
+在EOS跨链界面，用户选择Storeman地址，接收方地址和要跨链转账的EOS数量。
 
 ![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-09.jpg)
  
@@ -88,11 +88,11 @@ EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
 ![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-11.png)
 
-### 四、跨链机制的四大改进和创新
+## 跨链机制的四大改进和创新
  
 此次关于Wanchain跨链集成EOS，这样具有全球第二大生态规模的EOS，其所有dApp项目也将可以无缝实现万维链网络的跨链对接。这次EOS跨链项目区别于之前的ETH/ERC20/BTC，有四大新特性。
  
-#### 1.跨链技术引用内签名创新
+### 跨链技术引用内签名创新
 
 万维链之前推出的跨链采用了MPC（安全多方计算）签名技术，storemanGroup由多组（storeman Agent + MPC）构成，storeman Agent（以下简称Agent）同步链上数据，通过链接各自的MPC构建包含跨链数据的签名数据，MPC在P2P网络交互，达成签名共识，最终生成签名（包含智能合约交易和跨链数据）并上链，最终实现跨链。万维链目前使用的签名算法为ECDSA，而所跨链的签名算法因链而异，这种机制要求MPC必须包含万维链和所跨链的签名算法。
 
@@ -100,15 +100,15 @@ EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
 Schnorr签名算法相比ECDSA算法，计算效率更高，网络交互性能提高，并且多方门限设定范围增大，灵活性提高。内签名机制更是只需关注签名数据达成共识，不用满足不同链的不同签名算法，进行大大提高了MPC的通用性。
  
-#### 2.MPC（安全多方计算）模块化，提供多方签名解决方案
+### MPC（安全多方计算）模块化，提供多方签名解决方案
 
 现有的MPC需要兼容所需跨链各自的签名算法。随着BCH全面支持Schnorr签名，BTC也在不久的将来支持Schnorr签名，Schnorr被越来越多的链所接纳，使用Schnorr作为MPC的签名算法会大大提高MPC的通用性。此次跨链MPC实现模块化，并增加了单个Agent对数据签名主动授权，构建了一个基于Schnorr签名的多方签名解决方案。模块化MPC除了支持跨链平台，可以无缝接入其他需要多方签名的dApp。未来社区用户使用MPC进行多方签名，可以搭配万维链上的Schnorr签名验证合约，也可自行编写智能合约进行共识校验，从而实现dApp中的多方签名需求。
  
-#### 3.通用化HTLC（哈希时间锁定）跨链合约，真正的一链跨万链的跨链平台
+### 通用化HTLC（哈希时间锁定）跨链合约，真正的一链跨万链的跨链平台
 
 配合BIP-0044标准，利用链的hex ID结合账户地址编码，使用编码结果作为万维链上的注册跨链合约的唯一标识，以实现一个万维链一个HTLC跨万链的需求；同时将数据层和业务层合约分离，业务层采用可升级模式，使跨链平台更加灵动、完善，大大缩短以后跨链新业务的开发周期。
  
-#### 4.释放storemanGroup（跨链节点组）锁定资金账户的角色，让跨链更加去中心化
+### 释放storemanGroup（跨链节点组）锁定资金账户的角色，让跨链更加去中心化
 
 现有的跨链技术，原链和万维链上会有storemanGroup的锁定账户，已经跨过的数字资产会存储在锁定账户上；而新版的跨链机制中，storeman只负责对跨链数据多方签名，跨链资金会锁定在HTLC智能合约中，智能合约通过业务逻辑进行资金支配，跨链资金会更加安全。
 
