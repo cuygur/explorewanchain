@@ -6,6 +6,19 @@
  
 EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最大、活跃度最高的公链之一，此次的跨链集意义重大。因此，我们诚邀广大社区小伙伴积极参与到EOS的跨链公测中来。
 
+## 填写EOS跨链测试申请表
+
+请点击填写[EOS跨链测试申请表](https://wj.qq.com/s2/5335901/8851)
+
+您所填写的申请表信息以及您接下来的测试反馈结果是我们给予测试人员一定奖励报酬的重要依据。
+
+## 测试资源下载汇总
+
+- [Wan Wallet测试版钱包](https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta)
+- [eos-cross测试版SDK](https://github.com/wanchain/wanchain-js-sdk/tree/eos-cross)
+- [WAN测试币申请](http://54.201.62.90/)
+
+
 
 ### 一、Wanchain测试网络成功跨链集成EOS
  
