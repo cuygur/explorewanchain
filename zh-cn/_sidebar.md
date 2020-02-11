@@ -44,6 +44,8 @@
   - [手动启动验证节点](zh-cn/staking/manaully-deploy-validator.md)
   - [常见问题](zh-cn/staking/faq.md)
 
+- EOS跨链集成测试指南
+
 - 社区
 
   - [官方频道](zh-cn/community/social.md "Wanchain - Official Accounts")
