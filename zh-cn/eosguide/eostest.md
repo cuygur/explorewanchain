@@ -21,7 +21,9 @@ EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最
 - [WAN测试币申请](http://54.201.62.90/)
 - [EOS Jungle Testnet测试币申请](http://monitor.jungletestnet.io/)
 
-## Wanchain钱包管理EOS资产
+## WanWallet轻钱包的EOS代币管理和跨链交易
+
+### EOS代币管理
  
 此次新版钱包能够支持多币种管理（目前囊括比特币、以太坊、EOS和WAN，以及基于以太坊、EOS和WAN网络上的生态代币）。
  
@@ -72,7 +74,7 @@ EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
 当前，Wanchain已实现跨链集成BTC、ETH和EOS公链，Wanchain团队计划将跨链集成至少两条公链和一批基于ETH和EOS的生态代币。
  
-## 一键跨链生成EOS的映射代币WEOS 
+### 一键跨链生成EOS的映射代币WEOS 
  
 此次新版Wanchain桌面轻钱包支持了多种主流币种的跨链转账，包括BTC、ETH和EOS，以及基于ETH和EOS网络上的生态代币。
  
