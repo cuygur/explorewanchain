@@ -36,6 +36,9 @@
   - [Partner Model](staking/partner.md)
   - [Staking FAQ](staking/faq.md)
 
+- EOS Crosschain Guide (Testnet)  
+  - [Testnet EOS Guide](eosguide/eostest.md)
+
 - Staking (Testnet)  
   - [Testnet Node Setup](staking-testnet/node-setup-testnet.md)
   - [Get Testnet WAN](staking-testnet/get_test_wan.md)
