@@ -88,7 +88,7 @@ After a successful cross chain transaction you can view your wEOS in the menu on
 
 In the setting interface, the user can activate (or hide) the WRC20 and ERC20 token currencies that have been integrated across the chain, and display them on the wallet homepage.
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-11.png)
+![](../_media/eoscrosschain.png)
 
 ## Four Key Innovations in the New Cross-chain Implementation
 
