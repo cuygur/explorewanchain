@@ -6,7 +6,7 @@ As the third major public blockchain integration with Wanchain, EOS is a big ste
 
 ## Apply as an EOS Crosschain Tester
 
-Crosschain tester application form
+[Crosschain tester application form](bit.ly/eosregister)
 
 The application form information you fill out and your subsequent test feedback results are an important basis for us to give testers certain rewards.
 
@@ -41,35 +41,35 @@ In the Wanchain wallet, users first need to create a key address in the wallet, 
 
 EOS Jungle Testnet EOS account: http://monitor.jungletestnet.io/#account
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-01.png)
+![](../_media/eos01.png)
 
 In the EOS interface of the wallet, users can see the EOS key address and account that they created, as well as the EOS token balance and resource information corresponding to each account. Below the EOS interface is the historical transaction record. In the historical transaction record area, users can query EOS token transactions and resource management transactions.
 
-![](https://miro.medium.com/max/5664/1*b0lib87-23ZCE9EDqe13Yg.png)
+![](../_media/eos02.png)
 
 On the resource management page, you have full control over management of your EOS resources including RAM, CPU, and NET. You can stake or unstake NET and buy or sell RAM.
 
-![](https://miro.medium.com/max/2556/1*OYfdjCQV0GoRcpJ7kF08Hw.png)
+![](../_media/eos03.png)
 
 The account creation page allows for the creation of new EOS accounts. These accounts may be used in the Wanchain wallet, or exported to other EOS wallets.
 
-![](https://miro.medium.com/max/2564/1*lWw1PJXFyOclKodlUohX_g.png)
+![](../_media/eos04.png)
 
 On the transaction page you are able to send EOS from your selected account to the specified recipient account along with an optional memo field.
 
-![](https://miro.medium.com/max/2552/1*Y7btBGgqIKRMjnfAZHKi8w.png)
+![](../_media/eos05.png)
 
 On the import account page you are able to import additional EOS accounts.
 
-![](https://miro.medium.com/max/1568/1*Y8IDHgX0xkAHcLIhSsuCpA.png)
+![](../_media/eos06.png)
 
 In the settings interface, users can enable (or hide) WRC20 and ERC20 tokens to display them on the wallet homepage.
 
-![](https://miro.medium.com/max/4736/1*TwQ-Z8n4yEjeA1id24Tt0w.png)
+![](../_media/eos07.png)
 
 The new ‘Network’ tab insides the settings menu allows for easy network diagnostics so users can understand more about the status of the iWan RPC server and the networks it connects with.
 
-![](https://miro.medium.com/max/3088/1*BCfzdLC3FH9ODKygoUVw3g.png)
+![](../_media/eos08.png)
 
 ## Steps for making a cross chain EOS transaction:
 
@@ -80,15 +80,15 @@ Making EOS cross chain transactions is easy, and follows the exact same process 
 3. Input number of EOS to be converted to wEOS
 4. Send transaction!
 
-![](https://miro.medium.com/max/1604/1*t26pINHV9Vs3Z3ADblw9PA.png)
+![](../_media/eos09.png)
 
 After a successful cross chain transaction you can view your wEOS in the menu on the left.
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-10.png)
+![](../_media/eos10.png)
 
 In the setting interface, the user can activate (or hide) the WRC20 and ERC20 token currencies that have been integrated across the chain, and display them on the wallet homepage.
 
-![](../_media/eoscrosschain.png)
+![](../_media/eos11.png)
 
 ## Four Key Innovations in the New Cross-chain Implementation
 
