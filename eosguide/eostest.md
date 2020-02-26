@@ -31,23 +31,31 @@ Please join the global Wanchain Gitter group for the EOS crosschain technical di
 
 The new version of the wallet supports multi-currency management (currently including Bitcoin, Ethereum, EOS, and WAN, and tokens based on Ethereum, EOS, and Wanchain).
 
-**Note: The new version of the Wanchain Desktop Light Wallet currently only works with the Wanchain test network.**
+**Note: **After starting the wallet, please manually switch the wallet network from the Wanchain main network to the Wanchain test network. Please don't transfer the WAN tokens on mainnet to this test wallet.**
 
-**After starting the wallet, please manually switch the wallet network from the Wanchain main network to the Wanchain test network.**
+**There will be a pop-up window that reminds you of updating your wallet to the new version 1.1.1. Please don't update, otherwise, the new version 1.1.1 is not available for the EOS crosschain testing.**
 
-**[Beta Wallet Download Links]( https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta)**
+**[Beta Wallet Download Links]( https://github.com/wanchain/wan-wallet-desktop/releases/tag/v0.0.99-beta)**
 
 Download the appropriate version for your system:
 
-Windows: Wan-Wallet-win-1.2.0-beta.exe;
-Mac: Wan-Wallet-mac-1.2.0-beta.dmg;
-Linux: Wan-Wallet-linux-1.2.0-beta.AppImage.
+Windows: Wan-Wallet-win-0.0.99-beta.exe;
+Mac: Wan-Wallet-mac-0.0.99-beta.dmg;
+Linux: Wan-Wallet-linux-0.0.99-beta.AppImage.
 
-In the Wanchain wallet, users first need to create a key address in the wallet, then create an EOS account through the EOS Jungle Testnet website, and finally link the EOS account to the Wanchain wallet.
+In the Wanchain wallet, users first need to create a key address in the wallet, then create an EOS account through the EOS Jungle Testnet website, and finally link the EOS account to the key address that you created in the Wanchain wallet.
+
+Create the EOS key pairs in the wallet:
+
+![](media/01.png)
 
 EOS Jungle Testnet EOS account: http://monitor.jungletestnet.io/#account
 
-![](../_media/eos01.png)
+![](media/02.png)
+
+Import the created account in the EOS interface of the wallet:
+
+![](media/03.png)
 
 In the EOS interface of the wallet, users can see the EOS key address and account that they created, as well as the EOS token balance and resource information corresponding to each account. Below the EOS interface is the historical transaction record. In the historical transaction record area, users can query EOS token transactions and resource management transactions.
 
@@ -85,6 +93,12 @@ Making EOS cross chain transactions is easy, and follows the exact same process 
 2. Input recipient address
 3. Input number of EOS to be converted to wEOS
 4. Send transaction!
+
+Open the interface of EOS crosschain:
+
+![](media/04.png)
+
+You can select the Storeman address, and input the To address and the Amount:
 
 ![](../_media/eos09.png)
 
