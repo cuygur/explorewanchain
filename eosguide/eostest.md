@@ -31,7 +31,7 @@ Please join the global Wanchain Gitter group for the EOS crosschain technical di
 
 The new version of the wallet supports multi-currency management (currently including Bitcoin, Ethereum, EOS, and WAN, and tokens based on Ethereum, EOS, and Wanchain).
 
-**Note: **After starting the wallet, please manually switch the wallet network from the Wanchain main network to the Wanchain test network. Please don't transfer the WAN tokens on mainnet to this test wallet.**
+**Note: After starting the wallet, please manually switch the wallet network from the Wanchain main network to the Wanchain test network. Please don't transfer the WAN tokens on mainnet to this test wallet.**
 
 **There will be a pop-up window that reminds you of updating your wallet to the new version 1.1.1. Please don't update, otherwise, the new version 1.1.1 is not available for the EOS crosschain testing.**
 
