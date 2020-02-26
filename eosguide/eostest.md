@@ -12,9 +12,15 @@ The application form information you fill out and your subsequent test feedback 
 
 **Testing period: EOS cross-chain platform test time is from now until the EOS cross-chain platform is launched on the Wanchain mainnet.** 
 
+## Testing Group
+
+Please join the global Wanchain Gitter group for the EOS crosschain technical discussion:
+
+- Wanchain Gitter: https://gitter.im/wandevs/community
+
 ## Testing Resources
 
-- [Wan Wallet Beta Version](https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta)
+- [Wan Wallet Beta Version](https://github.com/wanchain/wan-wallet-desktop/releases/tag/v0.0.99-beta)
 - [EOS-Crosschain test SDK](https://github.com/wanchain/wanchain-js-sdk/tree/eos-cross)
 - [Testnet WAN Faucet](http://54.201.62.90/)
 - [EOS Jungle Testnet Portal](http://monitor.jungletestnet.io/)
