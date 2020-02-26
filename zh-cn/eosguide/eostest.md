@@ -2,7 +2,7 @@
 
 ## 简介
 
-2020年1月初，Wanchain测试网成功跨链集成EOS！wEOS代币是EOS在Wanchain上的映射代币，可自由地用于跨链交易场景。用户可直接在Wanchain轻钱包上管理原生EOS账户，包括CPU、NET和RAM等资源，并通过钱包进行可视化操作，完成从EOS到wEOS的跨链转账。
+Wanchain测试网成功跨链集成EOS！wEOS代币是EOS在Wanchain上的映射代币，可自由地用于跨链交易场景。用户可直接在Wanchain轻钱包上管理原生EOS账户，包括CPU、NET和RAM等资源，并通过钱包进行可视化操作，完成从EOS到wEOS的跨链转账。
  
 EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最大、活跃度最高的公链之一，此次的跨链集意义重大。因此，我们诚邀广大社区小伙伴积极参与到EOS的跨链公测中来。
 
@@ -13,6 +13,13 @@ EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最
 您所填写的申请表信息以及您接下来的测试反馈结果是我们给予测试人员一定奖励报酬的重要依据。
 
 **测试周期：EOS跨链平台测试时间为即日起至EOS跨链平台上线Wanchain主网时止。**
+
+## 技术测试群
+
+您可加入中英文技术群，与更多技术大咖共同探讨EOS跨链测试：
+
+- 国际技术群（Gitter） https://gitter.im/wandevs/community
+- 国内EOS跨链技术群，请加bryan-yewei微信号，拉您进群。
 
 ## 测试资源链接汇总
 
