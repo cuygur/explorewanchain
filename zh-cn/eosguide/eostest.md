@@ -23,7 +23,7 @@ EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最
 
 ## 测试资源链接汇总
 
-- [Wan Wallet测试版钱包](https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta)
+- [Wan Wallet测试版钱包](https://github.com/wanchain/wan-wallet-desktop/releases/tag/v0.0.99-beta)
 - [eos-cross测试版SDK](https://github.com/wanchain/wanchain-js-sdk/tree/eos-cross)
 - [WAN测试币申请](http://54.201.62.90/)
 - [EOS Jungle Testnet测试币申请](http://monitor.jungletestnet.io/)
@@ -34,22 +34,30 @@ EOS是Wanchain跨链集成的第三条异构公链。EOS作为是全球规模最
  
 此次新版钱包能够支持多币种管理（目前囊括比特币、以太坊、EOS和WAN，以及基于以太坊、EOS和WAN网络上的生态代币）。
  
-**注：新版Wanchain桌面轻钱包目前只开放Wanchain测试网络，请不要将主网代币转账至该新版钱包。**
+**注：启动钱包后，请手动将钱包网络从Wanchain主网切换至Wanchain测试网。建议不要将Wanchain主网上的WAN代币转入该钱包。**
 
-**启动钱包后，请手动将钱包网络从Wanchain主网切换至Wanchain测试网。**
+**钱包启动后，弹出升级至1.1.1版本的提醒，请不要进行升级，因为升级后的版本无法进行EOS跨链交易的测试。**
 
-**测试版钱包主页入口：https://github.com/wanchain/wan-wallet-desktop/releases/tag/v1.2.0-beta**
+**测试版钱包主页入口：https://github.com/wanchain/wan-wallet-desktop/releases/tag/v0.0.99-beta**
 
 其中，
-Windows普通用户可下载Wan-Wallet-win-1.2.0-beta.exe；
-Mac普通用户可下载Wan-Wallet-mac-1.2.0-beta.dmg；
-Linux普通用户可下载Wan-Wallet-linux-1.2.0-beta.AppImage。
+Windows普通用户可下载Wan-Wallet-win-0.0.99-beta.exe；
+Mac普通用户可下载Wan-Wallet-mac-0.0.99-beta.dmg；
+Linux普通用户可下载Wan-Wallet-linux-0.0.99-beta.AppImage。
 
-在Wanchain轻钱包中，用户首先需要在钱包中创建密钥地址，然后通过EOS Jungle Testnet网站创建EOS账户，最后把EOS账户关联到Wanchain轻钱包。
+在Wanchain轻钱包中，用户首先需要在钱包中创建密钥，然后通过EOS Jungle Testnet网站创建EOS账户，最后把EOS账户关联到Wanchain轻钱包所创建的私钥。
+
+Wanchain轻钱包创建EOS密钥:
+
+![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-12.png)
 
 EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-01.png)
+![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-13.png)
+
+在Wanchain轻钱包EOS界面相对于的密钥下导入已经创建好的账户：
+
+![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-14.png)
 
 在钱包的EOS界面，用户可以看到自己创建的EOS密钥地址和账户，以及每个账户对应的EOS代币余额和资源信息。EOS界面的下方是历史交易记录。在历史交易记录区域，用户可以查询EOS代币交易和资源管理交易。
 
@@ -84,6 +92,10 @@ EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 ### 一键跨链生成EOS的映射代币WEOS 
  
 此次新版Wanchain桌面轻钱包支持了多种主流币种的跨链转账，包括BTC、ETH和EOS，以及基于ETH和EOS网络上的生态代币。
+
+打开EOS跨链页面：
+
+![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-15.png)
  
 在EOS跨链界面，用户选择Storeman地址，接收方地址和要跨链转账的EOS数量。
 
