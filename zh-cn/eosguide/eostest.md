@@ -49,15 +49,15 @@ Linux普通用户可下载Wan-Wallet-linux-0.0.99-beta.AppImage。
 
 Wanchain轻钱包创建EOS密钥:
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-12.png)
+![](https://www.wanchain.org/wp-content/uploads/2020/01/0102-12.png)
 
 EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-13.png)
+![](https://www.wanchain.org/wp-content/uploads/2020/01/0102-13.png)
 
 在Wanchain轻钱包EOS界面相对于的密钥下导入已经创建好的账户：
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-14.png)
+![](https://www.wanchain.org/wp-content/uploads/2020/01/0102-14.png)
 
 在钱包的EOS界面，用户可以看到自己创建的EOS密钥地址和账户，以及每个账户对应的EOS代币余额和资源信息。EOS界面的下方是历史交易记录。在历史交易记录区域，用户可以查询EOS代币交易和资源管理交易。
 
@@ -95,7 +95,7 @@ EOS Jungle Testnet创建EOS账户：http://monitor.jungletestnet.io/#account
 
 打开EOS跨链页面：
 
-![](https://www.wanchain.org/wp-content/uploads/2020/02/0102-15.png)
+![](https://www.wanchain.org/wp-content/uploads/2020/01/0102-15.png)
  
 在EOS跨链界面，用户选择Storeman地址，接收方地址和要跨链转账的EOS数量。
 
