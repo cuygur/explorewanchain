@@ -6,7 +6,7 @@ As the third major public blockchain integration with Wanchain, EOS is a big ste
 
 ## Apply as an EOS Crosschain Tester
 
-[Crosschain tester application form](bit.ly/eosregister)
+[Crosschain tester application form](https://forms.office.com/Pages/ResponsePage.aspx?id=VPnN3XSIEEqLYwFUDjqIlsMBo8OLUkZEnwiVSE8yrLJUQ09PSDNMOEc0SUZHVlRLQ1lNR01YU0w1ViQlQCN0PWcu)
 
 The application form information you fill out and your subsequent test feedback results are an important basis for us to give testers certain rewards.
 
