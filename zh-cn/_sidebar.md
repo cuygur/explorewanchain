@@ -6,8 +6,8 @@
 
 - 钱包和工具
 
-  - [官方全节点钱包](zh-cn/wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")
-  - [官方桌面端轻钱包Wan Wallet(Beta版)](zh-cn/wallet_and_tools/wan-wallet.md)
+  - [官方全节点钱包（不推荐使用）](zh-cn/wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")
+  - [官方桌面端轻钱包Wan Wallet（推荐）](zh-cn/wallet_and_tools/wan-wallet.md)
   - [其他钱包和工具](zh-cn/wallet_and_tools/tools.md "Wanchain - Other Wallets and Tools")
 
 - 技术
@@ -24,9 +24,8 @@
 
 - PoS星系共识参与指南
 
-  - [Beta版产品新增和参数改进](zh-cn/staking/alpha_beta.md)
+  - [产品新增和参数改进](zh-cn/staking/alpha_beta.md)
   - [申请WAN测试币](zh-cn/staking/get_test_wan.md)
-  - [Beta测试奖励方案](zh-cn/staking/rewards_program.md)
   - [关键术语和参数](zh-cn/staking/parameters.md)
   - [软硬件环境要求](zh-cn/staking/environment.md)
   - [申请和创建AWS账号](zh-cn/staking/aws.md)
