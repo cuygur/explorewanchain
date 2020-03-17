@@ -19,5 +19,6 @@
 ## 联系我们
 
 - **商务合作：** bryan@wanchain.org
-- **市场合作：** ruby@wanchain.org
+- **市场合作：** bryan@wanchain.org
 - **技术支持：** techsupport@wanchain.org
+- **加入社区：** 加微信号**bryan-yewei**并注明**进万维群**，拉您进微信群
