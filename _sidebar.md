@@ -17,6 +17,7 @@
   - [Cross Chain Overview](technology/cross-chain.md "Wanchain - Cross Chain") 
   - [Privacy Protection](technology/privacy.md "Wanchain - Privacy Protection") 
   - [Smart Contracts](technology/smart-contracts.md "Wanchain - Smart Contracts")
+  - [WanDex](technology/wandex.md "Wanchain - WanDex")
   - [Gwan](technology/gwan.md "Wanchain - Gwan")
   - [iWan](technology/iwan.md "Wanchain - iWan")
   - [Secure Multi Party Computation](technology/smpc.md "Wanchain - Secure Multi Party Computation")
