@@ -17,6 +17,7 @@
   - [星系共识技术深入解读](zh-cn/technology/pos_explanary.md "Wanchain - Galaxy Consensus Explanary") 
   - [隐私保护](zh-cn/technology/privacy.md "Wanchain - Privacy Protection") 
   - [智能合约](zh-cn/technology/smart-contracts.md "Wanchain - Smart Contracts")
+  - [WanDex](zh-cn/technology/wandex.md "Wanchain - WanDex")
   - [Gwan](zh-cn/technology/gwan.md "Wanchain - Gwan")
   - [iWan](zh-cn/technology/iwan.md "Wanchain - iWan")
   - [安全多方计算](zh-cn/technology/smpc.md "Wanchain - Secure Multi Party Computation")
