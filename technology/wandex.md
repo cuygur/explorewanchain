@@ -43,4 +43,4 @@ WanDex's API uses restful mode, real-time information feed uses WebSocket interf
 
 The back-end components framework is shown in the following figure:
 
-![schematic diagram of back-end frame](./media/03wandex.pngg)
+![schematic diagram of back-end frame](./media/03wandex.png)
