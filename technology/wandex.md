@@ -1,7 +1,5 @@
 # Wan DEX introduction
 
-[（WanDex介绍中文版）](./wan-dex-introduction-zh.md)
-
 WanDex is a decentralized exchange framework developed by Wanchain community developers and is based on the principle of "off-chain matching and on-chain settlement".
 
 It provides real utility value for Wanchain's cross-chained assets, and it is the world's first cross-chain DEX platform.
