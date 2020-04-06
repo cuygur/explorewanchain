@@ -1,7 +1,5 @@
 # Wan DEX介绍
 
-[（For English Version）](./wan-dex-introduction.md)
-
 WanDex是Wanchain社区开发的基于链下撮合链上结算原理的去中心化交易所框架。
 
 它为Wanchain跨链后的资产提供了一个消费场所，为全球首个跨链的DEX平台。
