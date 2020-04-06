@@ -17,7 +17,7 @@ Multiple DEX based on WanDex framework can share a common order book for the sam
 All DEX based on WanDex framework can have their own unique trading pairs.
 
 
-![UI](./imgs/img36.png)
+![UI](./media/01wandex.png)
 
 Main components of WanDex can be categorized into three groups:
 
@@ -27,7 +27,7 @@ Main components of WanDex can be categorized into three groups:
 
 Its workflow and interaction between components are shown in the following:
 
-![workflow and interaction between components](./imgs/img37.png)
+![workflow and interaction between components](./media/02wandex.png)
 
 User's crypto-asset is controlled by user's own blockchain wallet and can be verified on the blockchain at any time.
 
@@ -43,4 +43,4 @@ WanDex's API uses restful mode, real-time information feed uses WebSocket interf
 
 The back-end components framework is shown in the following figure:
 
-![schematic diagram of back-end frame](./imgs/img38.png)
+![schematic diagram of back-end frame](./media/03wandex.pngg)
