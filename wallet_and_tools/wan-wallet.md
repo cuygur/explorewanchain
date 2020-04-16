@@ -3,26 +3,25 @@
 ![](media/wan_wallet_1.png)
 ## Wallet Features
 
-Wanchain's first official desktop light wallet is available on Mac, Windows, and Linux. The initial release will support these functions:
+Wanchain's first official desktop light wallet is available on Mac, Windows, and Linux and currently supports these features:
 
 * WAN asset management
 * Standard transfer and receive transactions
 * Making and managing delegations under Galaxy Consensus Proof of Stake
 * Ledger hardware wallet support
+* Staking support 
+* Multi-crypto asset management support
+* Private transactions
+* Cross chain transactions 
 
-Upcoming features to be implemented before the end of 2019 include:
+## Setup
 
-* Staking support for validator node operators (will be implemented 3rd quarter along with the launch of Galaxy Consensus on the mainnet).
-* Multi-crypto asset management support (4th quarter 2019)
-* Private transactions (4th quarter 2019)
-* Cross chain transactions (4th quarter 2019)
-
-## Download and Install
+#### Download and Install
 Download [Wan Wallet](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fwanchain%2Fwan-wallet-desktop%2Freleases).
 
 Double click the install package and follow the on screen instructions to install.
 
-## Register New Account
+#### Register New Account
 
 When you first open Wan Wallet, you must register a new account. First set your password:
 
@@ -34,7 +33,7 @@ IMPORTANT: Next record your backup mnemonic phrase. Do not take a screenshot, ra
 
 *Note: this is a throw away account, NEVER share your seed phrase with anyone Click 'Next' to complete the new account registration process.*
 
-## Generate a New Address 
+#### Generate a New Address 
 
 Wan Wallet supports the creation of multiple addresses for one account, simply click: Wallet > WAN > Create
 
@@ -54,6 +53,55 @@ Under 'Advanced Options' are additional parameters which advanced users may adju
 
 ![](media/wan_wallet_5.png)
 ![](media/wan_wallet_6.png)
+
+## Cross Chain Transactions
+
+The Desktop Light Wallet lets you quickly and easily make cross chain transactions. 
+
+To get started, click on the 'Cross Chain' tab on the side menu:   
+
+ ![](media/wan_wallet_24.png)
+
+Then choose the asset from the drop down menu you would like to make a cross chain transaction with, and click the 'Convert' button:
+
+*(if the asset you wish to make a transaction with is not displayed, you can add additional Wanchain supported assets from the menu in 'Settings' --> 'Config' --> 'Wallet Options')*
+
+ ![](media/wan_wallet_25.png)
+
+After clicking convert, a form will pop up with pre-populated values. 
+
+* 'From (Ethereum)' - Shows account type and name of the 'From' address
+* 'Balance' - Shows the current balance of the asset in the 'From' address
+* 'Storeman' - Shows the address of the Storeman who your transaction will be sent to
+* 'Capacity' - Shows the total capacity of cross chain assets which the Storeman is able to manage. 
+* 'Capacity Left' - Shows the remaining capacity of the Storeman. 
+*For the above five fields, you do not need to change anything. You only need to make certain that your transaction value does not go over the Storeman's capacity.*
+* 'To' - Here you can select the target address where the cross chain asset generated from 'From' address will arrive on the target chain. 
+* 'Estimated Fee' - Shows the estimated fees of the cross chain transaction on both chains.
+* 'Amount' - This is the amount of the asset you wish to send in your cross chain transaction.
+
+After carefully filling in the 'To' and 'Amount' fields, click 'Next' to review your information and then 'Send' to begin the transaction.
+
+ ![](media/wan_wallet_26.png)
+
+You may then check your transaction's current state under 'Transaction History' --> 'Status'. The entire transaction should take several minutes, perhaps longer depending on the current network conditions. Immediately after clicking 'Send', the status should say 'Lock Request Sent'.
+
+ ![](media/wan_wallet_27.png)
+
+Shortly after the status will change to 'Locked'.
+
+ ![](media/wan_wallet_28.png)
+
+Next the status will change to 'Redemption Request Sent'.
+ 
+ ![](media/wan_wallet_29.png)
+
+And finally, the transaction status will change to 'Success', and the newly generated cross chain token will be available for you to transact with in your target 'To' address.
+
+  ![](media/wan_wallet_30.png)
+
+The process for returning your asset back to the original chain is the same, except this time click the 'Convert' button on the cross chained asset instead of the native asset, and follow the same instructions as listed above.
+
 
 ## Delegation
 Wanchain's newly introduced Galaxy Consensus Proof of Stake has a completely non-custodial delegation mechanism. Users may choose from amongst all available validators the one which they trust to send their delegations too. By delegating their stake to validator nodes in this way, all users have the opportunity to earn consensus rewards. The minimum required amount for delegation is 100 WAN. 
@@ -95,9 +143,16 @@ Currently the Ledger hardware wallet is supported. Follow the on screen instruct
 
 ![](media/wan_wallet_11.png)
 
+## DApp Store
+
+[Video guide](https://youtu.be/dMpabWAR-iw)
+
+The DApp Store feature of Wan Wallet allows you to experience DApps from creators in the Wanchain ecosystem. In the DApp Store you can find new DApps and add them to your wallet. After adding them to your wallet, you may then directly interact with the DApps through the wallet interface.
+
+![](media/wan_wallet_23.png)
 
 ## Settings
-There are currently three selections under settings, 'Config', 'Backup' and 'Restore'.
+There are currently three selections under settings, 'Config', 'Backup', 'Import', 'DApps', 'Restore', and 'Network'.
 
 Under 'Config', you may choose to require your password to be input for every transaction.
 
@@ -107,9 +162,32 @@ Under 'Backup', you may enter your password to get your backup mnemonic phrase.
 
 ![](media/wan_wallet_13.png)
 
+Under 'DApps', you may hide or delete DApps you are not currently using.
+
+![](media/wan_wallet_22.png)
+
 Under 'Restore', you may enter your backup phrase to restore a previous wallet.
 
 ![](media/wan_wallet_14.png)
+
+Under 'Network', you may check network status for troubleshooting purposes.
+
+![](media/wan_wallet_21.png)
+
+
+## Import From Old Desktop Wallet 
+**IMPORTANT NOTICE:**  
+
+*Imports from the old desktop wallet will not be backed up with the passphrase generated in the new desktop light wallet. If you import from the old wallet to this wallet, make certain to keep your keystore or private key so that you can import again in case the wallet file is corrupted or you need to reinstall the wallet.* 
+
+**Method 1:**
+From the top menu under 'Wan Wallet' --> 'Developer' --> 'Assets' --> 'Wanchain' --> 'Import Keystore File' you may import from the old desktop wallet using your keystore file.   
+ ![](media/wan_wallet_20.png)
+
+**Method 2:**
+On the sidebar menu under 'Settings' --> 'Import' you may import accounts from the old Wan Desktop Wallet to the new, Light Desktop Wallet using your private key. 
+ ![](media/wan_wallet_19.png)
+
 
 ## Multilingual Support
 Under Settings > Language, you may choose between English and Mandarin Chinese. In the future, we will add support for French, Spanish, Japanese, Korean, and other languages.
