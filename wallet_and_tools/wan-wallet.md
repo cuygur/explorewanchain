@@ -190,7 +190,7 @@ On the sidebar menu under 'Settings' --> 'Import' you may import accounts from t
 
 
 ## Multilingual Support
-Under Settings > Language, you may choose between English and Mandarin Chinese. In the future, we will add support for French, Spanish, Japanese, Korean, and other languages.
+Under Settings > Language, you may choose your wallet language. We currently have support for English, Chinese, Thai, Korean, Spanish, Portuguese, and French. 
 
 ![](media/wan_wallet_15.png)
 
