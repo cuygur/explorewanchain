@@ -47,6 +47,10 @@
 - EOS跨链集成测试指南
 
   - [EOS跨链测试指南(测试网)](zh-cn/eosguide/eostest.md)
+  
+ - 万维链知识大讲堂
+ 
+  - [万维大讲堂 | 如何在万维链上打造可升级智能合约](zh-cn/blockchainknowledge/upgradable-smart-contract.md)
 
 - 社区
 
