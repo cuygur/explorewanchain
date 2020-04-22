@@ -50,7 +50,7 @@
   
 - 万维链知识大讲堂
  
-  - [万维大讲堂 | 如何在万维链上打造可升级智能合约](zh-cn/blockchainknowledge/upgradable-smart-contract.md)
+  - [如何在万维链上打造可升级智能合约](zh-cn/blockchainknowledge/upgradable-smart-contract.md)
 
 - 社区
 
