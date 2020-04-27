@@ -51,6 +51,7 @@
 - 万维链知识大讲堂
  
   - [如何在万维链上打造可升级智能合约](zh-cn/blockchainknowledge/upgradable-smart-contract.md)
+  - [聊聊与众不同的EOS账户及创建之道](zh-cn/blockchainknowledge/eos-account.md)
 
 - 社区
 
