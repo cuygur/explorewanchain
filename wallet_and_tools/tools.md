@@ -16,7 +16,8 @@
 
 ### Ecosystem Tools    
 [Wanscan](https://www.wanscan.org/)  *- The official Wanchain explorer*
-[Tokenview](https://wan.tokenview.com/en) *- Tokenview built Wanchain explorer* 
+[Tokenview](https://wan.tokenview.com/en/) *- Tokenview built Wanchain explorer*
+
 [Wanchain.Guide](http://wanchain.guide/) *- Community built Wanchain wallet and staking guide*   
 [Wanscan (Testnet)](http://testnet.wanscan.org/)   
 [WanFaucet](https://wanfaucet.net/)  
