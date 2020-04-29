@@ -20,11 +20,7 @@
 ### 生态工具    
 [Wanscan](https://www.wanscan.org/)  - Wanchain官方浏览器
 
-[Wanchain block explorer](https://wanscan.io/home) - Wanchain社区浏览器
-
 [Tokenview](https://wan.tokenview.com/) - Wanchain生态浏览器
-
-[CryptoCurve explorer](https://explorer.cryptocurve.xyz) - Wanchain生态浏览器
 
 [WanFaucet](https://wanfaucet.net/) -WAN测试币申请网站
 
