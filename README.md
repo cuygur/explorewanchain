@@ -27,12 +27,11 @@ Wanchain's vision is to become the asset transport layer of the blockchain world
 |✓ WanWallet Desktop & Mobile with DApp Store embedded | Q2 2020  | New & Completed| 
 |✓ A batch of Defi DApps by partners go live on Wanchain | Q2 2020  | New & Completed| 
 |✓ Fully decentralize the PoS Validator nodes of Galaxy Consensus| Q2 2020  | New & Completed| 
-|⧗ Integration with new blockchain | Q2 2020  | Ongoing| 
-|⧗ Next batch of ERC-20/EOS token integrations released | Q2 2020  | Ongoing| 
+|⧗ Wanchain 5.0 Testnet| Q3 2020  | New & Ongoing| 
 |⧗ Open Storeman Initiative - Phase 2: Open more nodes in Foundation created Storeman groups | Q3 2020  | Ongoing| 
 |⧗ Next batch of ERC-20/EOS token integrations released | Q3 2020  | Ongoing| 
-|⧖ Release of Wanchain 5.0 | Q4 2020  | New & Pending| 
-|⧖ Release of Wanchain Plus | Q4 2020  | New & Pending| 
+|⧗ A batch of Defi DApps by partners go live on Wanchain | Q3 2020  | Ongoing| 
+|⧖ Wanchain 5.0 Mainnet | Q4 2020  | New & Pending| 
 |⧖ Next batch of ERC-20/EOS token integrations released | Q4 2020  | Pending| 
 |⧖ Integration with new blockchain | Q4 2020  | Pending|
 |⧖ Wanchain Explorer overhaul for DApp development | Q4 2020  | Pending|
