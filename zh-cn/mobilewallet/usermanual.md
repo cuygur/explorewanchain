@@ -35,4 +35,4 @@ Android手机可直接下载APK或通过Google Play下载；iOS手机在App Stor
 
 ![](http://www.wanglutech.com/wp-content/uploads/2020/07/0002.jpg)
 
-<img src="http://www.wanglutech.com/wp-content/uploads/2020/07/0002.jpg" align="center" width="400px" />
+<img src="http://www.wanglutech.com/wp-content/uploads/2020/07/0002.jpg" align="middle" width="400px" />
