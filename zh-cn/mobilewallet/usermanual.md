@@ -34,3 +34,5 @@ Android手机可直接下载APK或通过Google Play下载；iOS手机在App Stor
 导入钱包：如果您之前已有助记词，可点击「导入钱包」，通过相应的助词记完成对资产的恢复。
 
 ![](http://www.wanglutech.com/wp-content/uploads/2020/07/0002.jpg)
+
+<img src="http://www.wanglutech.com/wp-content/uploads/2020/07/0002.jpg" width="300px" />
