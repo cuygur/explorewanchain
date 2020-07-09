@@ -6,9 +6,10 @@
 
 - 钱包和工具
 
-  - [官方全节点钱包（不推荐使用）](zh-cn/wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")
+  - [官方移动钱包](zh-cn/mobilewallet/usermaunal.md)
   - [官方桌面端轻钱包Wan Wallet（推荐）](zh-cn/wallet_and_tools/wan-wallet.md)
   - [其他钱包和工具](zh-cn/wallet_and_tools/tools.md "Wanchain - Other Wallets and Tools")
+  - [官方全节点钱包（不推荐使用）](zh-cn/wallet_and_tools/wallet-install.md "Wanchain - Official Wallet Guide")
 
 - 技术
 
