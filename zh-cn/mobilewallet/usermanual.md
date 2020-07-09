@@ -25,7 +25,7 @@ Wanchain移动端钱包是一款基于Wanchain的多币种资产综合管理HD�
 
 Android手机可直接下载APK或通过Google Play下载；iOS手机在App Store上下载。
 
-<img src="https://www.wanchain.org/wp-content/uploads/2020/07/0001.png" align="middle" width="400px" />
+<img src="https://www.wanchain.org/wp-content/uploads/2020/07/0001.png" width="400px" />
 
 ### 注册
 
@@ -33,4 +33,4 @@ Android手机可直接下载APK或通过Google Play下载；iOS手机在App Stor
 
 导入钱包：如果您之前已有助记词，可点击「导入钱包」，通过相应的助词记完成对资产的恢复。
 
-<img src="http://www.wanglutech.com/wp-content/uploads/2020/07/0002.jpg" align="middle" width="400px" />
+<img src="http://www.wanglutech.com/wp-content/uploads/2020/07/0002.jpg" width="400px" />
