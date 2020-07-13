@@ -42,7 +42,7 @@ Wanchain's vision is to become the asset transport layer of the blockchain world
 |⧖ Standards based cross-chain mechanism & infrastructure | Q4 2020  | Pending|
 |⧖ Open Storeman Initiative - Phase 3: Storeman groups created by 3rd parties | Q4 2020  | Pending|
 
-**History Roadmap**
+**Historical Roadmap**
 
 | **Milestone**  |**Date**   |**Status** |
 |:---|:---|:---|
